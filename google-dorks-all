@@ -5334,3 +5334,90 @@ inurl:”slapd.conf” intext:”rootpw” -manpage -”Manual Page” -man: -sa
 inurl:”smb.conf” intext:”workgroup” filetype:conf conf
 inurl:”vsadmin/login” | inurl:”vsadmin/admin” inurl:.php|.asp
 inurl:”wvdial.conf” intext:”password”Inurl:.co.ke filetype:pdf
+inurl:/uploads/affwp-debug.log
+inurl:?XDEBUG_SESSION_START=phpstorm
+inurl:/config/device/wcd
+inurl:"/phpmyadmin/user_password.php
+inurl:/xprober ext:php
+intext:"SonarQube" + "by SonarSource SA." + "LGPL v3"
+intext:"Healthy" + "Product model" + " Client IP" + "Ethernet"
+inurl:/phpPgAdmin/browser.php
+ext:php | intitle:phpinfo "published by the PHP Group"
+allintext:"Index Of" "sftp-config.json"
+inurl:_vti_bin/Authentication.asmx
+"Powered by 123LogAnalyzer"
+intitle:Snoop Servlet
+allintitle:"Pi-hole Admin Console"
+intitle:"Lists Web Service"
+intitle:"Monsta ftp" intext:"Lock session to IP"
+intitle:"Microsoft Internet Information Services 8" -IIS
+intext:"index of /" "Index of" access_log
+inurl:"id=*" &amp; intext:"warning mysql_fetch_array()"
+"index of /private" -site:net -site:com -site:org
+inurl:":8088/cluster/apps"
+intitle:"index of" "docker.yml"
+intitle:"index of" "debug.log" OR "debug-log"
+intext:"This is the default welcome page used to test the correct operation of the Apache2 server"
+"Powered by phpBB" inurl:"index.php?s" OR inurl:"index.php?style"
+intitle:"index of" "powered by apache " "port 80"
+intitle:"Web Server's Default Page" intext:"hosting using Plesk" -www
+site:ftp.*.com "Web File Manager"
+intitle:"Welcome to JBoss"
+intitle:"Welcome to nginx!" intext:"Welcome to nginx on Debian!" intext:"Thank you for"
+intitle:"index of" "Served by Sun-ONE"
+-pub -pool intitle:"index of" "Served by" "Web Server"
+intitle:"index of" "server at"
+site:*/server-status intext:"Apache server status for"
+inurl:/iisstart.htm intitle:"IIS7"
+inurl:/phpmyadmin/changelog.php -github -gitlab
+inurl:"WebPortal?bankid"
+intitle:"IIS Windows Server" -inurl:"IIS Windows Server"
+intitle:"Apache2 Ubuntu Default Page: It works"
+inurl:/server-status + "Server MPM:"
+inurl:phpinfo.php intext:build 2600
+intext:"Brought to you by eVetSites"
+inurl:OrganizationChart.cc
+intext:"Powered by phpSQLiteCMS" | intitle:"phpSQLiteCMS - A simple &amp; lightweight CMS"
+inurl:rvsindex.php &amp; /rvsindex.php?/user/login
+inurl:readme.md intext:"Laravel"
+inurl:phpmyadmin/themes intext:"pmahomme"
+intext:"Welcome to CodeIgniter!"
+inurl:readme.rst intext:"CodeIgniter"
+intitle:"Index of" "Apache/2.4.7 (Ubuntu) Server"
+intitle:"Index of /" "Proudly Served by Surftown at"
+inurl:/pub/ inurl:_ri_
+inurl:/_catalogs
+ext:svc inurl:wsdl
+inurl:user_guide intext:"CodeIgniter User Guide"
+"PHP Credits" "Configuration" "PHP Core" ext:php inurl:info
+inurl:/php/info.php
+intitle:"HFS" "Server Uptime" "Server time"
+inurl:phpsysinfo/index.php?disp=dynamic
+intitle:"Apache Status" | intext:"Apache Server Status"
+intext:Apache/2.2.29 (Unix) mod_ssl/2.2.29 | intitle:"Index of /"
+inurl:"/web-console/" intitle:"Administration Console"
+filetype:asmx inurl:(_vti_bin|api|webservice)
+intitle:"BadBlue: the file-sharing web server anyone can use"
+intitle:"Apache Status" "Apache Server Status for"
+intext:"Target Multicast Group" "beacon"
+inurl:wl.exe inurl:?SS1= intext:"Operating system:" -edu -gov -mil
+inurl:nnls_brand.html OR inurl:nnls_nav.html
+(intitle:"502 Proxy Error")|(intitle:"503 Proxy Error") "The proxy server could not handle the request" -topic -mail -4suite -list -site:geocrawler.co
+intitle:"Welcome to 602LAN SUITE *"
+intitle:"Welcome To Your WebSTAR Home Page"
+intitle:"Document title goes here" intitle:"used by web search tools" " example of a simple Home Page"
+intitle:"Welcome to Windows Small Business Server 2003"
+yaws.*.server.at
+intitle:"Index of *" mode links bytes last-changed name
+intitle:"IPC@CHIP Infopage"
+intitle:"Test Page for the Apache HTTP Server on Fedora Core" intext:"Fedora Core Test Page"
+Powered.by.RaidenHTTPD intitle:index.of
+(inurl:81-cobalt | inurl:cgi-bin/.cobalt)
+intitle:"welcome to mono xsp"
+inurl:oraweb -site:oraweb.org
+"Netware * Home" inurl:nav.html
+XAMPP "inurl:xampp/index"
+inurl:2506/jana-admin
+allintext:"Powered by LionMax Software" "WWW File Share"
+intitle:"Resin Default Home Page"
+intitle:"Welcome To Xitami" -site:xitami.com
