@@ -1,96 +1,427 @@
 
+!Host=*.* intext:enc_UserPassword=* ext:pcf
+" -FrontPage-" ext:pwd inurl:(service | authors | administrators | users)
+"# -FrontPage-" ext:pwd inurl:(service | authors | administrators | users) "# -FrontPage-" inurl:service.pwd
+"#mysql dump" filetype:sql
+"#mysql dump" filetype:sql 21232f297a57a5a743894a0e4a801fc3
 "/1000/system_information.asp"
 "/FTPSVC2" intitle:"index of"
 "/var/cache/registry/"
 "2004 - 2018 iboss, Inc. All rights reserved."
+": vBulletin Version 1.1.5"
 ":: Arachni Web Application Security Report"
 "[HKEY_CURRENT_USERSoftwareSimonTathamPuTTYSessions]" ext:reg
 "[LocalizedFileNames]" inurl:"desktop.ini" ext:ini -git -wiki
 "[Tera Term]" inurl:"teraterm.ini" ext:ini -git
+"A syntax error has occurred" filetype:ihtml
+"About Mac OS Personal Web Sharing"
+"access denied for user" "using password"
 "ADS-B Receiver Live Dump1090 Map "
 "air confirmation" "passenger(s)"
+"allow_call_time_pass_reference" "PATH_INFO"
+"An illegal character has been found in the statement" -"previous message"
 "ansible.log" | "playbook.yaml" | ".ansible.cfg" | "playbook.yml" | host.ini intitle:"index of"
 "Application Blocked!" "Google bot"
+"apricot - admin" 00h
+"ASP.NET_SessionId" "data source="
+"AutoCreate=TRUE password=*"
 "battlefield" "email" site:pastebin.com
+"bp blog admin" intitle:login | intitle:admin -site:johnny.ihackstuff.com
+"Can't connect to local" intitle:warning
 "CCCLogin.aspx"
+"Certificate Practice Statement" inurl:(PDF | DOC)
+"Chatologica MetaSearch" "stack tracking"
+"Chatologica MetaSearch" "stack tracking:"
 "Copyright Metislab" password
 "database_password" filetype:yml "config/parameters.yml
 "database_password" filetype:yml "config/parameters.yml"
 "Declassified and Approved for Release by" filetype: pdf
 "department" | "agency" | "government" "intitle:"login form" -youtube -template
 "description" & "size" intitle:"index of" "owncloud"
+"detected an internal error [IBM][CLI Driver][DB2/6000]"
 "dispatch=debugger."
+"Duclassified" -site:duware.com "DUware All Rights reserved"
+"duclassmate" -site:duware.com
+"Dudirectory" -site:duware.com
+"dudownload" -site:duware.com
+"Dumping data for table"
+"DUpaypal" -site:duware.com
+"Elite Forum Version *.*"
 "Email delivery powered by Google" ext:pdf OR ext:txt
+"Emergisoft web applications are a part of our"
+"Error Diagnostic Information" intitle:"Error Occurred While"
+"error found handling the request" cocoon filetype:xml
+"Establishing a secure Integrated Lights Out session with" OR intitle:"Data Frame - Browser not HTTP 1.1 compatible" OR intitle:"HP Integrated Lights-
 "Example: jane.citizen1"
+"Fatal error: Call to undefined function" -reply -the -next
 "File Manager - Current disk free"
+"ftp://" "www.eastgame.net"
+"Host Vulnerability Summary Report"
+"HostingAccelerator" intitle:"login" +"Username" -"news" -demo
+"html allowed" guestbook
+"http://*:*@www" domainname
+"HTTP_FROM=googlebot" googlebot.com "Server_Software="
 "I have been invoked by servletToJSP"
 "IBM Security AppScan Report" ext:pdf
+"iCONECT 4.1 :: Login"
+"IMail Server Web Messaging" intitle:login
+"Incorrect syntax near"
+"Index of /" +.htaccess
+"Index of /" +passwd
+"Index of /" +password.txt
+"Index of /admin"
+"Index of /backup"
+"Index of /mail"
+"Index Of /network" "last modified"
+"Index of /password"
 "index of /private" -site:net -site:com -site:org
+"index of /private" site:mil
 "index of /ups.com/WebTracking"
 "Index of" "database.sql"
 "index of" "database.sql.zip"
 "index of" "database_log"
+"Index of" / "chat/logs"
 "index of" /wp-content/uploads/shell.php
+"index of/" "ws_ftp.ini" "parent directory"
+"inspanel" intitle:"login" -"cannot" "Login ID" -site:inspediumsoft.com
+"Installed Objects Scanner" inurl:default.asp
+"Internal Server Error" "server at"
+"intitle:3300 Integrated Communications Platform" inurl:main.htm
+"intitle:index of"
 "inurl:"Umbraco/#/login" site:*edu"
+"Invision Power Board Database Error"
 "keyed alike" site:gov filetype:pdf
 "Last modified" intitle:"index of" "dropbox"
+"Link Department"
+"liveice configuration file" ext:cfg
+"liveice configuration file" ext:cfg -site:sourceforge.net
+"Login - Sun Cobalt RaQ"
+"login prompt" inurl:GM.cgi
+"Login to Usermin" inurl:20000
 "login" "adp login" -adplogin.us -adplogin.org -adplogin.net
 "login" "secure" "intitle:"online banking" -youtube -template -stackoverflow -stackexchange
 "login" intitle:"scada login"
 "login" inurl:"account/auth" -github -gitlab -stackoverflow
 "login":
 "lv_poweredBy"
+"MacHTTP" filetype:log inurl:machttp.log
 "MAIL_PASSWORD" filetype:env
+"Mecury Version" "Infastructure Group"
+"Microsoft (R) Windows Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive (TM) Version Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive DrWtsn32 Copyright (C)" ext:log
+"Microsoft CRM : Unsupported Browser Version"
+"Microsoft ® Windows Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive ™ Version Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive DrWtsn32 Copyright ©" ext:log
+"More Info about MetaCart Free"
+"Most Submitted Forms and s?ri?ts" "this section"
+"Most Submitted Forms and Scripts" "this section"
+"mysql dump" filetype:sql
+"mySQL error with query"
 "Netware * Home" inurl:nav.html
+"Network Host Assessment Report" "Internet Scanner"
+"Network Vulnerability Assessment Report"
+"not for distribution" confidential
+"not for public release" -.edu -.gov -.mil
 "online learning powered by bksb"
+"OPENSRS Domain Management" inurl:manage.cgi
+"ORA-00921: unexpected end of SQL command"
+"ORA-00933: SQL command not properly ended"
+"ORA-00936: missing expression"
+"ORA-12541: TNS:no listener" intitle:"error occurred"
 "Oracle peoplesoft sign in" inurl:"cmd=login?" -github -stackoverflow -gitlab
+"Output produced by SysWatch *"
 "PaperCut Login"
+"parent directory " /appz/ -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+"parent directory " DVDRip -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+"parent directory " Gamez -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+"parent directory " MP3 -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+"parent directory " Name of Singer or album -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+"parent directory "Xvid -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
+"parent directory" +proftpdpasswd
+"Parse error: parse error, unexpected T_VARIABLE" "on line" filetype:php
 "passport" filetype:xls site:"*.edu.*" | site:"*.gov.*" | site:"*.com.*" | site:"*.org.*" | site:"*.net.*" | site:"*.mil.*"
 "password" + ext:conf "Modem Type = USB Modem"
 "password.xlsx" ext:xlsx
+"pcANYWHERE EXPRESS Java Client"
+"phone Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive *" "address *" "e-mail" intitle:"curriculum vitae"
+"Phorum Admin" "Database Connection" inurl:forum inurl:admin
 "php class JConfig" AND inurl:configuration AND ext:"bak | old | pdf | php | txt"
 "PHP Credits" "Configuration" "PHP Core" ext:php inurl:info
+"phpMyAdmin MySQL-Dump" "INSERT INTO" -"the"
+"phpMyAdmin MySQL-Dump" filetype:txt
+"phpMyAdmin" "running on" inurl:"main.php"
+"Please authenticate yourself to get access to the management interface"
 "Please click here to download and install the latest plug-in. Close your browser before installation."
+"please log in"
+"Please login with admin pass" -"leak" -sourceforge
 "please sign in" "sign in" "gophish" +"login"
+"PostgreSQL query failed: ERROR: parser: parse error"
 "Powered by 123LogAnalyzer"
 "Powered by 2Moons"
 "Powered by Apache Subversion version"
 "Powered by BOINC"
+"Powered by mnoGoSearch - free web search engine software"
 "Powered by Open Source Chat Platform Rocket.Chat."
+"powered by openbsd" +"powered by apache"
 "Powered by phpBB" inurl:"index.php?s" OR inurl:"index.php?style"
 "Powered by Trac 1.0.2"
+"Powered by UebiMiau" -site:sourceforge.net
 "Powered by ViewVC 1.0.3"
 "Powered by vShare"
 "Powered byPlanet eStream"
+"powered | performed by Beyond Security's Automated Scanning" -kazaa -example
+"produced by getstats"
 "ProQuest provides subscription access to numerous premium technical journals, dissertations and other information databases."
 "Proudly created with Wix.com"
 "RDServer Product information" | inurl:"/rdagent.jsp"
+"Request Details" "Control Tree" "Server Variables"
+"robots.txt" "Disallow:" filetype:txt
+"Running in Child mode"
 "sasl_passwd" | smtpd.conf intitle:"index of"
+"Select a database to view" intitle:"filemaker pro"
 "service" | "military" | "federal" "intitle:"login form" -youtube -template -stackoverflow
+"set up the administrator user" inurl:pivot
+"sets mode: +k"
+"sets mode: +p"
+"sets mode: +s"
+"Shadow Security Scanner performed a vulnerability assessment"
+"site info for" "Enter Admin Password"
 "site:ghostbin.com " / " "
 "site:hastebin.com " / " "
 "SiteBar Bookmark Manager" inurl:index.php?w=
+"SnortSnarf alert page"
+"SQL Server Driver][SQL Server]Line 1: Incorrect syntax near"
+"SquirrelMail version" "By the SquirrelMail development Team"
+"Supplied argument is not a valid MySQL result resource"
+"Supplied argument is not a valid PostgreSQL result"
 "syd_apply.cfm"
+"Syntax error in query expression " -the
+"SysCP - login"
+"Thank you for your order" +receipt
+"The following report contains confidential information" vulnerability -search
+"The s?ri?t whose uid is " "is not allowed to access"
+"The script whose uid is " "is not allowed to access"
+"The statistics were last upd?t?d" "Daily"-microsoft.com
+"There are no Administrators Accounts" inurl:admin.php -mysql_fetch_row
+"There seems to have been a problem with the" " Please try again by clicking the Refresh button in your web browser."
+"This is a restricted Access Server" "Javas?ri?t Not Enabled!"|"Messenger Express" -edu -ac
+"This is a Shareaza Node"
+"this proxy is working fine!" "enter *" "URL***" Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive visit
+"This report lists" "identified by Internet Scanner"
+"This report was generated by WebLog"
+"This section is for Administrators only. If you are an administrator then please"
 "This server is operated by OpenX."
 "This service is powered by a copy of ZendTo"
+"This summary was generated by wwwstat"
+"Traffic Analysis for" "RMON Port Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive on unit *"
+"ttawlogin.cgi/?action="
+"Unable to jump to row" "on MySQL result index" "on line"
+"Unclosed quotation mark before the character string"
 "username" "password" intitle:"login here"
 "username.xlsx" ext:xlsx
 "var miner = new CoinHive" intext:document.domain
 "var miner=new CryptoLoot.Anonymous" intext:CryptoLoot.Anonymous
+"Version Info" "Boot Version" "Internet Settings"
+"VHCS Pro ver" -demo
+"VNC Desktop" inurl:5800
 "vpnssl"
+"Warning: Bad arguments to (join|implode) () in" "on line" -help -forum
+"Warning: Cannot modify header information - headers already sent"
+"Warning: Division by zero in" "on line" -forum
+"Warning: mysql_connect(): Access denied for user: '*@*" "on line" -help -forum
+"Warning: mysql_query()" "invalid query"
+"Warning: pg_connect(): Unable to connect to PostgreSQL server: FATAL"
+"Warning: Supplied argument is not a valid File-Handle resource in"
+"Warning:" "failed to open stream: HTTP request failed" "on line"
+"Warning:" "SAFE MODE Restriction in effect." "The s?ri?t whose uid is" "is not allowed to access owned by uid 0 in" "on line"
+"Warning:" "SAFE MODE Restriction in effect." "The script whose uid is" "is not allowed to access owned by uid 0 in" "on line"
 "Web Analytics powered by Open Web Analytics - v: 1.6.2"
+"Web File Browser" "Use regular expression"
+"Web-Based Management" "Please input password to login" -inurl:johnny.ihackstuff.com
+"WebExplorer Server - Login" "Welcome to WebExplorer Server"
 "webkactus"
+"WebSTAR Mail - Please Log In"
+"Welcome to Administration" "General" "Local Domains" "SMTP Authentication" inurl:admin
+"Welcome to Intranet"
+"Welcome to PHP-Nuke" congratulations
+"Welcome to the Prestige Web-Based Configurator"
 "whoops! there was an error." "db_password"
+"xampp/phpinfo
+"YaBB SE Dev Team"
+"you can now password" | "this is a special page only seen by you. your profile visitors" inurl:imchaos
+"You have an error in your SQL syntax near"
+"You have requested access to a restricted area of our website. Please authenticate yourself to continue."
+"You have requested to access the management functions" -.edu
+"Your password is Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive Remember this for later use"
+"your password is" filetype:log
+( filetype:mail | filetype:eml | filetype:mbox | filetype:mbx ) intext:password|subject
+("Indexed.By"|"Monitored.By") hAcxFtpScan
+((inurl:ifgraph "Page generated at") OR ("This page was built using ifgraph"))
 (intitle:"502 Proxy Error")|(intitle:"503 Proxy Error") "The proxy server could not handle the request" -topic -mail -4suite -list -site:geocrawler.co
+(intitle:"Please login - Forums
 (intitle:"plexpy - home" OR "intitle:tautulli - home") AND intext:"libraries"
+(intitle:"PRTG Traffic Grapher" inurl:"allsensors")|(intitle:"PRTG Traffic Grapher - Monitoring Results")
+(intitle:"rymo Login")|(intext:"Welcome to rymo") -family
+(intitle:"WmSC e-Cart Administration")|(intitle:"WebMyStyle e-Cart Administration")
+(intitle:WebStatistica inurl:main.php) | (intitle:"WebSTATISTICA server") -inurl:statsoft -inurl:statsoftsa -inurl:statsoftinc.com -edu -software -rob
+(inurl:"ars/cgi-bin/arweb?O=0" | inurl:arweb.jsp) -site:remedy.com -site:mil
+(inurl:"robot.txt" | inurl:"robots.txt" ) intext:disallow filetype:txt
+(inurl:/shop.cgi/page=) | (inurl:/shop.pl/page=)
 (inurl:81-cobalt | inurl:cgi-bin/.cobalt)
+********.php?cid=
+********s_in_area.php?area_id=
+***zine/board.php?board=
+*.php?include=
+*.php?secc=
+*inc*.php?adresa=
+*inc*.php?base_dir=
+*inc*.php?body=
+*inc*.php?c=
+*inc*.php?category=
+*inc*.php?doshow=
+*inc*.php?ev=
+*inc*.php?get=
+*inc*.php?i=
+*inc*.php?inc=
+*inc*.php?include=
+*inc*.php?j=
+*inc*.php?k=
+*inc*.php?ki=
+*inc*.php?left=
+*inc*.php?m=
+*inc*.php?menu=
+*inc*.php?modo=
+*inc*.php?open=
+*inc*.php?pg=
+*inc*.php?rub=
+*inc*.php?sivu=
+*inc*.php?start=
+*inc*.php?str=
+*inc*.php?to=
+*inc*.php?type=
+*inc*.php?y=
 -pub -pool intitle:"index of" "Served by" "Web Server"
+-site:php.net -"The PHP Group" inurl:source inurl:url ext:pHp
 -site:smarty.net ext:tpl intext:"
 -youtube.com login | password | username intitle:"assessment"
 /_wpeprivate/config.json
+/addpost_newpoll.php?addpoll=preview&thispath=
+/admin_modules/admin_module_deldir.inc.php?config[path_src_include]=
+/administrator/components/com_serverstat/install.serverstat.php?mosConfig_absolute_path=
+/administrator/components/com_uhp/uhp_config.php?mosConfig_absolute_path=
 /adp/self/service/login
+/app/common/lib/codeBeautifier/Beautifier/Core.php?BEAUT_PATH=
+/bz/squito/photolist.inc.php?photoroot=
+/class.mysql.php?path_to_bt_dir=
+/classes.php?LOCAL_PATH=
+/classes/adodbt/sql.php?classes_dir=
+/classified_right.php?language_dir=
+/coin_includes/constants.php?_CCFG[_PKG_PATH_INCL]=
+/components/com_cpg/cpg.php?mosConfig_absolute_path=
+/components/com_extended_registration/registration_detailed.inc.php?mosConfig_absolute_path=
+/components/com_facileforms/facileforms.frame.php?ff_compath=
+/components/com_mtree/Savant2/Savant2_Plugin_textarea.php?mosConfig_absolute_path=
+/components/com_rsgallery/rsgallery.html.php?mosConfig_absolute_path=
+/components/com_smf/smf.php?mosConfig_absolute_path=
+/components/com_zoom/includes/database.php?mosConfig_absolute_path=
+/contrib/yabbse/poc.php?poc_root_path=
+/embed/day.php?path=
+/extensions/moblog/moblog_lib.php?basedir=
+/functions.php?include_path=
+/header.php?abspath=
+/include/footer.inc.php?_AMLconfig[cfg_serverpath]=
+/include/main.php?config[search_disp]=true&include_dir=
+/include/write.php?dir=
+/includes/dbal.php?eqdkp_root_path=
+/includes/functions_portal.php?phpbb_root_path=
+/includes/kb_constants.php?module_root_path=
+/includes/orderSuccess.inc.php?glob=1&cart_order_id=1&glob[rootDir]=
+/index.php?_REQUEST=&_REQUEST[option]=com_content&_REQUEST[Itemid]=1&GLOBALS=&mosConfig_absolute_path=
+/jscript.php?my_ms[root]=
+/login.php?dir=
+/main.php?sayfa=
+/mcf.php?content=
+/modules/4nAlbum/public/displayCategory.php?basepath=
+/modules/agendax/addevent.inc.php?agendax_path=
+/modules/coppermine/include/init.inc.php?CPG_M_DIR=
+/modules/Forums/admin/admin_styles.php?phpbb_root_path=
+/modules/My_eGallery/public/displayCategory.php?basepath=
+/modules/newbb_plus/class/forumpollrenderer.php?bbPath[path]=
+/modules/PNphpBB2/includes/functions_admin.php?phpbb_root_path=
+/modules/TotalCalendar/about.php?inc_dir=
+/modules/vwar/admin/admin.php?vwar_root=
+/modules/vwar/admin/admin.php?vwar_root=index.php?loc=
+/modules/xgallery/upgrade_album.php?GALLERY_BASEDIR=
+/modules/xoopsgallery/upgrade_album.php?GALLERY_BASEDIR=
+/photoalb/lib/static/header.php?set_menu=
+/phpopenchat/contrib/yabbse/poc.php?sourcedir=
+/popup_window.php?site_isp_root=
+/ppa/inc/functions.inc.php?config[ppa_root_path]=
+/skin/zero_vote/error.php?dir=
+/sources/functions.php?CONFIG[main_path]=
+/sources/join.php?FORM[url]=owned&CONFIG[captcha]=1&CONFIG[path]=
+/sources/template.php?CONFIG[main_path]=
+/spid/lang/lang.php?lang_path=
+/squirrelcart/cart_content.php?cart_isp_root=
+/squito/photolist.inc.php?photoroot=
+/surveys/survey.inc.php?path=
+/tags.php?BBCodeFile=
+/templates/headline_temp.php?nst_inc=
+/tools/send_reminders.php?includedir=
+/tools/send_reminders.php?includedir= allinurl:day.php?date=
 /var/www/manage/storage/logs/laravel- ext:log
+/yabbse/Sources/Packages.php?sourcedir=
+/zipndownload.php?PP_PATH=
+4images Administration Control Panel
+94FBR "ADOBE PHOTOSHOP"
 :DIR | intitle:index of inurl://whatsapp/
+?action=
+?cat=
+?id=
+?intitle:index.of? mp3 artist-name-here
+?intitle:index.of? mp3 name
+?page=
+?pagerequested=
+?pid=
+[WFClient] Password= filetype:ica
+_news/news.php?id=
+about.php?cartID=
+about_us.php?id=
+aboutbook.php?id=
+aboutchiangmai/details.php?id=
+aboutprinter.shtml
+abroad/page.php?cid=
+accinfo.php?cartId=
+acclogin.php?cartID=
+add-to-cart.php?ID=
+add.php?bookid=
+add_cart.php?num=
+addcart.php?
+addItem.php
+addToCart.php?idProduct=
+addtomylist.php?ProdId=
+admin.php?page=
+admin/doeditconfig.php?thispath=../includes&config[path]=
+admin/index.php?o=
+adminEditProductFields.php?intProdID=
+administrator/components/com_a6mambocredits/admin.a6mambocredits.php?mosConfig_live_site=
+administrator/components/com_comprofiler/plugin.class.php?mosConfig_absolute_path=
+administrator/components/com_comprofiler/plugin.class.php?mosConfig_absolute_path= /tools/send_reminders.php?includedir= allinurl:day.php?date=
+administrator/components/com_cropimage/admin.cropcanvas.php?cropimagedir=
+administrator/components/com_cropimage/admin.cropcanvas.php?cropimagedir=modules/My_eGallery/index.php?basepath=
+administrator/components/com_linkdirectory/toolbar.linkdirectory.html.php?mosConfig_absolute_path=
+administrator/components/com_mgm/help.mgm.php?mosConfig_absolute_path=
+administrator/components/com_peoplebook/param.peoplebook.php?mosConfig_absolute_path=
+administrator/components/com_remository/admin.remository.php?mosConfig_absolute_path=
+administrator/components/com_remository/admin.remository.php?mosConfig_absolute_path= /tags.php?BBCodeFile=
+administrator/components/com_webring/admin.webring.docs.php?component_dir=
+advSearch_h.php?idCategory=
+affiliate-agreement.cfm?storeid=
+affiliate.php?ID=
+affiliates.php?id=
+AIM buddy lists
+akocomments.php?mosConfig_absolute_path=
+aktuelles/meldungen-detail.php?id=
+aktuelles/veranstaltungen/detail.php?id=
+al_initialize.php?alpath=
 allintext:"Index Of" "sftp-config.json"
 allintext:"Powered by LionMax Software" "WWW File Share"
 allintext:'HttpFileServer 2.3k'
@@ -106,6 +437,9 @@ allintitle:"Index of /ThinkPHP" | inurl: "/ThinkPHP/"
 allintitle:"Network Camera NetworkCamera"
 allintitle:"Pi-hole Admin Console"
 allintitle:"Welcome to the Cyclades"
+allintitle:*.php?filename=*
+allintitle:*.php?logon=*
+allintitle:*.php?page=*
 allintitle:.."Test page for Apache Installation.."
 allintitle:\"Test page for Apache Installation\"
 allintitle:admin.php
@@ -119,6 +453,7 @@ allinurl:"/SilverStream/Meta/"
 allinurl:"exchange/logon.asp"
 allinurl:"index.php" "site=sglinks"
 allinurl:"wp-content/plugins/wordpress-popup/views/admin/"
+allinurl:*.php?txtCodiInfo=
 allinurl:.br/index.php?loc=
 allinurl:/examples/jsp/snp/snoop.jsp
 allinurl:/examples/jsp/snp/snoop.jsp 
@@ -140,18 +475,594 @@ allinurl:servlet/SnoopServlet
 allinurl:wps/portal/ login
 allinurl:”exchange/logon.asp”
 allinurl:”index.php” “site=sglinks”
+An unexpected token "END-OF-STATEMENT" was found
+Analysis Console for Incident Databases
+ancillary.php?ID=
 AndroidManifest ext:xml -github -gitlab -googlesource
+announce.php?id=
+answer/default.php?pollID=
+AnyBoard" intitle:"If you are a new user:" intext:"Forum
+AnyBoard" inurl:gochat -edu
 AnyBoard” intitle:”If you are a new user:” intext:”Forum
 AnyBoard” inurl:gochat -edu
+archive.php?id=
+archive/get.php?message_id=
+art.php?id=
+article.php?ID=
+article.php?id=
+article_preview.php?id=
+articlecategory.php?id=
+articles.php?id=
+artikelinfo.php?id=
+artist_art.php?id=
+ASP.login_aspx "ASP.NET_SessionId"
+auction/item.php?id=
+auth_user_file.txt
+authorDetails.php?bookID=
+avatar.php?page=
+avd_start.php?avd=
+band_info.php?id=
+base.php?*[*]*=
+base.php?abre=
+base.php?adresa=
+base.php?base_dir=
+base.php?basepath=
+base.php?body=
+base.php?category=
+base.php?chapter=
+base.php?choix=
+base.php?cont=
+base.php?disp=
+base.php?doshow=
+base.php?ev=
+base.php?eval=
+base.php?filepath=
+base.php?home=
+base.php?id=
+base.php?incl=
+base.php?include=
+base.php?ir=
+base.php?itemnav=
+base.php?k=
+base.php?ki=
+base.php?l=
+base.php?lang=
+base.php?link=
+base.php?loc=
+base.php?mid=
+base.php?middle=
+base.php?middlePart=
+base.php?module=
+base.php?name=
+base.php?numero=
+base.php?oldal=
+base.php?opcion=
+base.php?pa=
+base.php?pag=
+base.php?pageweb=
+base.php?panel=
+base.php?path=
+base.php?phpbb_root_path=
+base.php?play=
+base.php?pname=
+base.php?rub=
+base.php?seccion=
+base.php?second=
+base.php?seite=
+base.php?sekce=
+base.php?sivu=
+base.php?str=
+base.php?subject=
+base.php?t=
+base.php?texto=
+base.php?to=
+base.php?v=
+base.php?var=
+base.php?w=
+basket.php?id=
+bayer/dtnews.php?id=
+bb_usage_stats/include/bb_usage_stats.php?phpbb_root_path=
+bbs/bbsView.php?id=
+bbs/view.php?no=
+beitrag_D.php?id=
+beitrag_F.php?id=
+bid/topic.php?TopicID=
+big.php?pathtotemplate=
+blank.php?abre=
+blank.php?action=
+blank.php?base_dir=
+blank.php?basepath=
+blank.php?body=
+blank.php?category=
+blank.php?channel=
+blank.php?corpo=
+blank.php?destino=
+blank.php?dir=
+blank.php?filepath=
+blank.php?get=
+blank.php?goFile=
+blank.php?goto=
+blank.php?h=
+blank.php?header=
+blank.php?id=
+blank.php?in=
+blank.php?incl=
+blank.php?ir=
+blank.php?itemnav=
+blank.php?j=
+blank.php?ki=
+blank.php?lang=
+blank.php?left=
+blank.php?link=
+blank.php?loader=
+blank.php?menu=
+blank.php?mod=
+blank.php?name=
+blank.php?o=
+blank.php?oldal=
+blank.php?open=
+blank.php?OpenPage=
+blank.php?pa=
+blank.php?page=
+blank.php?pagina=
+blank.php?panel=
+blank.php?path=
+blank.php?phpbb_root_path=
+blank.php?pname=
+blank.php?pollname=
+blank.php?pr=
+blank.php?pre=
+blank.php?pref=
+blank.php?qry=
+blank.php?read=
+blank.php?ref=
+blank.php?rub=
+blank.php?section=
+blank.php?sivu=
+blank.php?sp=
+blank.php?strona=
+blank.php?subject=
+blank.php?t=
+blank.php?url=
+blank.php?var=
+blank.php?where=
+blank.php?xlink=
+blank.php?z=
+blog.php?blog=
+blog/index.php?idBlog=
+blog_detail.php?id=
+board/board.html?table=
+board/kboard.php?board=
+board/read.php?tid=
+board/showthread.php?t=
+board/view.php?no=
+board/view_temp.php?table=
+board_view.html?id=
+board_view.php?s_board_id=
+boardView.php?bbs=
+book.html?isbn=
+Book.php?bookID=
+book.php?ID=
+book.php?id=
+book.php?ISBN=
+book.php?isbn=
+book/bookcover.php?bookid=
+book_detail.php?BookID=
+book_list.php?bookid=
+book_view.php?bookid=
+BookDetails.php?ID=
+bookDetails.php?id=
+bookmark/mybook/bookmark.php?bookPageNo=
+bookpage.php?id=
+books.php?id=
+books/book.php?proj_nr=
+bookview.php?id=
+bp_ncom.php?bnrep=
+bpac/calendar/event.php?id=
+brand.php?id=
+browse.php?catid=
+browse/book.php?journalID=
+browse_item_details.php
+Browse_Item_Details.php?Store_Id=
+browsepr.php?pr=
+buy.php?
+buy.php?bookid=
+buy.php?category=
+bycategory.php?id=
 CakePHP filetype:sql intext:password | pwd intext:username | uname intext: Insert into users values
 CakePHP inurl:database.php intext:db_password
+calendar/event.php?id=
+camera linksys inurl:main.cgi
+Canon Webview netcams
+cardinfo.php?card=
+cart.php?action=
+cart.php?cart_id=
+cart.php?id=
+cart/addToCart.php?cid=
+cart/product.php?productid=
+cart_additem.php?id=
+cart_validate.php?id=
+cartadd.php?id=
+cat.php?cat_id=
+cat.php?iCat=
+cat/?catid=
+catalog.php
+catalog.php?CatalogID=
+catalog/main.php?cat_id=
+catalog/product.php?cat_id=
+catalog/product.php?pid=
+catalog_item.php?ID=
+catalog_main.php?catid=
+categories.php?cat=
+category.php
+category.php?c=
+category.php?catid=
+Category.php?cid=
+category.php?CID=
+category.php?cid=
+category.php?id=
+category.php?id_category=
+category_list.php?id=
+categorydisplay.php?catid=
+cats.php?cat=
+cbmer/congres/page.php?LAN=
+cei/cedb/projdetail.php?projID=
+cemetery.php?id=
+CGI:IRC Login
+cgiirc.conf
+channel/channel-layout.php?objId=
+channel_id=
+chappies.php?id=
+checkout.php?cartid=
+checkout.php?UserID=
+checkout1.php?cartid=
+checkout_confirmed.php?order_id=
+clan_page.php?cid=
+clanek.php4?id=
+classes/adodbt/sql.php?classes_dir=
+classifieds/detail.php?siteid=
+classifieds/showproduct.php?product=
+cloudbank/detail.php?ID=
+club.php?cid=
+clubpage.php?id=
 Codeigniter filetype:sql intext:password | pwd intext:username | uname intext: Insert into users values
 Coldbox | contentbox | commandbox "Powered by ContentBox"
+Coldfusion Error Pages
+collectionitem.php?id=
+colourpointeducational/more_details.php?id=
+Comersus.mdb database
+comersus_listCategoriesAndProducts.php?idCategory=
+comersus_optEmailToFriendForm.php?idProduct=
+comersus_optReviewReadExec.php?idProduct=
+comersus_viewItem.php?idProduct=
+comments.php?id=
+comments_form.php?ID=
+communique_detail.php?id=
+community/calendar-event-fr.php?id=
+components/com_artlinks/artlinks.dispnew.php?mosConfig_absolute_path=
+components/com_cpg/cpg.php?mosConfig_absolute_path=
+components/com_extcalendar/admin_events.php?CONFIG_EXT[LANGUAGES_DIR]=
+components/com_extended_registration/registration_detailed.inc.php?mosConfig_absolute_path=
+components/com_forum/download.php?phpbb_root_path=
+components/com_galleria/galleria.html.php?mosConfig_absolute_path=
+components/com_mtree/Savant2/Savant2_Plugin_stylesheet.php?mosConfig_absolute_path=
+components/com_performs/performs.php?mosConfig_absolute_path=
+components/com_phpshop/toolbar.phpshop.html.php?mosConfig_absolute_path=
+components/com_rsgallery/rsgallery.html.php?mosConfig_absolute_path=
+components/com_simpleboard/image_upload.php?sbp=
+Computer Science.php?id=
+confidential site:mil
+config.php
+config.php?_CCFG[_PKG_PATH_DBSE]=
 config.yaml intitle:"index of" vagrantfile
 configuration> + filetype:config -github.com
+ConnectionTest.java filetype:html
+constructies/product.php?id=
+contact.php?cartId=
+contacts ext:wml
+contenido.php?sec=
+content.php?arti_id=
+content.php?categoryId=
+content.php?cID=
+content.php?cid=
+content.php?cont_title=
+content.php?id
+content.php?ID=
+content.php?id=
+content.php?p=
+content.php?page=
+content.php?PID=
+content/conference_register.php?ID=
+content/detail.php?id=
+content/index.php?id=
+content/pages/index.php?id_cat=
+content/programme.php?ID=
+content/view.php?id=
+coppercop/theme.php?THEME_DIR=
+corporate/newsreleases_more.php?id=
+county-facts/diary/vcsgen.php?id=
+cps/rde/xchg/tm/hs.xsl/liens_detail.html?lnkId=
+cryolab/content.php?cid=
+csc/news-details.php?cat=
+customer/board.htm?mode=
+customer/home.php?cat=
+customerService.php?****ID1=
+CuteNews" "2003..2005 CutePHP"
+data filetype:mdb -site:gov -site:mil
+db.php?path_local=
+db/CART/product_details.php?product_id=
+de/content.php?page_id=
+deal_coupon.php?cat_id=
+debate-detail.php?id=
+declaration_more.php?decl_id=
+default.php?*root*=
+default.php?abre=
+default.php?base_dir=
+default.php?basepath=
+default.php?body=
+default.php?catID=
+default.php?channel=
+default.php?chapter=
+default.php?choix=
+default.php?cmd=
+default.php?cont=
+default.php?cPath=
+default.php?destino=
+default.php?e=
+default.php?eval=
+default.php?f=
+default.php?goto=
+default.php?header=
+default.php?inc=
+default.php?incl=
+default.php?include=
+default.php?index=
+default.php?ir=
+default.php?itemnav=
+default.php?k=
+default.php?ki=
+default.php?l=
+default.php?left=
+default.php?load=
+default.php?loader=
+default.php?loc=
+default.php?m=
+default.php?menu=
+default.php?menue=
+default.php?mid=
+default.php?mod=
+default.php?module=
+default.php?n=
+default.php?name=
+default.php?nivel=
+default.php?oldal=
+default.php?opcion=
+default.php?option=
+default.php?p=
+default.php?pa=
+default.php?pag=
+default.php?page=
+default.php?pageweb=
+default.php?panel=
+default.php?param=
+default.php?play=
+default.php?pr=
+default.php?pre=
+default.php?read=
+default.php?ref=
+default.php?rub=
+default.php?secao=
+default.php?secc=
+default.php?seccion=
+default.php?seite=
+default.php?showpage=
+default.php?sivu=
+default.php?sp=
+default.php?str=
+default.php?strona=
+default.php?t=
+default.php?thispage=
+default.php?TID=
+default.php?tipo=
+default.php?to=
+default.php?type=
+default.php?v=
+default.php?var=
+default.php?x=
+default.php?y=
+description.php?bookid=
+designcenter/item.php?id=
+detail.php?ID=
+detail.php?id=
+detail.php?item_id=
+detail.php?prodID=
+detail.php?prodid=
+detail.php?siteid=
+detailedbook.php?isbn=
+details.php?BookID=
+details.php?id=
+details.php?Press_Release_ID=
+details.php?ProdID=
+details.php?prodID=
+details.php?prodId=
+details.php?Product_ID=
+details.php?Service_ID=
+directory/contenu.php?id_cat=
+discussions/10/9/?CategoryID=
+display.php?ID=
+display_item.php?id=
+display_page.php?id=
+displayArticleB.php?id=
+displayproducts.php
+displayrange.php?rangeid=
+docDetail.aspx?chnum=
+down*.php?action=
+down*.php?addr=
+down*.php?channel=
+down*.php?choix=
+down*.php?cmd=
+down*.php?corpo=
+down*.php?disp=
+down*.php?doshow=
+down*.php?ev=
+down*.php?filepath=
+down*.php?goFile=
+down*.php?home=
+down*.php?in=
+down*.php?inc=
+down*.php?incl=
+down*.php?include=
+down*.php?ir=
+down*.php?lang=
+down*.php?left=
+down*.php?nivel=
+down*.php?oldal=
+down*.php?open=
+down*.php?OpenPage=
+down*.php?pa=
+down*.php?pag=
+down*.php?pageweb=
+down*.php?param=
+down*.php?path=
+down*.php?pg=
+down*.php?phpbb_root_path=
+down*.php?pollname=
+down*.php?pr=
+down*.php?pre=
+down*.php?qry=
+down*.php?r=
+down*.php?read=
+down*.php?s=
+down*.php?second=
+down*.php?section=
+down*.php?seite=
+down*.php?showpage=
+down*.php?sp=
+down*.php?strona=
+down*.php?subject=
+down*.php?t=
+down*.php?texto=
+down*.php?to=
+down*.php?u=
+down*.php?url=
+down*.php?v=
+down*.php?where=
+down*.php?x=
+down*.php?z=
+download.php?id=
+downloads.php?id=
+downloads/category.php?c=
+downloads/shambler.php?id=
+downloads_info.php?id=
+downloadTrial.php?intProdID=
+Duclassified" -site:duware.com "DUware All Rights reserved"
+duclassmate" -site:duware.com
+Dudirectory" -site:duware.com
+dudownload" -site:duware.com
+DUpaypal" -site:duware.com
+DWMail" password intitle:dwmail
 dwsync.xml intitle:index of -gitlab -github
+e_board/modifyform.html?code=
 Easy File Sharing Web Server”
+edatabase/home.php?cat=
+edition.php?area_id=
+education/content.php?page=
+eggdrop filetype:user user
+Elite Forum Version *.*"
+els_/product/product.php?id=
+emailproduct.php?itemid=
+emailToFriend.php?idProduct=
 employee "training" intitle:index.of ext:doc | pdf | xls |docx |xlsx
+en/main.php?id=
+en/news/fullnews.php?newsid=
+en/publications.php?id=
+enable password | secret "current configuration" -intext:the
+enc/content.php?Home_Path=
+eng/rgboard/view.php?&bbs_id=
+eng_board/view.php?T****=
+english/board/view****.php?code=
+english/fonction/print.php?id=
+english/print.php?id=
+english/publicproducts.php?groupid=
+enter.php?a=
+enter.php?abre=
+enter.php?addr=
+enter.php?b=
+enter.php?base_dir=
+enter.php?body=
+enter.php?chapter=
+enter.php?cmd=
+enter.php?content=
+enter.php?e=
+enter.php?ev=
+enter.php?get=
+enter.php?go=
+enter.php?goto=
+enter.php?home=
+enter.php?id=
+enter.php?incl=
+enter.php?include=
+enter.php?index=
+enter.php?ir=
+enter.php?itemnav=
+enter.php?lang=
+enter.php?left=
+enter.php?link=
+enter.php?loader=
+enter.php?menue=
+enter.php?mid=
+enter.php?middle=
+enter.php?mod=
+enter.php?module=
+enter.php?name=
+enter.php?numero=
+enter.php?open=
+enter.php?pa=
+enter.php?page=
+enter.php?pagina=
+enter.php?panel=
+enter.php?path=
+enter.php?pg=
+enter.php?phpbb_root_path=
+enter.php?play=
+enter.php?pname=
+enter.php?pr=
+enter.php?pref=
+enter.php?qry=
+enter.php?r=
+enter.php?read=
+enter.php?ref=
+enter.php?s=
+enter.php?sec=
+enter.php?second=
+enter.php?seite=
+enter.php?sivu=
+enter.php?sp=
+enter.php?start=
+enter.php?str=
+enter.php?strona=
+enter.php?subject=
+enter.php?texto=
+enter.php?thispage=
+enter.php?type=
+enter.php?viewpage=
+enter.php?w=
+enter.php?y=
+etc (index.of)
+event.php?id=
+event_details.php?id=
+event_info.php?p=
+events.php?ID=
+events/detail.php?ID=
+events/event.php?ID=
+events/event.php?id=
+events/event_detail.php?id=
+events/index.php?id=
+events/unique_event.php?ID=
+events?id=
+exhibition_overview.php?id=
+exhibitions/detail.php?id=
+exported email addresses
 ext:(doc | pdf | xls | txt | ps | rtf | odt | sxw | psw | ppt | pps | xml) (intext:confidential salary | intext:"budget approved") inurl:confidential
 ext:(doc | pdf | xls | txt | ps | rtf | odt | sxw | psw | ppt | pps | xml) (intext:confidential salary | intext:”budget approved”) inurl:confidential
 ext:adr adr filetype:adr "bookmarks.adr"
@@ -232,6 +1143,73 @@ extqi pqi   -database
 extqi pqi -database
 ez Publish administration
 ezBOO \"Administrator Panel\" -cvs
+faq.php?cartID=
+faq2.php?id=
+faq_list.php?id=
+faqs.php?id=
+fatcat/home.php?view=
+feature.php?id=
+features/view.php?id=
+feedback.php?title=
+fellows.php?id=
+FernandFaerie/index.php?c=
+fiche_spectacle.php?id=
+Fichier contenant des informations sur le r?seau :
+file.php?action=
+file.php?basepath=
+file.php?body=
+file.php?channel=
+file.php?chapter=
+file.php?choix=
+file.php?cmd=
+file.php?cont=
+file.php?corpo=
+file.php?disp=
+file.php?doshow=
+file.php?ev=
+file.php?eval=
+file.php?get=
+file.php?id=
+file.php?inc=
+file.php?incl=
+file.php?include=
+file.php?index=
+file.php?ir=
+file.php?ki=
+file.php?left=
+file.php?load=
+file.php?loader=
+file.php?middle=
+file.php?modo=
+file.php?n=
+file.php?nivel=
+file.php?numero=
+file.php?oldal=
+file.php?pagina=
+file.php?param=
+file.php?pg=
+file.php?play=
+file.php?pollname=
+file.php?pref=
+file.php?q=
+file.php?qry=
+file.php?ref=
+file.php?seccion=
+file.php?second=
+file.php?showpage=
+file.php?sivu=
+file.php?sp=
+file.php?start=
+file.php?strona=
+file.php?texto=
+file.php?to=
+file.php?type=
+file.php?url=
+file.php?var=
+file.php?viewpage=
+file.php?where=
+file.php?y=
+filemanager.php?delete=
 filetype:asmx inurl:(_vti_bin|api|webservice)
 filetype:asp   DBQ=" * Server.MapPath("*.mdb")
 filetype:asp "Custom Error Message" Category Source
@@ -239,6 +1217,7 @@ filetype:asp + "[ODBC SQL"
 filetype:asp + “[ODBC SQL”
 filetype:ASP ASP
 filetype:asp DBQ=" * Server.MapPath("*.mdb")
+filetype:asp DBQ=" Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive Server.MapPath("*.mdb")
 filetype:asp DBQ=\" * Server.MapPath(\"*.mdb\") 
 filetype:asp DBQ=” * Server.MapPath(“*.mdb”)
 filetype:asp “Custom Error Message” Category Source
@@ -450,6 +1429,7 @@ filetype:reg \"Terminal Server Client\"
 filetype:reg reg +intext:"defaultusername" +intext:"defaultpassword"
 filetype:reg reg +intext:\"defaultusername\" +intext:\"defaultpassword\" 
 filetype:reg reg +intext:â? WINVNC3â?
+filetype:reg reg +intext:Ã¢? WINVNC3Ã¢?
 filetype:reg reg +intext:”defaultusername” +intext:”defaultpassword”
 filetype:reg reg HKEY_ Windows Registry exports can reveal
 filetype:reg reg HKEY_CURRENT_USER intext:password
@@ -460,6 +1440,7 @@ filetype:reg “Terminal Server Client”
 filetype:SHTML SHTML
 filetype:sql "insert into" (pass|passwd|password)
 filetype:sql ("values * MD5" | "values * password" | "values * encrypt")
+filetype:sql ("values Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive MD5" | "values Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive password" | "values Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive encrypt")
 filetype:sql (\"passwd values\" | \"password values\" | \"pass values\" ) 
 filetype:sql (\"values * MD\" | \"values * password\" | \"values * encrypt\") 
 filetype:sql (“values * MD5″ | “values * password” | “values * encrypt”)
@@ -528,35 +1509,813 @@ filetypest pst -from -to -date
 filetypest pst -from -to -date 
 filetypewd service 
 filetypewl pwl 
+Financial spreadsheets: finance.xls
+Financial spreadsheets: finances.xls
 Find 3cx Phone System Management Console
+folder.php?id=
+forum.php?act=
+forum/profile.php?id=
+forum/showProfile.php?id=
+forum_bds.php?num=
+fr/commande-liste-categorie.php?panier=
+free_board/board_view.html?page=
+freedownload.php?bookid=
 frmLogin
+front/bin/forumview.phtml?bbcode=
+frontend/category.php?id_category=
+fshstatistic/index.php?PID=
+fullDisplay.php?item=
+FullStory.php?Id=
+galerie.php?cid=
+Gallery in configuration mode
+gallery.php?*[*]*=
+gallery.php?abre=
+gallery.php?action=
+gallery.php?addr=
+gallery.php?base_dir=
+gallery.php?basepath=
+gallery.php?chapter=
+gallery.php?cont=
+gallery.php?corpo=
+gallery.php?disp=
+gallery.php?ev=
+gallery.php?eval=
+gallery.php?filepath=
+gallery.php?get=
+gallery.php?go=
+gallery.php?h=
+gallery.php?id=
+gallery.php?index=
+gallery.php?itemnav=
+gallery.php?ki=
+gallery.php?left=
+gallery.php?loader=
+gallery.php?menu=
+gallery.php?menue=
+gallery.php?mid=
+gallery.php?mod=
+gallery.php?module=
+gallery.php?my=
+gallery.php?name=
+gallery.php?nivel=
+gallery.php?oldal=
+gallery.php?open=
+gallery.php?option=
+gallery.php?pag=
+gallery.php?page=
+gallery.php?pageweb=
+gallery.php?panel=
+gallery.php?param=
+gallery.php?pg=
+gallery.php?phpbb_root_path=
+gallery.php?pname=
+gallery.php?pollname=
+gallery.php?pre=
+gallery.php?pref=
+gallery.php?qry=
+gallery.php?redirect=
+gallery.php?ref=
+gallery.php?rub=
+gallery.php?sec=
+gallery.php?secao=
+gallery.php?seccion=
+gallery.php?seite=
+gallery.php?showpage=
+gallery.php?sivu=
+gallery.php?sp=
+gallery.php?strona=
+gallery.php?thispage=
+gallery.php?tipo=
+gallery.php?to=
+gallery.php?url=
+gallery.php?var=
+gallery.php?viewpage=
+gallery.php?where=
+gallery.php?xlink=
+gallery.php?y=
+gallery/detail.php?ID=
+gallery/gallery.php?id=
+gallerysort.php?iid=
+game.php?id=
+games.php?id=
+Ganglia Cluster Reports
+garden_equipment/Fruit-Cage/product.php?pr=
+garden_equipment/pest-weed-control/product.php?pr=
+gb/comment.php?gb_id=
+general.php?abre=
+general.php?addr=
+general.php?adresa=
+general.php?b=
+general.php?base_dir=
+general.php?body=
+general.php?channel=
+general.php?chapter=
+general.php?choix=
+general.php?cmd=
+general.php?content=
+general.php?doshow=
+general.php?e=
+general.php?f=
+general.php?get=
+general.php?goto=
+general.php?header=
+general.php?id=
+general.php?inc=
+general.php?include=
+general.php?ir=
+general.php?itemnav=
+general.php?left=
+general.php?link=
+general.php?menu=
+general.php?menue=
+general.php?mid=
+general.php?middle=
+general.php?modo=
+general.php?module=
+general.php?my=
+general.php?name=
+general.php?nivel=
+general.php?opcion=
+general.php?p=
+general.php?page=
+general.php?pageweb=
+general.php?pollname=
+general.php?pr=
+general.php?pre=
+general.php?qry=
+general.php?read=
+general.php?redirect=
+general.php?ref=
+general.php?rub=
+general.php?secao=
+general.php?seccion=
+general.php?second=
+general.php?section=
+general.php?seite=
+general.php?sekce=
+general.php?sivu=
+general.php?strona=
+general.php?subject=
+general.php?texto=
+general.php?thispage=
+general.php?tipo=
+general.php?to=
+general.php?type=
+general.php?var=
+general.php?w=
+general.php?where=
+general.php?xlink=
+getbook.php?bookid=
+GetItems.php?itemid=
+giftDetail.php?id=
+gig.php?id=
+global/product/product.php?gubun=
+global_projects.php?cid=
+gnu/?doc=
+goboard/front/board_view.php?code=
+goods_detail.php?data=
 haccess.ctl   (one way)
 haccess.ctl (one way)
 haccess.ctl (one way) 
 haccess.ctl (VERY reliable)
 haccess.ctl (VERY reliable) 
+hall.php?file=
+hall.php?page=
 hardware | software "migration" intitle:index.of ext:xls | xlsx | doc | docx | pdf
+Hassan Consulting's Shopping Cart Version 1.18
+head.php?*[*]*=
+head.php?abre=
+head.php?adresa=
+head.php?b=
+head.php?base_dir=
+head.php?c=
+head.php?choix=
+head.php?cmd=
+head.php?content=
+head.php?corpo=
+head.php?d=
+head.php?dir=
+head.php?disp=
+head.php?ev=
+head.php?filepath=
+head.php?g=
+head.php?goto=
+head.php?inc=
+head.php?incl=
+head.php?include=
+head.php?index=
+head.php?ir=
+head.php?ki=
+head.php?lang=
+head.php?left=
+head.php?load=
+head.php?loader=
+head.php?loc=
+head.php?middle=
+head.php?middlePart=
+head.php?mod=
+head.php?modo=
+head.php?module=
+head.php?numero=
+head.php?oldal=
+head.php?opcion=
+head.php?pag=
+head.php?pageweb=
+head.php?play=
+head.php?pname=
+head.php?pollname=
+head.php?read=
+head.php?ref=
+head.php?rub=
+head.php?sec=
+head.php?sekce=
+head.php?sivu=
+head.php?start=
+head.php?str=
+head.php?strona=
+head.php?tipo=
+head.php?viewpage=
+head.php?where=
+head.php?y=
+help.php?CartId=
+help.php?css_path=
+help/com_view.html?code=
+historialeer.php?num=
+HistoryStore/pages/item.php?itemID=
+hm/inside.php?id=
+home.php?a=
+home.php?action=
+home.php?addr=
+home.php?base_dir=
+home.php?basepath=
+home.php?body=
+home.php?cat=
+home.php?category=
+home.php?channel=
+home.php?chapter=
+home.php?choix=
+home.php?cmd=
+home.php?content=
+home.php?disp=
+home.php?doshow=
+home.php?e=
+home.php?ev=
+home.php?eval=
+home.php?g=
+home.php?h=
+home.php?ID=
+home.php?id=
+home.php?in=
+home.php?include=
+home.php?index=
+home.php?ir=
+home.php?itemnav=
+home.php?k=
+home.php?link=
+home.php?loader=
+home.php?loc=
+home.php?menu=
+home.php?middle=
+home.php?middlePart=
+home.php?module=
+home.php?my=
+home.php?oldal=
+home.php?opcion=
+home.php?pa=
+home.php?page=
+home.php?pageweb=
+home.php?pagina=
+home.php?panel=
+home.php?path=
+home.php?play=
+home.php?pollname=
+home.php?pr=
+home.php?pre=
+home.php?qry=
+home.php?read=
+home.php?recipe=
+home.php?redirect=
+home.php?ref=
+home.php?rub=
+home.php?sec=
+home.php?secao=
+home.php?section=
+home.php?seite=
+home.php?sekce=
+home.php?showpage=
+home.php?sp=
+home.php?str=
+home.php?thispage=
+home.php?tipo=
+home.php?w=
+home.php?where=
+home.php?x=
+home.php?z=
+homepage.php?sel=
+hosting_info.php?id=
 ht://Dig htsearch error
+html/print.php?sid=
+html/scoutnew.php?prodid=
+htmlpage.php?id=
+htmltonuke.php?filnavn=
 htpasswd
 htpasswd 
 htpasswd / htgroup
 htpasswd / htgroup 
 htpasswd / htpasswd.bak
 htpasswd / htpasswd.bak 
+humor.php?id=
+i-know/content.php?page=
+ibp.php?ISBN=
+ICQ chat logs, please...
+idlechat/message.php?id=
+ihm.php?p=
+IIS 4.0 error messages
+IIS web server error messages
 iletype:log   cron.log
 iletype:log cron.log
 iletype:log cron.log 
+IlohaMail"
 IlohaMail”
+impex/ImpExData.php?systempath=
+inc/cmses/aedating4CMS.php?dir[inc]=
+inc/cmses/aedating4CMS.php?dir[inc]= inurl:flashchat site:br bp_ncom.php?bnrep=
+inc/cmses/aedatingCMS.php?dir[inc]=
+inc/functions.inc.php?config[ppa_root_path]=
+inc/header.php/step_one.php?server_inc=
+inc/pipe.php?HCL_path=
+include.php?*[*]*=
+include.php?adresa=
+include.php?b=
+include.php?basepath=
+include.php?channel=
+include.php?chapter=
+include.php?cmd=
+include.php?cont=
+include.php?content=
+include.php?corpo=
+include.php?destino=
+include.php?dir=
+include.php?eval=
+include.php?filepath=
+include.php?go=
+include.php?goFile=
+include.php?goto=
+include.php?header=
+include.php?in=
+include.php?include=
+include.php?index=
+include.php?ir=
+include.php?ki=
+include.php?left=
+include.php?loader=
+include.php?loc=
+include.php?mid=
+include.php?middle=
+include.php?middlePart=
+include.php?module=
+include.php?my=
+include.php?name=
+include.php?nivel=
+include.php?numero=
+include.php?oldal=
+include.php?option=
+include.php?pag=
+include.php?pageweb=
+include.php?panel=
+include.php?path=
+include.php?phpbb_root_path=
+include.php?play=
+include.php?read=
+include.php?redirect=
+include.php?ref=
+include.php?sec=
+include.php?secao=
+include.php?seccion=
+include.php?second=
+include.php?sivu=
+include.php?tipo=
+include.php?to=
+include.php?u=
+include.php?url=
+include.php?w=
+include.php?x=
+include/editfunc.inc.php?NWCONF_SYSTEM[server_path]=
+include/new-visitor
+include/new-visitor.inc.php?lvc_include_dir=
+include/write.php?dir=
+includes/functions.php?phpbb_root_path=
+includes/header.php?systempath=
+includes/search.php?GlobalSettings[templatesDirectory]=
 Index of /.svn
 index of /ckeditor
 index of /etc/certs/
 index of /node_modules/ -github -stackoverflow
 index of kcfinder/
+Index of phpMyAdmin
 index of: intext:Gallery in Configuration mode
 index.of passlist
 index.of perform.ini mIRC IRC ini file can list IRC usernames and
 index.of.dcim 
 index.of.password 
+index.php/en/component/pvm/?view=
+index.php?=
+index.php?_REQUEST=&_REQUEST%5boption%5d=com_content&_REQUEST%5bItemid%5d=1&GLOBALS=&mosConfig_absolute_path=
+index.php?a=
+index.php?action=
+index.php?addr=
+index.php?adresa=
+index.php?area_id=
+index.php?arquivo=
+index.php?b=
+index.php?base_dir=
+index.php?basepath=
+index.php?body=
+index.php?book=
+index.php?c=
+index.php?canal=
+index.php?cart=
+index.php?cartID=
+index.php?cat=
+index.php?channel=
+index.php?chapter=
+index.php?cid=
+index.php?cmd=
+index.php?configFile=
+index.php?cont=
+index.php?content=
+index.php?conteudo=
+index.php?cPath=
+index.php?dept=
+index.php?disp=
+index.php?do=
+index.php?doc=
+index.php?dsp=
+index.php?ev=
+index.php?file=
+index.php?filepath=
+index.php?go=
+index.php?goto=
+index.php?i=
+index.php?ID=
+index.php?id=
+index.php?inc=
+index.php?incl=
+index.php?include=
+index.php?index=
+index.php?inhalt=
+index.php?j=
+index.php?kobr=
+index.php?l=
+index.php?lang=
+index.php?lang=gr&file
+index.php?langc=
+index.php?Language=
+index.php?lg=
+index.php?link=
+index.php?Load=
+index.php?load=
+index.php?loc=
+index.php?meio.php=
+index.php?meio=
+index.php?menu=
+index.php?menu=deti&page=
+index.php?mid=
+index.php?middlePart=
+index.php?mode=
+index.php?modo=
+index.php?module=
+index.php?modus=
+index.php?news=
+index.php?nic=
+index.php?offs=
+index.php?oldal=
+index.php?op=
+index.php?opcao=
+index.php?opcion=
+index.php?open=
+index.php?openfile=
+index.php?option=
+index.php?ort=
+index.php?p=
+index.php?pag=
+index.php?page=
+index.php?pageId=
+index.php?pageid=
+index.php?pagename=
+index.php?pageurl=
+index.php?pagina=
+index.php?param=
+index.php?path=
+index.php?pg=
+index.php?pg_t=
+index.php?pid=
+index.php?pilih=
+index.php?place=
+index.php?play=
+index.php?pname=
+index.php?pollname=
+index.php?pr=
+index.php?pre=
+index.php?pref=
+index.php?principal=
+index.php?r=
+index.php?rage=
+index.php?recipe=
+index.php?RP_PATH=
+index.php?screen=
+index.php?secao=
+index.php?section=
+index.php?sekce=
+index.php?sel=
+index.php?show=
+index.php?side=
+index.php?site=
+index.php?sivu=
+index.php?str=
+index.php?stranica=
+index.php?strona=
+index.php?sub=
+index.php?sub=index.php?id=index.php?t=
+index.php?t=
+index.php?template=
+index.php?tipo=
+index.php?to=
+index.php?topic=
+index.php?type=
+index.php?u=
+index.php?u=administrator/components/com_linkdirectory/toolbar.linkdirectory.html.php?mosConfig_absolute_path=
+index.php?url=
+index.php?var=
+index.php?visualizar=
+index.php?w=
+index.php?where=
+index.php?x=
+index.php?x= index.php?mode=index.php?stranica=
+index.php?y=
+index.phpmain.php?x=
+index0.php?show=
+index1.php?*[*]*=
+index1.php?*root*=
+index1.php?=
+index1.php?abre=
+index1.php?action=
+index1.php?adresa=
+index1.php?b=
+index1.php?body=
+index1.php?c=
+index1.php?chapter=
+index1.php?choix=
+index1.php?cmd=
+index1.php?d=
+index1.php?dat=
+index1.php?dir=
+index1.php?filepath=
+index1.php?get=
+index1.php?go=
+index1.php?goFile=
+index1.php?home=
+index1.php?incl=
+index1.php?itemnav=
+index1.php?l=
+index1.php?link=
+index1.php?load=
+index1.php?loc=
+index1.php?menu=
+index1.php?mod=
+index1.php?modo=
+index1.php?my=
+index1.php?nivel=
+index1.php?o=
+index1.php?oldal=
+index1.php?op=
+index1.php?OpenPage=
+index1.php?pa=
+index1.php?pagina=
+index1.php?param=
+index1.php?path=
+index1.php?pg=
+index1.php?pname=
+index1.php?pollname=
+index1.php?pr=
+index1.php?pre=
+index1.php?qry=
+index1.php?read=
+index1.php?recipe=
+index1.php?redirect=
+index1.php?second=
+index1.php?seite=
+index1.php?sekce=
+index1.php?showpage=
+index1.php?site=
+index1.php?str=
+index1.php?strona=
+index1.php?subject=
+index1.php?t=
+index1.php?texto=
+index1.php?tipo=
+index1.php?type=
+index1.php?url=
+index1.php?v=
+index1.php?var=
+index1.php?x=
+index2.php?action=
+index2.php?adresa=
+index2.php?ascii_seite=
+index2.php?base_dir=
+index2.php?basepath=
+index2.php?category=
+index2.php?channel=
+index2.php?chapter=
+index2.php?choix=
+index2.php?cmd=
+index2.php?content=
+index2.php?corpo=
+index2.php?d=
+index2.php?DoAction=
+index2.php?doshow=
+index2.php?e=
+index2.php?f=
+index2.php?filepath=
+index2.php?get=
+index2.php?goto=
+index2.php?home=
+index2.php?ID=
+index2.php?in=
+index2.php?inc=
+index2.php?incl=
+index2.php?include=
+index2.php?ir=
+index2.php?itemnav=
+index2.php?ki=
+index2.php?left=
+index2.php?link=
+index2.php?load=
+index2.php?loader=
+index2.php?loc=
+index2.php?module=
+index2.php?my=
+index2.php?oldal=
+index2.php?open=
+index2.php?OpenPage=
+index2.php?option=
+index2.php?p=
+index2.php?pa=
+index2.php?param=
+index2.php?pg=
+index2.php?phpbb_root_path=
+index2.php?pname=
+index2.php?pollname=
+index2.php?pre=
+index2.php?pref=
+index2.php?qry=
+index2.php?recipe=
+index2.php?redirect=
+index2.php?ref=
+index2.php?rub=
+index2.php?second=
+index2.php?section=
+index2.php?sekce=
+index2.php?showpage=
+index2.php?strona=
+index2.php?texto=
+index2.php?thispage=
+index2.php?to=
+index2.php?type=
+index2.php?u=
+index2.php?url_page=
+index2.php?var=
+index2.php?x=
+index3.php?abre=
+index3.php?addr=
+index3.php?adresa=
+index3.php?base_dir=
+index3.php?body=
+index3.php?channel=
+index3.php?chapter=
+index3.php?choix=
+index3.php?cmd=
+index3.php?d=
+index3.php?destino=
+index3.php?dir=
+index3.php?disp=
+index3.php?ev=
+index3.php?get=
+index3.php?go=
+index3.php?home=
+index3.php?inc=
+index3.php?include=
+index3.php?index=
+index3.php?ir=
+index3.php?itemnav=
+index3.php?left=
+index3.php?link=
+index3.php?loader=
+index3.php?menue=
+index3.php?mid=
+index3.php?middle=
+index3.php?mod=
+index3.php?my=
+index3.php?name=
+index3.php?nivel=
+index3.php?oldal=
+index3.php?open=
+index3.php?option=
+index3.php?p=
+index3.php?pag=
+index3.php?pageweb=
+index3.php?panel=
+index3.php?path=
+index3.php?phpbb_root_path=
+index3.php?pname=
+index3.php?pollname=
+index3.php?pre=
+index3.php?pref=
+index3.php?q=
+index3.php?read=
+index3.php?redirect=
+index3.php?ref=
+index3.php?rub=
+index3.php?secao=
+index3.php?secc=
+index3.php?seccion=
+index3.php?second=
+index3.php?sekce=
+index3.php?showpage=
+index3.php?sivu=
+index3.php?sp=
+index3.php?start=
+index3.php?t=
+index3.php?thispage=
+index3.php?tipo=
+index3.php?type=
+index3.php?url=
+index3.php?var=
+index3.php?x=
+index3.php?xlink=
+index_en.php?id=
+index_en.php?ref=
+index_principal.php?pagina=
+info.php?*[*]*=
+info.php?adresa=
+info.php?base_dir=
+info.php?body=
+info.php?c=
+info.php?chapter=
+info.php?content=
+info.php?doshow=
+info.php?ev=
+info.php?eval=
+info.php?f=
+info.php?filepath=
+info.php?go=
+info.php?header=
+info.php?home=
+info.php?ID=
+info.php?in=
+info.php?incl=
+info.php?ir=
+info.php?itemnav=
+info.php?j=
+info.php?ki=
+info.php?l=
+info.php?loader=
+info.php?menue=
+info.php?mid=
+info.php?middlePart=
+info.php?o=
+info.php?oldal=
+info.php?op=
+info.php?opcion=
+info.php?option=
+info.php?pageweb=
+info.php?pagina=
+info.php?param=
+info.php?phpbb_root_path=
+info.php?pname=
+info.php?pref=
+info.php?r=
+info.php?read=
+info.php?recipe=
+info.php?redirect=
+info.php?ref=
+info.php?rub=
+info.php?sec=
+info.php?secao=
+info.php?seccion=
+info.php?start=
+info.php?strona=
+info.php?subject=
+info.php?t=
+info.php?texto=
+info.php?url=
+info.php?var=
+info.php?xlink=
+info.php?z=
+install/index.php?lng=../../include/main.inc&G_PATH=
+Interior/productlist.php?id=
+interna/tiny_mce/plugins/ibrowser/ibrowser.php?tinyMCE_imglib_include=
+Internal Server Error
 intext:" - 2019 Cott Systems, Inc."
 intext:" -FrontPage-" ext:pwd inurl:(service | authors | administrators | users)
 intext:""BiTBOARD v2.0" BiTSHiFTERS Bulletin Board"
@@ -712,6 +2471,7 @@ intext:"Portador do CPF"
 intext:"PostgreSQL query failed: ERROR: parser: parse error"
 intext:"Powered by (Quantum | Quantum CMS | CMS)
 intext:"Powered by 74cms v5.0.1"
+intext:"Powered By : SE Software Technologies" filetype:php
 intext:"Powered by Abyss Web Server"
 intext:"Powered by GetSimple" -site:get-simple.info
 intext:"Powered by mnoGoSearch - free web search engine software"
@@ -741,6 +2501,7 @@ intext:"Running in Child mode"
 intext:"Select a database to view" intitle:"filemaker pro"
 intext:"series Network Configuration" AND intext:"canon"
 intext:"Session Start * * * *:*:* *" filetype:log
+intext:"Session Start Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive *:*:* *" filetype:log
 intext:"set up the administrator user" inurl:pivot
 intext:"sets   mode: +s"
 intext:"sets mode: +k"
@@ -797,6 +2558,7 @@ intext:"VHCS Pro ver" -demo
 intext:"VNC Desktop" inurl:5800
 intext:"Warning: * am able * write ** configuration file" "includes/configure.php" -
 intext:"Warning: Bad arguments to (join|implode) () in" "on line" -help -forum
+intext:"Warning: Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive am able Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive write Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive configuration file" "includes/configure.php" -
 intext:"Warning: Cannot modify header information - headers already sent"
 intext:"Warning: Division by zero in" "on line" -forum
 intext:"Warning: Failed opening" "on line" "include_path"
@@ -901,6 +2663,7 @@ intitle:"admin console" inurl:login site:"*.edu"|site:"*.gov"|site:"*.net" -site
 intitle:"Admin Login" "admin login" "blogware"
 intitle:"Admin login" "Web Site Administration" "Copyright"
 intitle:"admin panel" +"
+intitle:"admin panel" +"RedKernel"
 intitle:"ADSL Configuration page"
 intitle:"AlternC Desktop"
 intitle:"Apache Status" "Apache Server Status for"
@@ -931,6 +2694,7 @@ intitle:"Chorus 2 - Kodi web interface"
 intitle:"Cisco CallManager User Options Log On" "Please enter your User ID and Password in the spaces provided below and click the Log On button to co
 intitle:"ColdFusion Administrator Login"
 intitle:"communigate pro * *" intitle:"entrance"
+intitle:"communigate pro Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive *" intitle:"entrance"
 intitle:"Connection Status" intext:"Current login"
 intitle:"Content Management System" "user name"|"password"|"admin" "Microsoft IE 5.5" -mambo
 intitle:"Control Panel" + emailmarketer
@@ -959,8 +2723,10 @@ intitle:"Error using Hypernews" "Server Software"
 intitle:"EverFocus.EDSR.app<-b>let"
 intitle:"EverFocus.EDSR.applet"
 intitle:"Execution of this s?ri?t not permitted"
+intitle:"Execution of this script not permitted"
 intitle:"eXist Database Administration" -demo
 intitle:"EXTRANET * - Identification"
+intitle:"EXTRANET Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive - Identification"
 intitle:"EXTRANET login" -.edu -.mil -.gov
 intitle:"EZPartner" -netpond
 intitle:"FCKeditor - Connectors Tests"
@@ -1130,6 +2896,7 @@ intitle:"oracle bi publisher enterprise login"
 intitle:"Outlook Web Access" | "Outlook Web app" -office.com -youtube.com -microsoft.com
 intitle:"partners login"
 intitle:"Philex 0.2*" -s?ri?t -site:freelists.org
+intitle:"Philex 0.2*" -script -site:freelists.org
 intitle:"PHP   Advanced Transfer" (inurl:index.php | inurl:showrecent.php )
 intitle:"PHP Advanced Transfer" (inurl:index.php | inurl:showrecent.php )
 intitle:"PHP Advanced Transfer" inurl:"login.php"
@@ -1172,10 +2939,12 @@ intitle:"Sucuri WebSite Firewall - Access Denied"
 intitle:"Supero Doctor III" -inurl:supermicro
 intitle:"supervisioncam protocol"
 intitle:"SuSE Linux Openexchange Server" "Please activate Javas?ri?t!"
+intitle:"SuSE Linux Openexchange Server" "Please activate JavaScript!"
 intitle:"Swagger UI - " + "Show/Hide"
 intitle:"switch login" "IBM Fast Ethernet Desktop"
 intitle:"SWW link" "Please wait....."
 intitle:"sysinfo * " intext:"Generated by Sysinfo * written by The Gamblers."
+intitle:"sysinfo Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive " intext:"Generated by Sysinfo Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive written by The Gamblers."
 intitle:"System Statistics" +"System and Network   Information Center"
 intitle:"System Statistics" +"System and Network Information Center"
 intitle:"teamspeak server-administration
@@ -1366,6 +3135,7 @@ intitle:liveapplet
 intitle:livezilla "Server Time"
 intitle:login "recruiter" | "employer" | "candidate"
 intitle:Login * Webmailer
+intitle:Login Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive Webmailer
 intitle:Login intext:"RT is ? Copyright"
 intitle:Login intext:”RT is ? Copyright”
 intitle:Login inurl:login.php intext:admin/admin
@@ -1376,6 +3146,7 @@ intitle:mywebftp \"Please enter your password\"
 intitle:Node.List Win32.Version.3.11
 intitle:Novell intitle:WebAccess "Copyright &# Novell, Inc"
 intitle:Novell intitle:WebAccess "Copyright *-* Novell, Inc"
+intitle:Novell intitle:WebAccess "Copyright nuclei-templates Novell, Inc"
 intitle:Novell intitle:WebAccess “Copyright *-* Novell, Inc”
 intitle:OmniDB intext:"user. pwd. Sign in."
 intitle:open-xchange inurl:login.pl
@@ -1387,6 +3158,7 @@ intitle:osCommerce inurl:admin intext:”redistributable under the GNU” intext
 intitle:Ovislink inurl:private/login
 intitle:phpinfo "PHP Version"
 intitle:phpMyAdmin "Welcome to phpMyAdmin ***" "running on * as root@*"
+intitle:phpMyAdmin "Welcome to phpMyAdmin ***" "running on Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive as root@*"
 intitle:phpMyAdmin “Welcome to phpMyAdmin ***” “running on * as root@*”
 intitle:phpnews.login
 intitle:plesk inurl:login.php3
@@ -1706,6 +3478,21 @@ inurl:"GRC.DAT" intext:"password"
 inurl:"gs/adminlogin.aspx"
 inurl:"help.asp?CartId="
 inurl:"home.asp?id="
+inurl:"id=" & intext:"Warning: array_merge()
+inurl:"id=" & intext:"Warning: filesize()
+inurl:"id=" & intext:"Warning: getimagesize()
+inurl:"id=" & intext:"Warning: ilesize()
+inurl:"id=" & intext:"Warning: is_writable()
+inurl:"id=" & intext:"Warning: mysql_fetch_array()
+inurl:"id=" & intext:"Warning: mysql_fetch_assoc()
+inurl:"id=" & intext:"Warning: mysql_num_rows()
+inurl:"id=" & intext:"Warning: mysql_query()
+inurl:"id=" & intext:"Warning: mysql_result()
+inurl:"id=" & intext:"Warning: pg_exec()
+inurl:"id=" & intext:"Warning: preg_match()
+inurl:"id=" & intext:"Warning: require()
+inurl:"id=" & intext:"Warning: session_start()
+inurl:"id=" & intext:"Warning: Unknown()
 inurl:"id=*" &amp; intext:"warning mysql_fetch_array()"
 inurl:"index.asp?cart="
 inurl:"index.asp?cartID="
@@ -1942,6 +3729,7 @@ inurl:+union+select+ pass
 inurl:+union+select+ SHOP
 inurl:..//drivers/etc/ intitle:index of
 inurl:.htpasswd
+inurl:/*.php?id=
 inurl:/.well-known/security.txt
 inurl:/?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000 | inurl:/?=PHPE9568F35-D428-11d2-A769-00AA001ACF42
 inurl:/[Only Registered Users Can See Links] 
@@ -1956,6 +3744,7 @@ inurl:/addpost_newpoll.php?addpoll=preview&thispath=
 inurl:/adfs/services/trust
 inurl:/adm-cfgedit.php
 inurl:/admin intitle:Pulse.CMS -pulsecms.com
+inurl:/admin/login.asp
 inurl:/admin_modules/admin_module_deldir.inc.php?config[path_src_include]=
 inurl:/administrator/components/com_serverstat/install.serverstat.php?mosConfig_absolute_path=
 inurl:/administrator/components/com_uhp/uhp_config.php?mosConfig_absolute_path=
@@ -1963,6 +3752,7 @@ inurl:/agendax/addevent.inc.php?agendax_path=
 inurl:/allmylinks/include/footer.inc.php?_AMLconfig[cfg_serverpath]=
 inurl:/allmylinks/include/info.inc.php?_AMVconfig[cfg_serverpath]=
 inurl:/app/common/lib/codeBeautifier/Beautifier/Core.php?BEAUT_PATH=
+inurl:/articles.php?id=
 inurl:/ashheadlines.php?pathtoashnews=
 inurl:/ashnews.php?pathtoashnews=
 inurl:/b2-tools/gm-2-b2.php?b2inc=
@@ -1970,6 +3760,8 @@ inurl:/banking.jsp?fldsegment=
 inurl:/bb_lib/checkdb.inc.php?libpach=
 inurl:/becommunity/community/index.php?pageurl=
 inurl:/bz/squito/photolist.inc.php?photoroot=
+inurl:/calendar.php?token=
+inurl:/careers-detail.asp?id=
 inurl:/certsrv/certrqus.asp
 inurl:/CFIDE/administrator/index.cfm | inurl:/CFIDE/componentutils/login.cfm | inurl:/CFIDE/main/ide.cfm | inurl:/CFIDE/wizards/
 inurl:/cgi-bin/axs.cgi
@@ -2118,6 +3910,8 @@ inurl:/classified_right.php?language_dir=
 inurl:/clusters intitle:"kafka Manager"
 inurl:/CMSPages/logon ext:aspx
 inurl:/coin_includes/constants.php?_CCFG[_PKG_PATH_INCL]=
+inurl:/CollectionContent.asp?id=
+inurl:/commodities.php?*id=
 inurl:/components/com_cpg/cpg.php?mosConfig_absolute_path=
 inurl:/components/com_extended_registration/registration_detailed.inc.php?mosConfig_absolute_path=
 inurl:/components/com_facileforms/facileforms.frame.php?ff_compath=
@@ -2128,6 +3922,7 @@ inurl:/components/com_zoom/includes/database.php?mosConfig_absolute_path=
 inurl:/config/authentication_page.htm
 inurl:/config/device/wcd
 inurl:/contao/main ext:php -community -github
+inurl:/Content.asp?id=
 inurl:/content.php?page=
 inurl:/contrib/yabbse/poc.php?poc_root_path=
 inurl:/cool-logs/mlog.html
@@ -2143,25 +3938,35 @@ inurl:/db.php?path_local=
 inurl:/db/main.mdb
 inurl:/db/main.mdb 
 inurl:/dbcp.properties + filetype:properties -github.com
+inurl:/default.php?id=
 inurl:/default.php?page=
+inurl:/default.php?portalID=
 inurl:/demo/includes/init.php?user_inc=
 inurl:/derniers_commentaires.php?rep=
+inurl:/Details.asp?id=
+inurl:/details.php?linkid=
 inurl:/domcfg.nsf
 inurl:/domlog.nsf
+inurl:/dosearch.asp?
 inurl:/e107/e107_handlers/secure_img_render.php?p=
 inurl:/eblog/blog.inc.php?xoopsConfig[xoops_url]=
 inurl:/embed/day.php?path=
 inurl:/eprise/
 inurl:/es/index.php?action=
+inurl:/eventdetails.php?*=
 inurl:/extensions/moblog/moblog_lib.php?basedir=
 inurl:/fantastico_fileslist.txt + ext:txt
+inurl:/filedown.php?file=
 inurl:/files/_log/ filetype:log
 inurl:/files/contao
 inurl:/forum/install.php?phpbb_root_dir=
 inurl:/frontend/paper_lantern/index.html
 inurl:/functions.php?include_path=
 inurl:/FxCodeShell.jsp/ "Login Form" "Blog Comments"
+inurl:/gallery.asp?cid=
 inurl:/Gallery/displayCategory.php?basepath=
+inurl:/games.php?id= "Powered by PHPD Game Edition"
+inurl:/gmap.php?id=
 inurl:/gnu/index.php?doc=
 inurl:/gnu3/index.php?doc=
 inurl:/GradeMap/index.php?page=
@@ -2188,6 +3993,7 @@ inurl:/iisadmpwd/anot3.htr
 inurl:/iissamples/exair/howitworks/codebrws.asp
 inurl:/iissamples/sdk/asp/docs/codebrws.asp
 inurl:/iisstart.htm intitle:"IIS7"
+inurl:/imprimir.php?id=
 inurl:/INALogin.jsp
 inurl:/inc/authform.inc.php?path_pre=
 inurl:/inc/pipe.php?HCL_path=
@@ -2230,6 +4036,8 @@ inurl:/index.php?open=
 inurl:/index.php?page=
 inurl:/index.php?pagina=
 inurl:/index.php?pg=
+inurl:/index.php?pgId=
+inurl:/index.php?PID= "Powered By Dew-NewPHPLinks v.2.1b"
 inurl:/index.php?sec=
 inurl:/index.php?show=
 inurl:/index.php?site=
@@ -2251,6 +4059,7 @@ inurl:/jaf/index.php?show=
 inurl:/jscript.php?my_ms[root]=
 inurl:/library/editor/editor.php?root=
 inurl:/library/lib.php?root=
+inurl:/list_blogs.php?sort_mode=
 inurl:/live-support/inc/pipe.php?HCL_path=
 inurl:/livehelp/inc/pipe.php?HCL_path=
 inurl:/log.nsf
@@ -2285,6 +4094,7 @@ inurl:/modules/vwar/admin/admin.php?vwar_root=
 inurl:/modules/vwar/admin/admin.php?vwar_root=index.php?loc=
 inurl:/modules/xgallery/upgrade_album.php?GALLERY_BASEDIR=
 inurl:/modules/xoopsgallery/upgrade_album.php?GALLERY_BASEDIR=
+inurl:/mpfn=pdview&id=
 inurl:/msadc/msadcs.dll
 inurl:/msadc/samples/adctest.asp
 inurl:/msadc/Samples/SELECTOR/codebrws.cfm
@@ -2293,7 +4103,10 @@ inurl:/msads/samples/selector/showcode.asp
 inurl:/munin/localdomain/localhost.localdomain/open_files.html
 inurl:/myPHPCalendar/admin.php?cal_dir=
 inurl:/names.nsf
+inurl:/news.php?include=
+inurl:/notizia.php?idArt=
 inurl:/openwebmail/cgi-bin/openwebmail/etc/
+inurl:/os_view_full.php?
 inurl:/page.php?view=
 inurl:/pages/default.aspx | inurl:/páginas/default.aspx
 inurl:/passwd
@@ -2318,9 +4131,13 @@ inurl:/portal/apis/fileExplorer/
 inurl:/Portal/Portal.mwsl?PriNav=FileBrowser
 inurl:/ppa/inc/functions.inc.php?config[ppa_root_path]=
 inurl:/proc/tty/ index of
+inurl:/prodotti.php?id=
 inurl:/pub/ inurl:_ri_
+inurl:/publications.asp?type=
 inurl:/publisher/
 inurl:/pwm/public/
+inurl:/recipe-view.php?id=
+inurl:/reservations.php?id=
 inurl:/sample/LvAppl/lvappl.htm
 inurl:/samples/search/queryhit.htm
 inurl:/sap/bc/bsp
@@ -2356,6 +4173,7 @@ inurl:/secure/.wwwacl
 inurl:/server-status + "Server MPM:"
 inurl:/session/adminlogin
 inurl:/setup.cgi@next_file=
+inurl:/shared/help.php?page=
 inurl:/shoutbox/expanded.php?conf=
 inurl:/showfile.asp
 inurl:/side/index.php?side=
@@ -2375,6 +4193,7 @@ inurl:/ssi/envout.bat
 inurl:/support/faq/inc/pipe.php?HCL_path=
 inurl:/surveys/survey.inc.php?path=
 inurl:/SUSAdmin intitle:"Microsoft Software upd?t? Services"
+inurl:/SUSAdmin intitle:"Microsoft Software Update Services"
 inurl:/SUSAdmin intitle:”Microsoft Software upd?t? Services”
 inurl:/tags.php?BBCodeFile=
 inurl:/temp_eg/phpgwapi/setup/tables_update.inc.php?appdir=
@@ -2390,9 +4209,12 @@ inurl:/typo3/typo3conf
 inurl:/uploads/affwp-debug.log
 inurl:/uploads/wc-logs/
 inurl:/usersignin?
+inurl:/view/lang/index.php?page=?page=
+inurl:/viewfaqs.php?cat=
 inurl:/web-console/ServerInfo.jsp | inurl:/status?full=true
 inurl:/webedit.* intext:WebEdit Professional -html
 inurl:/WebSTAR
+inurl:/WhatNew.asp?page=&id=
 inurl:/wp-content/ai1wm-backups + wpress
 inurl:/wp-content/uploads/wp-backup-plus/
 inurl:/wp-includes/certificates/
@@ -2442,6 +4264,8 @@ inurl:aboutbook.php?id=
 inurl:access
 inurl:access.log
 inurl:acid_main.php
+inurl:act=
+inurl:action=
 inurl:ad.cgi
 inurl:adcycle
 inurl:add.exe
@@ -2476,12 +4300,14 @@ inurl:administrators.pwd
 inurl:adpassword.txt
 inurl:ages.php?id=
 inurl:aglimpse
+inurl:ajax.php?page=
 inurl:akocomments.php?mosConfig_absolute_path=
 inurl:al_initialize.php?alpath=
 inurl:allmanage.pl
 inurl:amadmin.pl
 inurl:announce.php?id=
 inurl:aol*/_do/rss_popup?blogID=
+inurl:API_HOME_DIR=
 inurl:apspassword
 inurl:art.php?idm=
 inurl:article.php?ID=
@@ -2623,6 +4449,7 @@ inurl:blank.php?where=
 inurl:blank.php?xlink=
 inurl:blank.php?z=
 inurl:bnbform.cgi
+inurl:board=
 inurl:bp_ncom.php?bnrep=
 inurl:browser.inc
 inurl:build.cgi
@@ -2633,6 +4460,7 @@ inurl:cached_feed.cgi
 inurl:cachemgr.cgi
 inurl:campas
 inurl:cart32.exe
+inurl:cat=
 inurl:category.php?id=
 inurl:ccbill filetype:log
 inurl:ccbill filetype:log 
@@ -2660,8 +4488,10 @@ inurl:clanek.php4?id=
 inurl:classes/adodbt/sql.php?classes_dir=
 inurl:classifieds.cgi
 inurl:click.php intext:PHPClickLog 
+inurl:client_id=
 inurl:cloud_main.asp
 inurl:clubpage.php?id=
+inurl:cmd=
 inurl:collectionitem.php?id=
 inurl:common.php
 inurl:communique_detail.php?id=
@@ -2684,6 +4514,7 @@ inurl:config.php?_CCFG[_PKG_PATH_DBSE]=
 inurl:configuration.php and intext:"var $password="
 inurl:confixx inurl:login|anmeldung
 inurl:ConnectComputer/precheck.htm | inurl:Remote/logon.aspx 
+inurl:cont=
 inurl:contenido.php?sec=
 inurl:content.php?page=
 inurl:control/camerainfo
@@ -2697,9 +4528,11 @@ inurl:CrazyWWWBoard.cgi intext:"detailed debugging information"
 inurl:CrazyWWWBoard.cgi intext:”detailed debugging information”
 inurl:csCreatePro.cgi
 inurl:ctl/Login/Default.aspx
+inurl:current_frame=
 inurl:curriculum.php?id=
 inurl:cvsweb.cgi
 inurl:data
+inurl:date=
 inurl:db.cgi
 inurl:db.php?path_local=
 inurl:dbconnect.inc
@@ -2784,6 +4617,9 @@ inurl:default.php?x=
 inurl:default.php?y=
 inurl:department intext:"hardware inventory" firewall router ext:(doc | pdf | xls| psw | ppt | pps | xml | txt | ps | rtf | odt | sxw )
 inurl:detail.php?ID=
+inurl:detail=
+inurl:dir=
+inurl:display=
 inurl:dnn.js
 inurl:down*.php?action=
 inurl:down*.php?addr=
@@ -2840,6 +4676,7 @@ inurl:down*.php?x=
 inurl:down*.php?z=
 inurl:download
 inurl:download.php?id=
+inurl:download=
 inurl:downloads_info.php?id=
 inurl:ds.py
 inurl:ds.py 
@@ -2920,6 +4757,7 @@ inurl:event.php?id=
 inurl:exchweb/bin/auth/owalogon.asp
 inurl:explorer.cfm inurldirpath|This_Directory) 
 inurl:F5Networks-SSO-Req?
+inurl:f=
 inurl:faq2.php?id=
 inurl:faxsurvey
 inurl:fcgi-bin/echo
@@ -2981,12 +4819,16 @@ inurl:file.php?var=
 inurl:file.php?viewpage=
 inurl:file.php?where=
 inurl:file.php?y=
+inurl:file=
 inurl:filebrowser.wcgp?subDir Communigate
+inurl:fileinclude=
 inurl:filemail.pl
+inurl:filename=
 inurl:files.pl
 inurl:filezilla.xml -cvs
 inurl:filezilla.xml -cvs 
 inurl:finger
+inurl:firm_id=
 inurl:fisheye AND inurl:changelog -site:atlassian.com -site:github.com -intext:"Log in to FishEye"
 inurl:folder.php?id=
 inurl:footer.inc.php
@@ -3000,6 +4842,7 @@ inurl:forward   filetype:forward -cvs
 inurl:forward filetype:forward -cvs
 inurl:forward filetype:forward -cvs 
 inurl:fpcount.exe
+inurl:g=
 inurl:galeri_info.php?l=
 inurl:gallery.php?*[*]*=
 inurl:gallery.php?abre=
@@ -3131,6 +4974,7 @@ inurl:general.php?var=
 inurl:general.php?w=
 inurl:general.php?where=
 inurl:general.php?xlink=
+inurl:getdata=
 inurl:getFile.cfm
 inurl:getmsg.html intitle:hotmail
 inurl:getmsg.html intitle:hotmail 
@@ -3139,6 +4983,7 @@ inurl:glimpse
 inurl:global.cgi
 inurl:global.inc
 inurl:gnatsweb.pl
+inurl:go=
 inurl:guestbook.cgi
 inurl:guestbook.pl
 inurl:hall.php?file=
@@ -3272,6 +5117,7 @@ inurl:home.tcl intitle:gaia
 inurl:homepage.php?sel=
 inurl:hosting_info.php?id=
 inurl:hp/device/this.LCDispatcher
+inurl:HT=
 inurl:htgrep
 inurl:htimage.exe
 inurl:html
@@ -3280,6 +5126,7 @@ inurl:htmltonuke.php?filnavn=
 inurl:htpasswd filetype:htpasswd
 inurl:htsearch
 inurl:humor.php?id=
+inurl:idd=
 inurl:ids5web
 inurl:ihm.php?p=
 inurl:iisadmin
@@ -3292,6 +5139,9 @@ inurl:inc/cmses/aedatingCMS.php?dir[inc]=
 inurl:inc/functions.inc.php?config[ppa_root_path]=
 inurl:inc/header.php/step_one.php?server_inc=
 inurl:inc/pipe.php?HCL_path=
+inurl:inc=
+inurl:incfile=
+inurl:incl=
 inurl:include.php?*[*]*=
 inurl:include.php?adresa=
 inurl:include.php?b=
@@ -3351,10 +5201,13 @@ inurl:include.php?x=
 inurl:include/editfunc.inc.php?NWCONF_SYSTEM[server_path]=
 inurl:include/new-visitor.inc.php?lvc_include_dir=
 inurl:include/write.php?dir=
+inurl:include_file=
+inurl:include_path=
 inurl:includes/functions.php?phpbb_root_path=
 inurl:includes/header.php?systempath=
 inurl:includes/search.php?GlobalSettings[templatesDirectory]=
 inurl:index.cfm
+inurl:index.cgi?aktion=shopview
 inurl:index.html.bak
 inurl:index.html~
 inurl:index.jsp
@@ -3687,6 +5540,8 @@ inurl:index3.php?var=
 inurl:index3.php?x=
 inurl:index3.php?xlink=
 inurl:index_principal.php?pagina=
+inurl:indexFrame.shtml Axis
+inurl:infile=
 inurl:info
 inurl:info.inc.php
 inurl:info.php?*[*]*=
@@ -3745,12 +5600,14 @@ inurl:info.php?var=
 inurl:info.php?xlink=
 inurl:info.php?z=
 inurl:info2www
+inurl:info=
 inurl:infosrch.cgi
 inurl:infoviewapp
 inurl:iniziativa.php?in=
 inurl:install/index.php?lng=../../include/main.inc&G_PATH=
 inurl:interna/tiny_mce/plugins/ibrowser/ibrowser.php?tinyMCE_imglib_include=
 inurl:intranet/login login
+inurl:ir=
 inurl:irc filetype:cgi cgi:irc
 inurl:item_id=
 inurl:jee/examples/jsp 
@@ -3759,6 +5616,8 @@ inurl:jpegpull.htm
 inurl:jsmol.php
 inurl:kategorie.php4?id=
 inurl:labels.php?id=
+inurl:lang=
+inurl:language=
 inurl:layout.php?abre=
 inurl:layout.php?action=
 inurl:layout.php?addr=
@@ -3809,8 +5668,10 @@ inurl:lib/gore.php?libpath=
 inurl:lighttpd.conf lighttpd site:github.com
 inurl:lilo.conf filetype:conf password -tatercounter -bootpwd -man 
 inurl:lilo.conf filetype:conf password -tatercounter2000 -bootpwd -man
+inurl:link=
 inurl:list
 inurl:liveapplet
+inurl:load=
 inurl:loadpsb.php?id=
 inurl:log.htm
 inurl:log.html
@@ -3911,6 +5772,8 @@ inurl:main.php?v=
 inurl:main.php?where=
 inurl:main.php?x=
 inurl:main.php?xlink=
+inurl:main=
+inurl:mainspot=
 inurl:man.sh
 inurl:ManyServers.htm
 inurl:material.php?id=
@@ -3979,6 +5842,7 @@ inurl:modules/coppermine/themes/coppercop/theme.php?THEME_DIR=
 inurl:modules/My_eGallery/index.php?basepath=
 inurl:modules/vwar/admin/admin.php?vwar_root=
 inurl:msadcs.dll
+inurl:msg=
 inurl:mwchat/libs/start_lobby.php?CONFIG[MWCHAT_Libs]=
 inurl:myevent.php?myevent_path=
 inurl:mysql.class
@@ -4074,6 +5938,7 @@ inurl:noticias.php?arq=
 inurl:nph-test-cgi
 inurl:nuke filetype:sql
 inurl:nuke filetype:sql 
+inurl:num=
 inurl:ocw_login_username
 inurl:odbc.ini ext:ini -cvs
 inurl:offer.php?idf=
@@ -4081,6 +5946,7 @@ inurl:office365 AND intitle:"Sign In | Login | Portal"
 inurl:ogl_inet.php?ogl_id=
 inurl:old "index of" "wp-config.php"
 inurl:old_reports.php?file=
+inurl:openfile=
 inurl:opinions.php?id=
 inurl:orasso.wwsso_app_admin.ls_login
 inurl:oraweb -site:oraweb.org
@@ -4088,6 +5954,7 @@ inurl:order
 inurl:OrganizationChart.cc
 inurl:ospfd.conf intext:password -sample -test -tutorial -download
 inurl:ovcgi/jovw
+inurl:p=
 inurl:padrao.php?*[*]*=
 inurl:padrao.php?*root*=
 inurl:padrao.php?a=
@@ -4206,6 +6073,7 @@ inurl:page.php?tipo=
 inurl:page.php?url=
 inurl:page.php?where=
 inurl:page.php?z=
+inurl:page=
 inurl:Pageid=
 inurl:pageid=
 inurl:pages
@@ -4271,6 +6139,7 @@ inurl:pagina.php?type=
 inurl:pagina.php?u=
 inurl:pagina.php?v=
 inurl:pagina.php?z=
+inurl:pagina=
 inurl:pap-secrets -cvs
 inurl:participant.php?id=
 inurl:pass.dat
@@ -4336,6 +6205,8 @@ inurl:path.php?var=
 inurl:path.php?where=
 inurl:path.php?xlink=
 inurl:path.php?y=
+inurl:path=
+inurl:path_to_calendar=
 inurl:pbserver.dll
 inurl:perform filetype:ini
 inurl:perform.ini filetype:ini
@@ -4344,6 +6215,7 @@ inurl:perl.exe
 inurl:perl/printenv
 inurl:perlshop.cgi
 inurl:person.php?id=
+inurl:pg=
 inurl:phf
 inurl:php
 inurl:php inurl:hlstats intext: Half-life statistics file, lists username and
@@ -4556,6 +6428,7 @@ inurl:prod_detail.php?id=
 inurl:prod_info.php?id=
 inurl:product-item.php?id=
 inurl:product.php?id=
+inurl:product.php?mid=
 inurl:product_ranges_view.php?ID=
 inurl:productdetail.php?id=
 inurl:productinfo.php?id=
@@ -4571,8 +6444,10 @@ inurl:public.php inurl:service ext:php
 inurl:publications.php?id=
 inurl:publisher
 inurl:pwd.dat
+inurl:qry_str=
 inurl:query
 inurl:ray.php?id=
+inurl:read.php?=
 inurl:read.php?id=
 inurl:readme.md intext:"Laravel"
 inurl:readme.rst intext:"CodeIgniter"
@@ -4597,8 +6472,10 @@ inurl:rpSys.html
 inurl:rub.php?idr=
 inurl:rubp.php?idr=
 inurl:rubrika.php?idr=
+inurl:ruta=
 inurl:rvsindex.php & /rvsindex.php?/user/login
 inurl:rvsindex.php &amp; /rvsindex.php?/user/login
+inurl:safehtml=
 inurl:scanned & documents intitle:"index of" IT
 inurl:search
 inurl:search.php vbulletin
@@ -4609,6 +6486,7 @@ inurl:search/admin.php
 inurl:secring ext:skr | ext:pgp | ext:bak
 inurl:secring ext:skr | extgp | ext:bak 
 inurl:section.php?id=
+inurl:section=
 inurl:secure/dashboard jspa
 inurl:select_biblio.php?id=
 inurl:sem.php3?id=
@@ -4699,10 +6577,13 @@ inurl:show.php?z=
 inurl:show_an.php?id=
 inurl:show_news.php?cutepath=
 inurl:showcode.asp
+inurl:showfile=
 inurl:showimg.php?id=
 inurl:shredder-categories.php?id=
 inurl:shtml.dll
 inurl:shtml.exe
+inurl:side=
+inurl:site_id=
 inurl:sitio.php?*root*=
 inurl:sitio.php?abre=
 inurl:sitio.php?addr=
@@ -4754,6 +6635,7 @@ inurl:sitio.php?strona=
 inurl:sitio.php?t=
 inurl:sitio.php?texto=
 inurl:sitio.php?tipo=
+inurl:skin=
 inurl:skins/advanced/advanced1.php?pluginpath[0]=
 inurl:smarty_config.php?root_dir=
 inurl:snitz_forums_.mdb 
@@ -4885,13 +6767,16 @@ inurl:start.php?tipo=
 inurl:start.php?where=
 inurl:start.php?xlink=
 inurl:stat.htm
+inurl:static=
 inurl:statrep.nsf -gov
 inurl:stats.htm
 inurl:stats.html
 inurl:stats.txt
 inurl:status.cgi?host=all
 inurl:story.php?id=
+inurl:str=
 inurl:Stray-Questions-View.php?num=
+inurl:strona=
 inurl:sub*.php?*[*]*=
 inurl:sub*.php?*root*=
 inurl:sub*.php?abre=
@@ -4958,6 +6843,7 @@ inurl:sub*.php?u=
 inurl:sub*.php?viewpage=
 inurl:sub*.php?where=
 inurl:sub*.php?z=
+inurl:sub=
 inurl:submit.cgi
 inurl:subscribe.pl
 inurl:support
@@ -5038,10 +6924,13 @@ inurl:tradeCategory.php?id=
 inurl:trainers.php?id=
 inurl:transcript.php?id=
 inurl:travis.yml tornado site:github.com
+inurl:tresc=
 inurl:typo3conf/l10n/
 inurl:ultraboard.cgi
 inurl:upload.asp
+inurl:url=
 inurl:user
+inurl:user=
 inurl:user_guide intext:"CodeIgniter User Guide"
 inurl:userlist
 inurl:users.json + "username"
@@ -5106,6 +6995,7 @@ inurl:view.php?where=
 inurl:view/index.shtml
 inurl:view/indexFrame.shtml
 inurl:view/view.shtml
+inurl:view_ad.php?id=
 inurl:view_faq.php?id=
 inurl:view_product.php?id=
 inurl:viewapp.php?id=
@@ -5135,6 +7025,7 @@ inurl:websendmail
 inurl:website.php?id=
 inurl:webutil.pl
 inurl:webvpn.html "login" "Please enter your"
+inurl:webvpn.html "login" "Please enter your" Login ("admin account info") filetype:log
 inurl:webvpn.html “login” “Please enter your”
 inurl:wl.exe inurl:?SS1= intext:"Operating system:" -edu -gov -mil
 inurl:wls-wsat intext:"weblogic.wsee.wstx.wsat"
@@ -5151,6 +7042,7 @@ inurl:wwwboard.pl
 inurl:wwwstats.html
 inurl:XcCDONTS.asp
 inurl:YaBB.pl
+inurl:yapboz_detay.asp
 inurl:yapboz_detay.asp + View Webcam User Accessing
 inurl:zebra.conf intext:password -sample -test -tutorial -download
 inurl:zebra.conf intextassword -sample -test -tutorial -download 
@@ -5396,1983 +7288,6 @@ inurl:”vsadmin/login” | inurl:”vsadmin/admin” inurl:.php|.asp
 inurl:”wallpaper.php?id=”
 inurl:”wvdial.conf” intext:”password”Inurl:.co.ke filetype:pdf
 inurl="/uddiexplorer/SetupUDDIExplorer.jsp"
-jmeter.log filetype:log
-nd=m_fundraising_detail "login here"
-Powered.by.RaidenHTTPD intitle:index.of
-s3 site:amazonaws.com filetype:sql
-s3 site:amazonaws.com filetype:xls login
-s3 site:amazonaws.com filetype:xls password
-site:*/server-status intext:"Apache server status for"
-site:azurewebsites.net inurl:.gov | .mil | .edu
-site:com inurl:b2blogin ext:cfm | jsp | php | aspx
-site:com inurl:jboss filetype:log -github.com
-site:connect.garmin.com inurl:"/modern/activity/"
-site:connect.garmin.com inurl:"/modern/profile/"
-site:drive.google.com /preview intext:movie inurl:flv | wmv | mp4 -pdf -edit -view
-site:ftp.*.com "Web File Manager"
-site:global.gotomeeting.com inurl:recording
-site:mil ext:cfm inurl:login.cfm
-site:pastebin.com "rcon_password"
-site:showmyhomework.co.uk/school/homeworks/ "password"
-site:trello.com intext:mysql AND intext:password -site:developers.trello.com -site:help.trello.com
-site:www.openbugbounty.org + intext:"Open Redirect" + intext:"Unpatched"
-swiftmailer intitle:"index of" "smtp.yml" | "smtp.xml"
-type:mil inurl:ftp ext:pdf | ps
-username | password inurl:resources/application.properties -github.com -gitlab
-XAMPP "inurl:xampp/index"
-yaws.*.server.at
-!Host=*.* intext:enc_UserPassword=* ext:pcf
-" -FrontPage-" ext:pwd inurl:(service | authors | administrators | users)
-"# -FrontPage-" ext:pwd inurl:(service | authors | administrators | users) "# -FrontPage-" inurl:service.pwd
-"#mysql dump" filetype:sql
-"#mysql dump" filetype:sql 21232f297a57a5a743894a0e4a801fc3
-": vBulletin Version 1.1.5"
-"A syntax error has occurred" filetype:ihtml
-"ASP.NET_SessionId" "data source="
-"About Mac OS Personal Web Sharing"
-"An illegal character has been found in the statement" -"previous message"
-"AutoCreate=TRUE password=*"
-"Can't connect to local" intitle:warning
-"Certificate Practice Statement" inurl:(PDF | DOC)
-"Chatologica MetaSearch" "stack tracking"
-"Chatologica MetaSearch" "stack tracking:"
-"DUpaypal" -site:duware.com
-"Duclassified" -site:duware.com "DUware All Rights reserved"
-"Dudirectory" -site:duware.com
-"Dumping data for table"
-"Elite Forum Version *.*"
-"Emergisoft web applications are a part of our"
-"Error Diagnostic Information" intitle:"Error Occurred While"
-"Establishing a secure Integrated Lights Out session with" OR intitle:"Data Frame - Browser not HTTP 1.1 compatible" OR intitle:"HP Integrated Lights-
-"Fatal error: Call to undefined function" -reply -the -next
-"HTTP_FROM=googlebot" googlebot.com "Server_Software="
-"Host Vulnerability Summary Report"
-"HostingAccelerator" intitle:"login" +"Username" -"news" -demo
-"IMail Server Web Messaging" intitle:login
-"Incorrect syntax near"
-"Index Of /network" "last modified"
-"Index of /" +.htaccess
-"Index of /" +passwd
-"Index of /" +password.txt
-"Index of /admin"
-"Index of /backup"
-"Index of /mail"
-"Index of /password"
-"Index of" / "chat/logs"
-"Installed Objects Scanner" inurl:default.asp
-"Internal Server Error" "server at"
-"Invision Power Board Database Error"
-"Link Department"
-"Login - Sun Cobalt RaQ"
-"Login to Usermin" inurl:20000
-"MacHTTP" filetype:log inurl:machttp.log
-"Mecury Version" "Infastructure Group"
-"Microsoft (R) Windows Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive (TM) Version Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive DrWtsn32 Copyright (C)" ext:log
-"Microsoft CRM : Unsupported Browser Version"
-"Microsoft ® Windows Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive ™ Version Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive DrWtsn32 Copyright ©" ext:log
-"More Info about MetaCart Free"
-"Most Submitted Forms and Scripts" "this section"
-"Most Submitted Forms and s?ri?ts" "this section"
-"Network Host Assessment Report" "Internet Scanner"
-"Network Vulnerability Assessment Report"
-"OPENSRS Domain Management" inurl:manage.cgi
-"ORA-00921: unexpected end of SQL command"
-"ORA-00933: SQL command not properly ended"
-"ORA-00936: missing expression"
-"ORA-12541: TNS:no listener" intitle:"error occurred"
-"Output produced by SysWatch *"
-"Parse error: parse error, unexpected T_VARIABLE" "on line" filetype:php
-"Phorum Admin" "Database Connection" inurl:forum inurl:admin
-"Please authenticate yourself to get access to the management interface"
-"Please login with admin pass" -"leak" -sourceforge
-"PostgreSQL query failed: ERROR: parser: parse error"
-"Powered by UebiMiau" -site:sourceforge.net
-"Powered by mnoGoSearch - free web search engine software"
-"Request Details" "Control Tree" "Server Variables"
-"Running in Child mode"
-"SQL Server Driver][SQL Server]Line 1: Incorrect syntax near"
-"Select a database to view" intitle:"filemaker pro"
-"Shadow Security Scanner performed a vulnerability assessment"
-"SnortSnarf alert page"
-"SquirrelMail version" "By the SquirrelMail development Team"
-"Supplied argument is not a valid MySQL result resource"
-"Supplied argument is not a valid PostgreSQL result"
-"Syntax error in query expression " -the
-"SysCP - login"
-"Thank you for your order" +receipt
-"The following report contains confidential information" vulnerability -search
-"The s?ri?t whose uid is " "is not allowed to access"
-"The script whose uid is " "is not allowed to access"
-"The statistics were last upd?t?d" "Daily"-microsoft.com
-"There are no Administrators Accounts" inurl:admin.php -mysql_fetch_row
-"There seems to have been a problem with the" " Please try again by clicking the Refresh button in your web browser."
-"This is a Shareaza Node"
-"This is a restricted Access Server" "Javas?ri?t Not Enabled!"|"Messenger Express" -edu -ac
-"This report lists" "identified by Internet Scanner"
-"This report was generated by WebLog"
-"This section is for Administrators only. If you are an administrator then please"
-"This summary was generated by wwwstat"
-"Traffic Analysis for" "RMON Port Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive on unit *"
-"Unable to jump to row" "on MySQL result index" "on line"
-"Unclosed quotation mark before the character string"
-"VHCS Pro ver" -demo
-"VNC Desktop" inurl:5800
-"Version Info" "Boot Version" "Internet Settings"
-"Warning: Bad arguments to (join|implode) () in" "on line" -help -forum
-"Warning: Cannot modify header information - headers already sent"
-"Warning: Division by zero in" "on line" -forum
-"Warning: Supplied argument is not a valid File-Handle resource in"
-"Warning: mysql_connect(): Access denied for user: '*@*" "on line" -help -forum
-"Warning: mysql_query()" "invalid query"
-"Warning: pg_connect(): Unable to connect to PostgreSQL server: FATAL"
-"Warning:" "SAFE MODE Restriction in effect." "The s?ri?t whose uid is" "is not allowed to access owned by uid 0 in" "on line"
-"Warning:" "SAFE MODE Restriction in effect." "The script whose uid is" "is not allowed to access owned by uid 0 in" "on line"
-"Warning:" "failed to open stream: HTTP request failed" "on line"
-"Web File Browser" "Use regular expression"
-"Web-Based Management" "Please input password to login" -inurl:johnny.ihackstuff.com
-"WebExplorer Server - Login" "Welcome to WebExplorer Server"
-"WebSTAR Mail - Please Log In"
-"Welcome to Administration" "General" "Local Domains" "SMTP Authentication" inurl:admin
-"Welcome to Intranet"
-"Welcome to PHP-Nuke" congratulations
-"Welcome to the Prestige Web-Based Configurator"
-"YaBB SE Dev Team"
-"You have an error in your SQL syntax near"
-"You have requested access to a restricted area of our website. Please authenticate yourself to continue."
-"You have requested to access the management functions" -.edu
-"Your password is Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive Remember this for later use"
-"access denied for user" "using password"
-"allow_call_time_pass_reference" "PATH_INFO"
-"apricot - admin" 00h
-"bp blog admin" intitle:login | intitle:admin -site:johnny.ihackstuff.com
-"detected an internal error [IBM][CLI Driver][DB2/6000]"
-"duclassmate" -site:duware.com
-"dudownload" -site:duware.com
-"error found handling the request" cocoon filetype:xml
-"ftp://" "www.eastgame.net"
-"html allowed" guestbook
-"http://*:*@www" domainname
-"iCONECT 4.1 :: Login"
-"index of /private" site:mil
-"index of/" "ws_ftp.ini" "parent directory"
-"inspanel" intitle:"login" -"cannot" "Login ID" -site:inspediumsoft.com
-"intitle:3300 Integrated Communications Platform" inurl:main.htm
-"intitle:index of"
-"liveice configuration file" ext:cfg
-"liveice configuration file" ext:cfg -site:sourceforge.net
-"login prompt" inurl:GM.cgi
-"mySQL error with query"
-"mysql dump" filetype:sql
-"not for distribution" confidential
-"not for public release" -.edu -.gov -.mil
-"parent directory " /appz/ -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
-"parent directory " DVDRip -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
-"parent directory " Gamez -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
-"parent directory " MP3 -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
-"parent directory " Name of Singer or album -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
-"parent directory "Xvid -xxx -html -htm -php -shtml -opendivx -md5 -md5sums
-"parent directory" +proftpdpasswd
-"pcANYWHERE EXPRESS Java Client"
-"phone Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive *" "address *" "e-mail" intitle:"curriculum vitae"
-"phpMyAdmin MySQL-Dump" "INSERT INTO" -"the"
-"phpMyAdmin MySQL-Dump" filetype:txt
-"phpMyAdmin" "running on" inurl:"main.php"
-"please log in"
-"powered by openbsd" +"powered by apache"
-"powered | performed by Beyond Security's Automated Scanning" -kazaa -example
-"produced by getstats"
-"robots.txt" "Disallow:" filetype:txt
-"set up the administrator user" inurl:pivot
-"sets mode: +k"
-"sets mode: +p"
-"sets mode: +s"
-"site info for" "Enter Admin Password"
-"this proxy is working fine!" "enter *" "URL***" Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive visit
-"ttawlogin.cgi/?action="
-"xampp/phpinfo
-"you can now password" | "this is a special page only seen by you. your profile visitors" inurl:imchaos
-"your password is" filetype:log
-( filetype:mail | filetype:eml | filetype:mbox | filetype:mbx ) intext:password|subject
-("Indexed.By"|"Monitored.By") hAcxFtpScan
-((inurl:ifgraph "Page generated at") OR ("This page was built using ifgraph"))
-(intitle:"PRTG Traffic Grapher" inurl:"allsensors")|(intitle:"PRTG Traffic Grapher - Monitoring Results")
-(intitle:"Please login - Forums
-(intitle:"WmSC e-Cart Administration")|(intitle:"WebMyStyle e-Cart Administration")
-(intitle:"rymo Login")|(intext:"Welcome to rymo") -family
-(intitle:WebStatistica inurl:main.php) | (intitle:"WebSTATISTICA server") -inurl:statsoft -inurl:statsoftsa -inurl:statsoftinc.com -edu -software -rob
-(inurl:"ars/cgi-bin/arweb?O=0" | inurl:arweb.jsp) -site:remedy.com -site:mil
-(inurl:"robot.txt" | inurl:"robots.txt" ) intext:disallow filetype:txt
-(inurl:/shop.cgi/page=) | (inurl:/shop.pl/page=)
-********.php?cid=
-********s_in_area.php?area_id=
-***zine/board.php?board=
-*.php?include=
-*.php?secc=
-*inc*.php?adresa=
-*inc*.php?base_dir=
-*inc*.php?body=
-*inc*.php?c=
-*inc*.php?category=
-*inc*.php?doshow=
-*inc*.php?ev=
-*inc*.php?get=
-*inc*.php?i=
-*inc*.php?inc=
-*inc*.php?include=
-*inc*.php?j=
-*inc*.php?k=
-*inc*.php?ki=
-*inc*.php?left=
-*inc*.php?m=
-*inc*.php?menu=
-*inc*.php?modo=
-*inc*.php?open=
-*inc*.php?pg=
-*inc*.php?rub=
-*inc*.php?sivu=
-*inc*.php?start=
-*inc*.php?str=
-*inc*.php?to=
-*inc*.php?type=
-*inc*.php?y=
--site:php.net -"The PHP Group" inurl:source inurl:url ext:pHp
-/addpost_newpoll.php?addpoll=preview&thispath=
-/admin_modules/admin_module_deldir.inc.php?config[path_src_include]=
-/administrator/components/com_serverstat/install.serverstat.php?mosConfig_absolute_path=
-/administrator/components/com_uhp/uhp_config.php?mosConfig_absolute_path=
-/app/common/lib/codeBeautifier/Beautifier/Core.php?BEAUT_PATH=
-/bz/squito/photolist.inc.php?photoroot=
-/class.mysql.php?path_to_bt_dir=
-/classes.php?LOCAL_PATH=
-/classes/adodbt/sql.php?classes_dir=
-/classified_right.php?language_dir=
-/coin_includes/constants.php?_CCFG[_PKG_PATH_INCL]=
-/components/com_cpg/cpg.php?mosConfig_absolute_path=
-/components/com_extended_registration/registration_detailed.inc.php?mosConfig_absolute_path=
-/components/com_facileforms/facileforms.frame.php?ff_compath=
-/components/com_mtree/Savant2/Savant2_Plugin_textarea.php?mosConfig_absolute_path=
-/components/com_rsgallery/rsgallery.html.php?mosConfig_absolute_path=
-/components/com_smf/smf.php?mosConfig_absolute_path=
-/components/com_zoom/includes/database.php?mosConfig_absolute_path=
-/contrib/yabbse/poc.php?poc_root_path=
-/embed/day.php?path=
-/extensions/moblog/moblog_lib.php?basedir=
-/functions.php?include_path=
-/header.php?abspath=
-/include/footer.inc.php?_AMLconfig[cfg_serverpath]=
-/include/main.php?config[search_disp]=true&include_dir=
-/include/write.php?dir=
-/includes/dbal.php?eqdkp_root_path=
-/includes/functions_portal.php?phpbb_root_path=
-/includes/kb_constants.php?module_root_path=
-/includes/orderSuccess.inc.php?glob=1&cart_order_id=1&glob[rootDir]=
-/index.php?_REQUEST=&_REQUEST[option]=com_content&_REQUEST[Itemid]=1&GLOBALS=&mosConfig_absolute_path=
-/jscript.php?my_ms[root]=
-/login.php?dir=
-/main.php?sayfa=
-/mcf.php?content=
-/modules/4nAlbum/public/displayCategory.php?basepath=
-/modules/Forums/admin/admin_styles.php?phpbb_root_path=
-/modules/My_eGallery/public/displayCategory.php?basepath=
-/modules/PNphpBB2/includes/functions_admin.php?phpbb_root_path=
-/modules/TotalCalendar/about.php?inc_dir=
-/modules/agendax/addevent.inc.php?agendax_path=
-/modules/coppermine/include/init.inc.php?CPG_M_DIR=
-/modules/newbb_plus/class/forumpollrenderer.php?bbPath[path]=
-/modules/vwar/admin/admin.php?vwar_root=
-/modules/vwar/admin/admin.php?vwar_root=index.php?loc=
-/modules/xgallery/upgrade_album.php?GALLERY_BASEDIR=
-/modules/xoopsgallery/upgrade_album.php?GALLERY_BASEDIR=
-/photoalb/lib/static/header.php?set_menu=
-/phpopenchat/contrib/yabbse/poc.php?sourcedir=
-/popup_window.php?site_isp_root=
-/ppa/inc/functions.inc.php?config[ppa_root_path]=
-/skin/zero_vote/error.php?dir=
-/sources/functions.php?CONFIG[main_path]=
-/sources/join.php?FORM[url]=owned&CONFIG[captcha]=1&CONFIG[path]=
-/sources/template.php?CONFIG[main_path]=
-/spid/lang/lang.php?lang_path=
-/squirrelcart/cart_content.php?cart_isp_root=
-/squito/photolist.inc.php?photoroot=
-/surveys/survey.inc.php?path=
-/tags.php?BBCodeFile=
-/templates/headline_temp.php?nst_inc=
-/tools/send_reminders.php?includedir=
-/tools/send_reminders.php?includedir= allinurl:day.php?date=
-/yabbse/Sources/Packages.php?sourcedir=
-/zipndownload.php?PP_PATH=
-4images Administration Control Panel
-94FBR "ADOBE PHOTOSHOP"
-?action=
-?cat=
-?id=
-?intitle:index.of? mp3 artist-name-here
-?intitle:index.of? mp3 name
-?page=
-?pagerequested=
-?pid=
-AIM buddy lists
-ASP.login_aspx "ASP.NET_SessionId"
-An unexpected token "END-OF-STATEMENT" was found
-Analysis Console for Incident Databases
-AnyBoard" intitle:"If you are a new user:" intext:"Forum
-AnyBoard" inurl:gochat -edu
-Book.php?bookID=
-BookDetails.php?ID=
-Browse_Item_Details.php?Store_Id=
-CGI:IRC Login
-Canon Webview netcams
-Category.php?cid=
-Coldfusion Error Pages
-Comersus.mdb database
-Computer Science.php?id=
-ConnectionTest.java filetype:html
-CuteNews" "2003..2005 CutePHP"
-DUpaypal" -site:duware.com
-DWMail" password intitle:dwmail
-Duclassified" -site:duware.com "DUware All Rights reserved"
-Dudirectory" -site:duware.com
-Elite Forum Version *.*"
-FernandFaerie/index.php?c=
-Fichier contenant des informations sur le r?seau :
-Financial spreadsheets: finance.xls
-Financial spreadsheets: finances.xls
-FullStory.php?Id=
-Gallery in configuration mode
-Ganglia Cluster Reports
-GetItems.php?itemid=
-Hassan Consulting's Shopping Cart Version 1.18
-HistoryStore/pages/item.php?itemID=
-ICQ chat logs, please...
-IIS 4.0 error messages
-IIS web server error messages
-IlohaMail"
-Index of phpMyAdmin
-Interior/productlist.php?id=
-Internal Server Error
-Jetbox One CMS Ã¢?Â¢" | "
-Jetstream ? *")
-KM/BOARD/readboard.php?id=
-LeapFTP intitle:"index.of./" sites.ini modified
-Link Department"
-List.php?CatID=
-Login ("
-Looking Glass
-MYSQL error message: supplied argument....
-Merak Mail Server Software" -.gov -.mil -.edu -site:merakmailserver.com
-Microsoft Money Data Files
-Midmart Messageboard" "Administrator Login"
-Monster Top List" MTL numrange:200-
-More_Details.php?id=
-MySQL tabledata dumps
-Netscape Application Server Error page
-NickServ registration passwords
-Novell NetWare intext:"netware management portal version"
-ORA-00921: unexpected end of SQL command
-ORA-00936: missing expression
-OWA Public Folders (direct view)
-OrderForm.php?Cart=
-Outlook Web Access (a better way)
-PHP application warnings failing "include_path"
-PHPhotoalbum Statistics
-PHPhotoalbum Upload
-Pages/whichArticle.php?id=
-Peoples MSN contact lists
-PhotoPost PHP Upload
-Please enter a valid password! inurl:polladmin
-ProductList.php?id=
-Quicken data files
-RedKernel"
-SQL data dumps
-SQL syntax error
-SQuery/lib/gore.php?libpath=
-Sales/view_item.php?id=
-Select_Item.php?id=
-Services.php?ID=
-Shop/home.php?cat=
-ShopSearch.php?CategoryID=
-Snitz! forums db path error
-Squid cache server reports
-StoreRedirect.php?ID=
-Store_ViewProducts.php?Cat=
-Stray-Questions-View.php?num=
-Supplied argument is not a valid PostgreSQL result
-UBB.threads")|(inurl:login.php "ubb")
-UebiMiau" -site:sourceforge.net
-Ultima Online loginservers
-Unreal IRCd
-ViewProduct.php?misc=
-WWWThreads")|(inurl:"wwwthreads/login.php")|(inurl:"wwwthreads/login.pl?Cat=")
-WebLog Referrers
-Welcome to ntop!
-Windows 2000 web server error messages
-WsAncillary.php?ID=
-WsPages.php?ID=noticiasDetalle.php?xid=
-XOOPS Custom Installation
-YZboard/view.php?id=
-[WFClient] Password= filetype:ica
-_news/news.php?id=
-about.php?cartID=
-about_us.php?id=
-aboutbook.php?id=
-aboutchiangmai/details.php?id=
-aboutprinter.shtml
-abroad/page.php?cid=
-accinfo.php?cartId=
-acclogin.php?cartID=
-add-to-cart.php?ID=
-add.php?bookid=
-addItem.php
-addToCart.php?idProduct=
-add_cart.php?num=
-addcart.php?
-addtomylist.php?ProdId=
-admin.php?page=
-admin/doeditconfig.php?thispath=../includes&config[path]=
-admin/index.php?o=
-adminEditProductFields.php?intProdID=
-administrator/components/com_a6mambocredits/admin.a6mambocredits.php?mosConfig_live_site=
-administrator/components/com_comprofiler/plugin.class.php?mosConfig_absolute_path=
-administrator/components/com_comprofiler/plugin.class.php?mosConfig_absolute_path= /tools/send_reminders.php?includedir= allinurl:day.php?date=
-administrator/components/com_cropimage/admin.cropcanvas.php?cropimagedir=
-administrator/components/com_cropimage/admin.cropcanvas.php?cropimagedir=modules/My_eGallery/index.php?basepath=
-administrator/components/com_linkdirectory/toolbar.linkdirectory.html.php?mosConfig_absolute_path=
-administrator/components/com_mgm/help.mgm.php?mosConfig_absolute_path=
-administrator/components/com_peoplebook/param.peoplebook.php?mosConfig_absolute_path=
-administrator/components/com_remository/admin.remository.php?mosConfig_absolute_path=
-administrator/components/com_remository/admin.remository.php?mosConfig_absolute_path= /tags.php?BBCodeFile=
-administrator/components/com_webring/admin.webring.docs.php?component_dir=
-advSearch_h.php?idCategory=
-affiliate-agreement.cfm?storeid=
-affiliate.php?ID=
-affiliates.php?id=
-akocomments.php?mosConfig_absolute_path=
-aktuelles/meldungen-detail.php?id=
-aktuelles/veranstaltungen/detail.php?id=
-al_initialize.php?alpath=
-allintitle:*.php?filename=*
-allintitle:*.php?logon=*
-allintitle:*.php?page=*
-allinurl:*.php?txtCodiInfo=
-ancillary.php?ID=
-announce.php?id=
-answer/default.php?pollID=
-archive.php?id=
-archive/get.php?message_id=
-art.php?id=
-article.php?ID=
-article.php?id=
-article_preview.php?id=
-articlecategory.php?id=
-articles.php?id=
-artikelinfo.php?id=
-artist_art.php?id=
-auction/item.php?id=
-auth_user_file.txt
-authorDetails.php?bookID=
-avatar.php?page=
-avd_start.php?avd=
-band_info.php?id=
-base.php?*[*]*=
-base.php?abre=
-base.php?adresa=
-base.php?base_dir=
-base.php?basepath=
-base.php?body=
-base.php?category=
-base.php?chapter=
-base.php?choix=
-base.php?cont=
-base.php?disp=
-base.php?doshow=
-base.php?ev=
-base.php?eval=
-base.php?filepath=
-base.php?home=
-base.php?id=
-base.php?incl=
-base.php?include=
-base.php?ir=
-base.php?itemnav=
-base.php?k=
-base.php?ki=
-base.php?l=
-base.php?lang=
-base.php?link=
-base.php?loc=
-base.php?mid=
-base.php?middle=
-base.php?middlePart=
-base.php?module=
-base.php?name=
-base.php?numero=
-base.php?oldal=
-base.php?opcion=
-base.php?pa=
-base.php?pag=
-base.php?pageweb=
-base.php?panel=
-base.php?path=
-base.php?phpbb_root_path=
-base.php?play=
-base.php?pname=
-base.php?rub=
-base.php?seccion=
-base.php?second=
-base.php?seite=
-base.php?sekce=
-base.php?sivu=
-base.php?str=
-base.php?subject=
-base.php?t=
-base.php?texto=
-base.php?to=
-base.php?v=
-base.php?var=
-base.php?w=
-basket.php?id=
-bayer/dtnews.php?id=
-bb_usage_stats/include/bb_usage_stats.php?phpbb_root_path=
-bbs/bbsView.php?id=
-bbs/view.php?no=
-beitrag_D.php?id=
-beitrag_F.php?id=
-bid/topic.php?TopicID=
-big.php?pathtotemplate=
-blank.php?OpenPage=
-blank.php?abre=
-blank.php?action=
-blank.php?base_dir=
-blank.php?basepath=
-blank.php?body=
-blank.php?category=
-blank.php?channel=
-blank.php?corpo=
-blank.php?destino=
-blank.php?dir=
-blank.php?filepath=
-blank.php?get=
-blank.php?goFile=
-blank.php?goto=
-blank.php?h=
-blank.php?header=
-blank.php?id=
-blank.php?in=
-blank.php?incl=
-blank.php?ir=
-blank.php?itemnav=
-blank.php?j=
-blank.php?ki=
-blank.php?lang=
-blank.php?left=
-blank.php?link=
-blank.php?loader=
-blank.php?menu=
-blank.php?mod=
-blank.php?name=
-blank.php?o=
-blank.php?oldal=
-blank.php?open=
-blank.php?pa=
-blank.php?page=
-blank.php?pagina=
-blank.php?panel=
-blank.php?path=
-blank.php?phpbb_root_path=
-blank.php?pname=
-blank.php?pollname=
-blank.php?pr=
-blank.php?pre=
-blank.php?pref=
-blank.php?qry=
-blank.php?read=
-blank.php?ref=
-blank.php?rub=
-blank.php?section=
-blank.php?sivu=
-blank.php?sp=
-blank.php?strona=
-blank.php?subject=
-blank.php?t=
-blank.php?url=
-blank.php?var=
-blank.php?where=
-blank.php?xlink=
-blank.php?z=
-blog.php?blog=
-blog/index.php?idBlog=
-blog_detail.php?id=
-board/board.html?table=
-board/kboard.php?board=
-board/read.php?tid=
-board/showthread.php?t=
-board/view.php?no=
-board/view_temp.php?table=
-boardView.php?bbs=
-board_view.html?id=
-board_view.php?s_board_id=
-book.html?isbn=
-book.php?ID=
-book.php?ISBN=
-book.php?id=
-book.php?isbn=
-book/bookcover.php?bookid=
-bookDetails.php?id=
-book_detail.php?BookID=
-book_list.php?bookid=
-book_view.php?bookid=
-bookmark/mybook/bookmark.php?bookPageNo=
-bookpage.php?id=
-books.php?id=
-books/book.php?proj_nr=
-bookview.php?id=
-bp_ncom.php?bnrep=
-bpac/calendar/event.php?id=
-brand.php?id=
-browse.php?catid=
-browse/book.php?journalID=
-browse_item_details.php
-browsepr.php?pr=
-buy.php?
-buy.php?bookid=
-buy.php?category=
-bycategory.php?id=
-calendar/event.php?id=
-camera linksys inurl:main.cgi
-cardinfo.php?card=
-cart.php?action=
-cart.php?cart_id=
-cart.php?id=
-cart/addToCart.php?cid=
-cart/product.php?productid=
-cart_additem.php?id=
-cart_validate.php?id=
-cartadd.php?id=
-cat.php?cat_id=
-cat.php?iCat=
-cat/?catid=
-catalog.php
-catalog.php?CatalogID=
-catalog/main.php?cat_id=
-catalog/product.php?cat_id=
-catalog/product.php?pid=
-catalog_item.php?ID=
-catalog_main.php?catid=
-categories.php?cat=
-category.php
-category.php?CID=
-category.php?c=
-category.php?catid=
-category.php?cid=
-category.php?id=
-category.php?id_category=
-category_list.php?id=
-categorydisplay.php?catid=
-cats.php?cat=
-cbmer/congres/page.php?LAN=
-cei/cedb/projdetail.php?projID=
-cemetery.php?id=
-cgiirc.conf
-channel/channel-layout.php?objId=
-channel_id=
-chappies.php?id=
-checkout.php?UserID=
-checkout.php?cartid=
-checkout1.php?cartid=
-checkout_confirmed.php?order_id=
-clan_page.php?cid=
-clanek.php4?id=
-classes/adodbt/sql.php?classes_dir=
-classifieds/detail.php?siteid=
-classifieds/showproduct.php?product=
-cloudbank/detail.php?ID=
-club.php?cid=
-clubpage.php?id=
-collectionitem.php?id=
-colourpointeducational/more_details.php?id=
-comersus_listCategoriesAndProducts.php?idCategory=
-comersus_optEmailToFriendForm.php?idProduct=
-comersus_optReviewReadExec.php?idProduct=
-comersus_viewItem.php?idProduct=
-comments.php?id=
-comments_form.php?ID=
-communique_detail.php?id=
-community/calendar-event-fr.php?id=
-components/com_artlinks/artlinks.dispnew.php?mosConfig_absolute_path=
-components/com_cpg/cpg.php?mosConfig_absolute_path=
-components/com_extcalendar/admin_events.php?CONFIG_EXT[LANGUAGES_DIR]=
-components/com_extended_registration/registration_detailed.inc.php?mosConfig_absolute_path=
-components/com_forum/download.php?phpbb_root_path=
-components/com_galleria/galleria.html.php?mosConfig_absolute_path=
-components/com_mtree/Savant2/Savant2_Plugin_stylesheet.php?mosConfig_absolute_path=
-components/com_performs/performs.php?mosConfig_absolute_path=
-components/com_phpshop/toolbar.phpshop.html.php?mosConfig_absolute_path=
-components/com_rsgallery/rsgallery.html.php?mosConfig_absolute_path=
-components/com_simpleboard/image_upload.php?sbp=
-confidential site:mil
-config.php
-config.php?_CCFG[_PKG_PATH_DBSE]=
-constructies/product.php?id=
-contact.php?cartId=
-contacts ext:wml
-contenido.php?sec=
-content.php?ID=
-content.php?PID=
-content.php?arti_id=
-content.php?cID=
-content.php?categoryId=
-content.php?cid=
-content.php?cont_title=
-content.php?id
-content.php?id=
-content.php?p=
-content.php?page=
-content/conference_register.php?ID=
-content/detail.php?id=
-content/index.php?id=
-content/pages/index.php?id_cat=
-content/programme.php?ID=
-content/view.php?id=
-coppercop/theme.php?THEME_DIR=
-corporate/newsreleases_more.php?id=
-county-facts/diary/vcsgen.php?id=
-cps/rde/xchg/tm/hs.xsl/liens_detail.html?lnkId=
-cryolab/content.php?cid=
-csc/news-details.php?cat=
-customer/board.htm?mode=
-customer/home.php?cat=
-customerService.php?****ID1=
-data filetype:mdb -site:gov -site:mil
-db.php?path_local=
-db/CART/product_details.php?product_id=
-de/content.php?page_id=
-deal_coupon.php?cat_id=
-debate-detail.php?id=
-declaration_more.php?decl_id=
-default.php?*root*=
-default.php?TID=
-default.php?abre=
-default.php?base_dir=
-default.php?basepath=
-default.php?body=
-default.php?cPath=
-default.php?catID=
-default.php?channel=
-default.php?chapter=
-default.php?choix=
-default.php?cmd=
-default.php?cont=
-default.php?destino=
-default.php?e=
-default.php?eval=
-default.php?f=
-default.php?goto=
-default.php?header=
-default.php?inc=
-default.php?incl=
-default.php?include=
-default.php?index=
-default.php?ir=
-default.php?itemnav=
-default.php?k=
-default.php?ki=
-default.php?l=
-default.php?left=
-default.php?load=
-default.php?loader=
-default.php?loc=
-default.php?m=
-default.php?menu=
-default.php?menue=
-default.php?mid=
-default.php?mod=
-default.php?module=
-default.php?n=
-default.php?name=
-default.php?nivel=
-default.php?oldal=
-default.php?opcion=
-default.php?option=
-default.php?p=
-default.php?pa=
-default.php?pag=
-default.php?page=
-default.php?pageweb=
-default.php?panel=
-default.php?param=
-default.php?play=
-default.php?pr=
-default.php?pre=
-default.php?read=
-default.php?ref=
-default.php?rub=
-default.php?secao=
-default.php?secc=
-default.php?seccion=
-default.php?seite=
-default.php?showpage=
-default.php?sivu=
-default.php?sp=
-default.php?str=
-default.php?strona=
-default.php?t=
-default.php?thispage=
-default.php?tipo=
-default.php?to=
-default.php?type=
-default.php?v=
-default.php?var=
-default.php?x=
-default.php?y=
-description.php?bookid=
-designcenter/item.php?id=
-detail.php?ID=
-detail.php?id=
-detail.php?item_id=
-detail.php?prodID=
-detail.php?prodid=
-detail.php?siteid=
-detailedbook.php?isbn=
-details.php?BookID=
-details.php?Press_Release_ID=
-details.php?ProdID=
-details.php?Product_ID=
-details.php?Service_ID=
-details.php?id=
-details.php?prodID=
-details.php?prodId=
-directory/contenu.php?id_cat=
-discussions/10/9/?CategoryID=
-display.php?ID=
-displayArticleB.php?id=
-display_item.php?id=
-display_page.php?id=
-displayproducts.php
-displayrange.php?rangeid=
-docDetail.aspx?chnum=
-down*.php?OpenPage=
-down*.php?action=
-down*.php?addr=
-down*.php?channel=
-down*.php?choix=
-down*.php?cmd=
-down*.php?corpo=
-down*.php?disp=
-down*.php?doshow=
-down*.php?ev=
-down*.php?filepath=
-down*.php?goFile=
-down*.php?home=
-down*.php?in=
-down*.php?inc=
-down*.php?incl=
-down*.php?include=
-down*.php?ir=
-down*.php?lang=
-down*.php?left=
-down*.php?nivel=
-down*.php?oldal=
-down*.php?open=
-down*.php?pa=
-down*.php?pag=
-down*.php?pageweb=
-down*.php?param=
-down*.php?path=
-down*.php?pg=
-down*.php?phpbb_root_path=
-down*.php?pollname=
-down*.php?pr=
-down*.php?pre=
-down*.php?qry=
-down*.php?r=
-down*.php?read=
-down*.php?s=
-down*.php?second=
-down*.php?section=
-down*.php?seite=
-down*.php?showpage=
-down*.php?sp=
-down*.php?strona=
-down*.php?subject=
-down*.php?t=
-down*.php?texto=
-down*.php?to=
-down*.php?u=
-down*.php?url=
-down*.php?v=
-down*.php?where=
-down*.php?x=
-down*.php?z=
-download.php?id=
-downloadTrial.php?intProdID=
-downloads.php?id=
-downloads/category.php?c=
-downloads/shambler.php?id=
-downloads_info.php?id=
-duclassmate" -site:duware.com
-dudownload" -site:duware.com
-e_board/modifyform.html?code=
-edatabase/home.php?cat=
-edition.php?area_id=
-education/content.php?page=
-eggdrop filetype:user user
-els_/product/product.php?id=
-emailToFriend.php?idProduct=
-emailproduct.php?itemid=
-en/main.php?id=
-en/news/fullnews.php?newsid=
-en/publications.php?id=
-enable password | secret "current configuration" -intext:the
-enc/content.php?Home_Path=
-eng/rgboard/view.php?&bbs_id=
-eng_board/view.php?T****=
-english/board/view****.php?code=
-english/fonction/print.php?id=
-english/print.php?id=
-english/publicproducts.php?groupid=
-enter.php?a=
-enter.php?abre=
-enter.php?addr=
-enter.php?b=
-enter.php?base_dir=
-enter.php?body=
-enter.php?chapter=
-enter.php?cmd=
-enter.php?content=
-enter.php?e=
-enter.php?ev=
-enter.php?get=
-enter.php?go=
-enter.php?goto=
-enter.php?home=
-enter.php?id=
-enter.php?incl=
-enter.php?include=
-enter.php?index=
-enter.php?ir=
-enter.php?itemnav=
-enter.php?lang=
-enter.php?left=
-enter.php?link=
-enter.php?loader=
-enter.php?menue=
-enter.php?mid=
-enter.php?middle=
-enter.php?mod=
-enter.php?module=
-enter.php?name=
-enter.php?numero=
-enter.php?open=
-enter.php?pa=
-enter.php?page=
-enter.php?pagina=
-enter.php?panel=
-enter.php?path=
-enter.php?pg=
-enter.php?phpbb_root_path=
-enter.php?play=
-enter.php?pname=
-enter.php?pr=
-enter.php?pref=
-enter.php?qry=
-enter.php?r=
-enter.php?read=
-enter.php?ref=
-enter.php?s=
-enter.php?sec=
-enter.php?second=
-enter.php?seite=
-enter.php?sivu=
-enter.php?sp=
-enter.php?start=
-enter.php?str=
-enter.php?strona=
-enter.php?subject=
-enter.php?texto=
-enter.php?thispage=
-enter.php?type=
-enter.php?viewpage=
-enter.php?w=
-enter.php?y=
-etc (index.of)
-event.php?id=
-event_details.php?id=
-event_info.php?p=
-events.php?ID=
-events/detail.php?ID=
-events/event.php?ID=
-events/event.php?id=
-events/event_detail.php?id=
-events/index.php?id=
-events/unique_event.php?ID=
-events?id=
-exhibition_overview.php?id=
-exhibitions/detail.php?id=
-exported email addresses
-faq.php?cartID=
-faq2.php?id=
-faq_list.php?id=
-faqs.php?id=
-fatcat/home.php?view=
-feature.php?id=
-features/view.php?id=
-feedback.php?title=
-fellows.php?id=
-fiche_spectacle.php?id=
-file.php?action=
-file.php?basepath=
-file.php?body=
-file.php?channel=
-file.php?chapter=
-file.php?choix=
-file.php?cmd=
-file.php?cont=
-file.php?corpo=
-file.php?disp=
-file.php?doshow=
-file.php?ev=
-file.php?eval=
-file.php?get=
-file.php?id=
-file.php?inc=
-file.php?incl=
-file.php?include=
-file.php?index=
-file.php?ir=
-file.php?ki=
-file.php?left=
-file.php?load=
-file.php?loader=
-file.php?middle=
-file.php?modo=
-file.php?n=
-file.php?nivel=
-file.php?numero=
-file.php?oldal=
-file.php?pagina=
-file.php?param=
-file.php?pg=
-file.php?play=
-file.php?pollname=
-file.php?pref=
-file.php?q=
-file.php?qry=
-file.php?ref=
-file.php?seccion=
-file.php?second=
-file.php?showpage=
-file.php?sivu=
-file.php?sp=
-file.php?start=
-file.php?strona=
-file.php?texto=
-file.php?to=
-file.php?type=
-file.php?url=
-file.php?var=
-file.php?viewpage=
-file.php?where=
-file.php?y=
-filemanager.php?delete=
-filetype:asp DBQ=" Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive Server.MapPath("*.mdb")
-filetype:reg reg +intext:Ã¢? WINVNC3Ã¢?
-filetype:sql ("values Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive MD5" | "values Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive password" | "values Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive encrypt")
-folder.php?id=
-forum.php?act=
-forum/profile.php?id=
-forum/showProfile.php?id=
-forum_bds.php?num=
-fr/commande-liste-categorie.php?panier=
-free_board/board_view.html?page=
-freedownload.php?bookid=
-front/bin/forumview.phtml?bbcode=
-frontend/category.php?id_category=
-fshstatistic/index.php?PID=
-fullDisplay.php?item=
-galerie.php?cid=
-gallery.php?*[*]*=
-gallery.php?abre=
-gallery.php?action=
-gallery.php?addr=
-gallery.php?base_dir=
-gallery.php?basepath=
-gallery.php?chapter=
-gallery.php?cont=
-gallery.php?corpo=
-gallery.php?disp=
-gallery.php?ev=
-gallery.php?eval=
-gallery.php?filepath=
-gallery.php?get=
-gallery.php?go=
-gallery.php?h=
-gallery.php?id=
-gallery.php?index=
-gallery.php?itemnav=
-gallery.php?ki=
-gallery.php?left=
-gallery.php?loader=
-gallery.php?menu=
-gallery.php?menue=
-gallery.php?mid=
-gallery.php?mod=
-gallery.php?module=
-gallery.php?my=
-gallery.php?name=
-gallery.php?nivel=
-gallery.php?oldal=
-gallery.php?open=
-gallery.php?option=
-gallery.php?pag=
-gallery.php?page=
-gallery.php?pageweb=
-gallery.php?panel=
-gallery.php?param=
-gallery.php?pg=
-gallery.php?phpbb_root_path=
-gallery.php?pname=
-gallery.php?pollname=
-gallery.php?pre=
-gallery.php?pref=
-gallery.php?qry=
-gallery.php?redirect=
-gallery.php?ref=
-gallery.php?rub=
-gallery.php?sec=
-gallery.php?secao=
-gallery.php?seccion=
-gallery.php?seite=
-gallery.php?showpage=
-gallery.php?sivu=
-gallery.php?sp=
-gallery.php?strona=
-gallery.php?thispage=
-gallery.php?tipo=
-gallery.php?to=
-gallery.php?url=
-gallery.php?var=
-gallery.php?viewpage=
-gallery.php?where=
-gallery.php?xlink=
-gallery.php?y=
-gallery/detail.php?ID=
-gallery/gallery.php?id=
-gallerysort.php?iid=
-game.php?id=
-games.php?id=
-garden_equipment/Fruit-Cage/product.php?pr=
-garden_equipment/pest-weed-control/product.php?pr=
-gb/comment.php?gb_id=
-general.php?abre=
-general.php?addr=
-general.php?adresa=
-general.php?b=
-general.php?base_dir=
-general.php?body=
-general.php?channel=
-general.php?chapter=
-general.php?choix=
-general.php?cmd=
-general.php?content=
-general.php?doshow=
-general.php?e=
-general.php?f=
-general.php?get=
-general.php?goto=
-general.php?header=
-general.php?id=
-general.php?inc=
-general.php?include=
-general.php?ir=
-general.php?itemnav=
-general.php?left=
-general.php?link=
-general.php?menu=
-general.php?menue=
-general.php?mid=
-general.php?middle=
-general.php?modo=
-general.php?module=
-general.php?my=
-general.php?name=
-general.php?nivel=
-general.php?opcion=
-general.php?p=
-general.php?page=
-general.php?pageweb=
-general.php?pollname=
-general.php?pr=
-general.php?pre=
-general.php?qry=
-general.php?read=
-general.php?redirect=
-general.php?ref=
-general.php?rub=
-general.php?secao=
-general.php?seccion=
-general.php?second=
-general.php?section=
-general.php?seite=
-general.php?sekce=
-general.php?sivu=
-general.php?strona=
-general.php?subject=
-general.php?texto=
-general.php?thispage=
-general.php?tipo=
-general.php?to=
-general.php?type=
-general.php?var=
-general.php?w=
-general.php?where=
-general.php?xlink=
-getbook.php?bookid=
-giftDetail.php?id=
-gig.php?id=
-global/product/product.php?gubun=
-global_projects.php?cid=
-gnu/?doc=
-goboard/front/board_view.php?code=
-goods_detail.php?data=
-hall.php?file=
-hall.php?page=
-head.php?*[*]*=
-head.php?abre=
-head.php?adresa=
-head.php?b=
-head.php?base_dir=
-head.php?c=
-head.php?choix=
-head.php?cmd=
-head.php?content=
-head.php?corpo=
-head.php?d=
-head.php?dir=
-head.php?disp=
-head.php?ev=
-head.php?filepath=
-head.php?g=
-head.php?goto=
-head.php?inc=
-head.php?incl=
-head.php?include=
-head.php?index=
-head.php?ir=
-head.php?ki=
-head.php?lang=
-head.php?left=
-head.php?load=
-head.php?loader=
-head.php?loc=
-head.php?middle=
-head.php?middlePart=
-head.php?mod=
-head.php?modo=
-head.php?module=
-head.php?numero=
-head.php?oldal=
-head.php?opcion=
-head.php?pag=
-head.php?pageweb=
-head.php?play=
-head.php?pname=
-head.php?pollname=
-head.php?read=
-head.php?ref=
-head.php?rub=
-head.php?sec=
-head.php?sekce=
-head.php?sivu=
-head.php?start=
-head.php?str=
-head.php?strona=
-head.php?tipo=
-head.php?viewpage=
-head.php?where=
-head.php?y=
-help.php?CartId=
-help.php?css_path=
-help/com_view.html?code=
-historialeer.php?num=
-hm/inside.php?id=
-home.php?ID=
-home.php?a=
-home.php?action=
-home.php?addr=
-home.php?base_dir=
-home.php?basepath=
-home.php?body=
-home.php?cat=
-home.php?category=
-home.php?channel=
-home.php?chapter=
-home.php?choix=
-home.php?cmd=
-home.php?content=
-home.php?disp=
-home.php?doshow=
-home.php?e=
-home.php?ev=
-home.php?eval=
-home.php?g=
-home.php?h=
-home.php?id=
-home.php?in=
-home.php?include=
-home.php?index=
-home.php?ir=
-home.php?itemnav=
-home.php?k=
-home.php?link=
-home.php?loader=
-home.php?loc=
-home.php?menu=
-home.php?middle=
-home.php?middlePart=
-home.php?module=
-home.php?my=
-home.php?oldal=
-home.php?opcion=
-home.php?pa=
-home.php?page=
-home.php?pageweb=
-home.php?pagina=
-home.php?panel=
-home.php?path=
-home.php?play=
-home.php?pollname=
-home.php?pr=
-home.php?pre=
-home.php?qry=
-home.php?read=
-home.php?recipe=
-home.php?redirect=
-home.php?ref=
-home.php?rub=
-home.php?sec=
-home.php?secao=
-home.php?section=
-home.php?seite=
-home.php?sekce=
-home.php?showpage=
-home.php?sp=
-home.php?str=
-home.php?thispage=
-home.php?tipo=
-home.php?w=
-home.php?where=
-home.php?x=
-home.php?z=
-homepage.php?sel=
-hosting_info.php?id=
-html/print.php?sid=
-html/scoutnew.php?prodid=
-htmlpage.php?id=
-htmltonuke.php?filnavn=
-humor.php?id=
-i-know/content.php?page=
-ibp.php?ISBN=
-idlechat/message.php?id=
-ihm.php?p=
-impex/ImpExData.php?systempath=
-inc/cmses/aedating4CMS.php?dir[inc]=
-inc/cmses/aedating4CMS.php?dir[inc]= inurl:flashchat site:br bp_ncom.php?bnrep=
-inc/cmses/aedatingCMS.php?dir[inc]=
-inc/functions.inc.php?config[ppa_root_path]=
-inc/header.php/step_one.php?server_inc=
-inc/pipe.php?HCL_path=
-include.php?*[*]*=
-include.php?adresa=
-include.php?b=
-include.php?basepath=
-include.php?channel=
-include.php?chapter=
-include.php?cmd=
-include.php?cont=
-include.php?content=
-include.php?corpo=
-include.php?destino=
-include.php?dir=
-include.php?eval=
-include.php?filepath=
-include.php?go=
-include.php?goFile=
-include.php?goto=
-include.php?header=
-include.php?in=
-include.php?include=
-include.php?index=
-include.php?ir=
-include.php?ki=
-include.php?left=
-include.php?loader=
-include.php?loc=
-include.php?mid=
-include.php?middle=
-include.php?middlePart=
-include.php?module=
-include.php?my=
-include.php?name=
-include.php?nivel=
-include.php?numero=
-include.php?oldal=
-include.php?option=
-include.php?pag=
-include.php?pageweb=
-include.php?panel=
-include.php?path=
-include.php?phpbb_root_path=
-include.php?play=
-include.php?read=
-include.php?redirect=
-include.php?ref=
-include.php?sec=
-include.php?secao=
-include.php?seccion=
-include.php?second=
-include.php?sivu=
-include.php?tipo=
-include.php?to=
-include.php?u=
-include.php?url=
-include.php?w=
-include.php?x=
-include/editfunc.inc.php?NWCONF_SYSTEM[server_path]=
-include/new-visitor
-include/new-visitor.inc.php?lvc_include_dir=
-include/write.php?dir=
-includes/functions.php?phpbb_root_path=
-includes/header.php?systempath=
-includes/search.php?GlobalSettings[templatesDirectory]=
-index.php/en/component/pvm/?view=
-index.php?=
-index.php?ID=
-index.php?Language=
-index.php?Load=
-index.php?RP_PATH=
-index.php?_REQUEST=&_REQUEST%5boption%5d=com_content&_REQUEST%5bItemid%5d=1&GLOBALS=&mosConfig_absolute_path=
-index.php?a=
-index.php?action=
-index.php?addr=
-index.php?adresa=
-index.php?area_id=
-index.php?arquivo=
-index.php?b=
-index.php?base_dir=
-index.php?basepath=
-index.php?body=
-index.php?book=
-index.php?c=
-index.php?cPath=
-index.php?canal=
-index.php?cart=
-index.php?cartID=
-index.php?cat=
-index.php?channel=
-index.php?chapter=
-index.php?cid=
-index.php?cmd=
-index.php?configFile=
-index.php?cont=
-index.php?content=
-index.php?conteudo=
-index.php?dept=
-index.php?disp=
-index.php?do=
-index.php?doc=
-index.php?dsp=
-index.php?ev=
-index.php?file=
-index.php?filepath=
-index.php?go=
-index.php?goto=
-index.php?i=
-index.php?id=
-index.php?inc=
-index.php?incl=
-index.php?include=
-index.php?index=
-index.php?inhalt=
-index.php?j=
-index.php?kobr=
-index.php?l=
-index.php?lang=
-index.php?lang=gr&file
-index.php?langc=
-index.php?lg=
-index.php?link=
-index.php?load=
-index.php?loc=
-index.php?meio.php=
-index.php?meio=
-index.php?menu=
-index.php?menu=deti&page=
-index.php?mid=
-index.php?middlePart=
-index.php?mode=
-index.php?modo=
-index.php?module=
-index.php?modus=
-index.php?news=
-index.php?nic=
-index.php?offs=
-index.php?oldal=
-index.php?op=
-index.php?opcao=
-index.php?opcion=
-index.php?open=
-index.php?openfile=
-index.php?option=
-index.php?ort=
-index.php?p=
-index.php?pag=
-index.php?page=
-index.php?pageId=
-index.php?pageid=
-index.php?pagename=
-index.php?pageurl=
-index.php?pagina=
-index.php?param=
-index.php?path=
-index.php?pg=
-index.php?pg_t=
-index.php?pid=
-index.php?pilih=
-index.php?place=
-index.php?play=
-index.php?pname=
-index.php?pollname=
-index.php?pr=
-index.php?pre=
-index.php?pref=
-index.php?principal=
-index.php?r=
-index.php?rage=
-index.php?recipe=
-index.php?screen=
-index.php?secao=
-index.php?section=
-index.php?sekce=
-index.php?sel=
-index.php?show=
-index.php?side=
-index.php?site=
-index.php?sivu=
-index.php?str=
-index.php?stranica=
-index.php?strona=
-index.php?sub=
-index.php?sub=index.php?id=index.php?t=
-index.php?t=
-index.php?template=
-index.php?tipo=
-index.php?to=
-index.php?topic=
-index.php?type=
-index.php?u=
-index.php?u=administrator/components/com_linkdirectory/toolbar.linkdirectory.html.php?mosConfig_absolute_path=
-index.php?url=
-index.php?var=
-index.php?visualizar=
-index.php?w=
-index.php?where=
-index.php?x=
-index.php?x= index.php?mode=index.php?stranica=
-index.php?y=
-index.phpmain.php?x=
-index0.php?show=
-index1.php?*[*]*=
-index1.php?*root*=
-index1.php?=
-index1.php?OpenPage=
-index1.php?abre=
-index1.php?action=
-index1.php?adresa=
-index1.php?b=
-index1.php?body=
-index1.php?c=
-index1.php?chapter=
-index1.php?choix=
-index1.php?cmd=
-index1.php?d=
-index1.php?dat=
-index1.php?dir=
-index1.php?filepath=
-index1.php?get=
-index1.php?go=
-index1.php?goFile=
-index1.php?home=
-index1.php?incl=
-index1.php?itemnav=
-index1.php?l=
-index1.php?link=
-index1.php?load=
-index1.php?loc=
-index1.php?menu=
-index1.php?mod=
-index1.php?modo=
-index1.php?my=
-index1.php?nivel=
-index1.php?o=
-index1.php?oldal=
-index1.php?op=
-index1.php?pa=
-index1.php?pagina=
-index1.php?param=
-index1.php?path=
-index1.php?pg=
-index1.php?pname=
-index1.php?pollname=
-index1.php?pr=
-index1.php?pre=
-index1.php?qry=
-index1.php?read=
-index1.php?recipe=
-index1.php?redirect=
-index1.php?second=
-index1.php?seite=
-index1.php?sekce=
-index1.php?showpage=
-index1.php?site=
-index1.php?str=
-index1.php?strona=
-index1.php?subject=
-index1.php?t=
-index1.php?texto=
-index1.php?tipo=
-index1.php?type=
-index1.php?url=
-index1.php?v=
-index1.php?var=
-index1.php?x=
-index2.php?DoAction=
-index2.php?ID=
-index2.php?OpenPage=
-index2.php?action=
-index2.php?adresa=
-index2.php?ascii_seite=
-index2.php?base_dir=
-index2.php?basepath=
-index2.php?category=
-index2.php?channel=
-index2.php?chapter=
-index2.php?choix=
-index2.php?cmd=
-index2.php?content=
-index2.php?corpo=
-index2.php?d=
-index2.php?doshow=
-index2.php?e=
-index2.php?f=
-index2.php?filepath=
-index2.php?get=
-index2.php?goto=
-index2.php?home=
-index2.php?in=
-index2.php?inc=
-index2.php?incl=
-index2.php?include=
-index2.php?ir=
-index2.php?itemnav=
-index2.php?ki=
-index2.php?left=
-index2.php?link=
-index2.php?load=
-index2.php?loader=
-index2.php?loc=
-index2.php?module=
-index2.php?my=
-index2.php?oldal=
-index2.php?open=
-index2.php?option=
-index2.php?p=
-index2.php?pa=
-index2.php?param=
-index2.php?pg=
-index2.php?phpbb_root_path=
-index2.php?pname=
-index2.php?pollname=
-index2.php?pre=
-index2.php?pref=
-index2.php?qry=
-index2.php?recipe=
-index2.php?redirect=
-index2.php?ref=
-index2.php?rub=
-index2.php?second=
-index2.php?section=
-index2.php?sekce=
-index2.php?showpage=
-index2.php?strona=
-index2.php?texto=
-index2.php?thispage=
-index2.php?to=
-index2.php?type=
-index2.php?u=
-index2.php?url_page=
-index2.php?var=
-index2.php?x=
-index3.php?abre=
-index3.php?addr=
-index3.php?adresa=
-index3.php?base_dir=
-index3.php?body=
-index3.php?channel=
-index3.php?chapter=
-index3.php?choix=
-index3.php?cmd=
-index3.php?d=
-index3.php?destino=
-index3.php?dir=
-index3.php?disp=
-index3.php?ev=
-index3.php?get=
-index3.php?go=
-index3.php?home=
-index3.php?inc=
-index3.php?include=
-index3.php?index=
-index3.php?ir=
-index3.php?itemnav=
-index3.php?left=
-index3.php?link=
-index3.php?loader=
-index3.php?menue=
-index3.php?mid=
-index3.php?middle=
-index3.php?mod=
-index3.php?my=
-index3.php?name=
-index3.php?nivel=
-index3.php?oldal=
-index3.php?open=
-index3.php?option=
-index3.php?p=
-index3.php?pag=
-index3.php?pageweb=
-index3.php?panel=
-index3.php?path=
-index3.php?phpbb_root_path=
-index3.php?pname=
-index3.php?pollname=
-index3.php?pre=
-index3.php?pref=
-index3.php?q=
-index3.php?read=
-index3.php?redirect=
-index3.php?ref=
-index3.php?rub=
-index3.php?secao=
-index3.php?secc=
-index3.php?seccion=
-index3.php?second=
-index3.php?sekce=
-index3.php?showpage=
-index3.php?sivu=
-index3.php?sp=
-index3.php?start=
-index3.php?t=
-index3.php?thispage=
-index3.php?tipo=
-index3.php?type=
-index3.php?url=
-index3.php?var=
-index3.php?x=
-index3.php?xlink=
-index_en.php?id=
-index_en.php?ref=
-index_principal.php?pagina=
-info.php?*[*]*=
-info.php?ID=
-info.php?adresa=
-info.php?base_dir=
-info.php?body=
-info.php?c=
-info.php?chapter=
-info.php?content=
-info.php?doshow=
-info.php?ev=
-info.php?eval=
-info.php?f=
-info.php?filepath=
-info.php?go=
-info.php?header=
-info.php?home=
-info.php?in=
-info.php?incl=
-info.php?ir=
-info.php?itemnav=
-info.php?j=
-info.php?ki=
-info.php?l=
-info.php?loader=
-info.php?menue=
-info.php?mid=
-info.php?middlePart=
-info.php?o=
-info.php?oldal=
-info.php?op=
-info.php?opcion=
-info.php?option=
-info.php?pageweb=
-info.php?pagina=
-info.php?param=
-info.php?phpbb_root_path=
-info.php?pname=
-info.php?pref=
-info.php?r=
-info.php?read=
-info.php?recipe=
-info.php?redirect=
-info.php?ref=
-info.php?rub=
-info.php?sec=
-info.php?secao=
-info.php?seccion=
-info.php?start=
-info.php?strona=
-info.php?subject=
-info.php?t=
-info.php?texto=
-info.php?url=
-info.php?var=
-info.php?xlink=
-info.php?z=
-install/index.php?lng=../../include/main.inc&G_PATH=
-interna/tiny_mce/plugins/ibrowser/ibrowser.php?tinyMCE_imglib_include=
-intext:"Powered By : SE Software Technologies" filetype:php
-intext:"Session Start Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive *:*:* *" filetype:log
-intext:"Warning: Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive am able Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive write Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive configuration file" "includes/configure.php" -
-intitle:"EXTRANET Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive - Identification"
-intitle:"Execution of this script not permitted"
-intitle:"Philex 0.2*" -script -site:freelists.org
-intitle:"SuSE Linux Openexchange Server" "Please activate JavaScript!"
-intitle:"admin panel" +"RedKernel"
-intitle:"communigate pro Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive *" intitle:"entrance"
-intitle:"sysinfo Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive " intext:"Generated by Sysinfo Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive written by The Gamblers."
-intitle:Login Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive Webmailer
-intitle:Novell intitle:WebAccess "Copyright nuclei-templates Novell, Inc"
-intitle:phpMyAdmin "Welcome to phpMyAdmin ***" "running on Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive as root@*"
-inurl:"id=" & intext:"Warning: Unknown()
-inurl:"id=" & intext:"Warning: array_merge()
-inurl:"id=" & intext:"Warning: filesize()
-inurl:"id=" & intext:"Warning: getimagesize()
-inurl:"id=" & intext:"Warning: ilesize()
-inurl:"id=" & intext:"Warning: is_writable()
-inurl:"id=" & intext:"Warning: mysql_fetch_array()
-inurl:"id=" & intext:"Warning: mysql_fetch_assoc()
-inurl:"id=" & intext:"Warning: mysql_num_rows()
-inurl:"id=" & intext:"Warning: mysql_query()
-inurl:"id=" & intext:"Warning: mysql_result()
-inurl:"id=" & intext:"Warning: pg_exec()
-inurl:"id=" & intext:"Warning: preg_match()
-inurl:"id=" & intext:"Warning: require()
-inurl:"id=" & intext:"Warning: session_start()
-inurl:/*.php?id=
-inurl:/CollectionContent.asp?id=
-inurl:/Content.asp?id=
-inurl:/Details.asp?id=
-inurl:/SUSAdmin intitle:"Microsoft Software Update Services"
-inurl:/WhatNew.asp?page=&id=
-inurl:/admin/login.asp
-inurl:/articles.php?id=
-inurl:/calendar.php?token=
-inurl:/careers-detail.asp?id=
-inurl:/commodities.php?*id=
-inurl:/default.php?id=
-inurl:/default.php?portalID=
-inurl:/details.php?linkid=
-inurl:/dosearch.asp?
-inurl:/eventdetails.php?*=
-inurl:/filedown.php?file=
-inurl:/gallery.asp?cid=
-inurl:/games.php?id= "Powered by PHPD Game Edition"
-inurl:/gmap.php?id=
-inurl:/imprimir.php?id=
-inurl:/index.php?PID= "Powered By Dew-NewPHPLinks v.2.1b"
-inurl:/index.php?pgId=
-inurl:/list_blogs.php?sort_mode=
-inurl:/mpfn=pdview&id=
-inurl:/news.php?include=
-inurl:/notizia.php?idArt=
-inurl:/os_view_full.php?
-inurl:/prodotti.php?id=
-inurl:/publications.asp?type=
-inurl:/recipe-view.php?id=
-inurl:/reservations.php?id=
-inurl:/shared/help.php?page=
-inurl:/view/lang/index.php?page=?page=
-inurl:/viewfaqs.php?cat=
-inurl:API_HOME_DIR=
-inurl:HT=
-inurl:act=
-inurl:action=
-inurl:ajax.php?page=
-inurl:board=
-inurl:cat=
-inurl:client_id=
-inurl:cmd=
-inurl:cont=
-inurl:current_frame=
-inurl:date=
-inurl:detail=
-inurl:dir=
-inurl:display=
-inurl:download=
-inurl:f=
-inurl:file=
-inurl:fileinclude=
-inurl:filename=
-inurl:firm_id=
-inurl:g=
-inurl:getdata=
-inurl:go=
-inurl:idd=
-inurl:inc=
-inurl:incfile=
-inurl:incl=
-inurl:include_file=
-inurl:include_path=
-inurl:index.cgi?aktion=shopview
-inurl:indexFrame.shtml Axis
-inurl:infile=
-inurl:info=
-inurl:ir=
-inurl:lang=
-inurl:language=
-inurl:link=
-inurl:load=
-inurl:main=
-inurl:mainspot=
-inurl:msg=
-inurl:num=
-inurl:openfile=
-inurl:p=
-inurl:page=
-inurl:pagina=
-inurl:path=
-inurl:path_to_calendar=
-inurl:pg=
-inurl:product.php?mid=
-inurl:qry_str=
-inurl:read.php?=
-inurl:ruta=
-inurl:safehtml=
-inurl:section=
-inurl:showfile=
-inurl:side=
-inurl:site_id=
-inurl:skin=
-inurl:static=
-inurl:str=
-inurl:strona=
-inurl:sub=
-inurl:tresc=
-inurl:url=
-inurl:user=
-inurl:view_ad.php?id=
-inurl:webvpn.html "login" "Please enter your" Login ("admin account info") filetype:log
-inurl:yapboz_detay.asp
 ipsec.conf
 ipsec.secrets
 irbeautina/product_detail.php?product_id=
@@ -7386,7 +7301,6 @@ item.php?prodtype=
 item.php?shopcd=
 item.php?sub_id=
 item/detail.php?num=
-itemDesc.php?CartId=
 item_book.php?CAT=
 item_details.php?catid=
 item_list.php?cat_id=
@@ -7394,13 +7308,17 @@ item_list.php?maingroup
 item_show.php?code_no=
 item_show.php?id=
 item_show.php?lid=
+itemDesc.php?CartId=
 itemdetail.php?item=
 itemdetails.php?catalogid=
+Jetbox One CMS Ã¢?Â¢" | "
+Jetstream ? *")
+jmeter.log filetype:log
 kategorie.php4?id=
 kboard/kboard.php?board=
+KM/BOARD/readboard.php?id=
 knowledge_base/detail.php?id=
 kshop/product.php?productid=
-layout.php?OpenPage=
 layout.php?abre=
 layout.php?action=
 layout.php?addr=
@@ -7425,6 +7343,7 @@ layout.php?nivel=
 layout.php?numero=
 layout.php?oldal=
 layout.php?opcion=
+layout.php?OpenPage=
 layout.php?page=
 layout.php?pageweb=
 layout.php?pagina=
@@ -7446,17 +7365,22 @@ layout.php?var=
 layout.php?where=
 layout.php?xlink=
 layout.php?z=
+LeapFTP intitle:"index.of./" sites.ini modified
 learnmore.php?cartID=
 lib/gore.php?libpath=
 library.php?cat=
+Link Department"
 links.php?catid=
 list.php?bookid=
+List.php?CatID=
 listcategoriesandproducts.php?idCategory=
 listing.php?cat=
 liveapplet
 lmsrecords_cd.php?cdid=
 loadpsb.php?id=
+Login ("
 login.php?dir=
+Looking Glass
 ls.php?id=
 m2f/m2f_phpbb204.php?m2f_root_path=
 m_view.php?ps_db=
@@ -7536,8 +7460,10 @@ media.php?page=
 media/pr.php?id=
 melbourne_details.php?id=
 memberInfo.php?id=
+Merak Mail Server Software" -.gov -.mil -.edu -site:merakmailserver.com
 message/comment_threads.php?postID=
-mod*.php?OpenPage=
+Microsoft Money Data Files
+Midmart Messageboard" "Administrator Login"
 mod*.php?action=
 mod*.php?addr=
 mod*.php?b=
@@ -7565,6 +7491,7 @@ mod*.php?middle=
 mod*.php?module=
 mod*.php?numero=
 mod*.php?oldal=
+mod*.php?OpenPage=
 mod*.php?pag=
 mod*.php?pageweb=
 mod*.php?pagina=
@@ -7594,24 +7521,30 @@ module_db.php?pivot_path=
 modules.php?****=
 modules.php?bookid=
 modules/AllMyGuests/signin.php?_AMGconfig[cfg_serverpath]=
-modules/My_eGallery/index.php?basepath=
 modules/content/index.php?id=
 modules/coppermine/themes/coppercop/theme.php?THEME_DIR=
 modules/forum/index.php?topic_id=
+modules/My_eGallery/index.php?basepath=
 modules/vwar/admin/admin.php?vwar_root=
-more_detail.php?X_EID=
+Monster Top List" MTL numrange:200-
 more_detail.php?id=
+more_detail.php?X_EID=
+More_Details.php?id=
 more_details.php?id=
 mt-db-pass.cgi files
 mwchat/libs/start_lobby.php?CONFIG[MWCHAT_Libs]=
 myaccount.php?catid=
 myevent.php?myevent_path=
+MYSQL error message: supplied argument....
 mysql error with query
 mysql history files
+MySQL tabledata dumps
 mystuff.xml - Trillian data files
 n_replyboard.php?typeboard=
 naboard/memo.php?bd=
 natterchat inurl:home.asp -site:natterchat.co.uk
+nd=m_fundraising_detail "login here"
+Netscape Application Server Error page
 news.php?ID=
 news.php?id=
 news.php?t=
@@ -7624,19 +7557,19 @@ news/newsitem.php?newsID=
 news/newsletter.php?id=
 news/shownewsarticle.php?articleid=
 news/temp.php?id=
-newsDetail.php?id=
-newsItem.php?newsId=
 news_and_notices.php?news_id=
 news_content.php?CategoryID=
 news_detail.php?file=
 news_item.php?id=
 news_view.php?id=
+newsDetail.php?id=
 newsite/pdf_show.php?id=
+newsItem.php?newsId=
 newsitem.php?newsID=
 newsitem.php?newsid=
 newsitem.php?num=
 newsone.php?id=
-nota.php?OpenPage=
+NickServ registration passwords
 nota.php?abre=
 nota.php?adresa=
 nota.php?b=
@@ -7676,6 +7609,7 @@ nota.php?n=
 nota.php?nivel=
 nota.php?oldal=
 nota.php?opcion=
+nota.php?OpenPage=
 nota.php?option=
 nota.php?pag=
 nota.php?pagina=
@@ -7701,6 +7635,7 @@ nota.php?url=
 nota.php?v=
 noticias.php?arq=
 notify/notify_form.php?topic_id=
+Novell NetWare intext:"netware management portal version"
 nurl:/admin/login.asp
 nyheder.htm?show=
 obio/detail.php?id=
@@ -7709,16 +7644,20 @@ ogloszenia/rss.php?cat=
 old_reports.php?file=
 onlinesales/product.php?product_id=
 opinions.php?id=
+ORA-00921: unexpected end of SQL command
+ORA-00936: missing expression
 order.asp?lotid=
 order.php?BookID=
 order.php?id=
 order.php?item_ID=
+OrderForm.php?Cart=
 ourblog.php?categoryid=
+Outlook Web Access (a better way)
 ov_tv.php?item=
+OWA Public Folders (direct view)
 packages_display.php?ref=
 padrao.php?*[*]*=
 padrao.php?*root*=
-padrao.php?OpenPage=
 padrao.php?a=
 padrao.php?abre=
 padrao.php?addr=
@@ -7750,6 +7689,7 @@ padrao.php?nivel=
 padrao.php?oldal=
 padrao.php?op=
 padrao.php?open=
+padrao.php?OpenPage=
 padrao.php?pag=
 padrao.php?page=
 padrao.php?path=
@@ -7777,8 +7717,6 @@ padrao.php?url=
 padrao.php?var=
 padrao.php?xlink=
 page.php?*[*]*=
-page.php?OpenPage=
-page.php?PartID=
 page.php?abre=
 page.php?action=
 page.php?addr=
@@ -7813,12 +7751,14 @@ page.php?modul=
 page.php?module=
 page.php?numero=
 page.php?oldal=
+page.php?OpenPage=
 page.php?option=
 page.php?p=
-page.php?pId=
 page.php?pa=
 page.php?panel=
+page.php?PartID=
 page.php?phpbb_root_path=
+page.php?pId=
 page.php?pname=
 page.php?pref=
 page.php?q=
@@ -7845,7 +7785,7 @@ pages.php?id=
 pages.php?page=
 pages/print.php?id=
 pages/video.php?id=
-pagina.php?OpenPage=
+Pages/whichArticle.php?id=
 pagina.php?base_dir=
 pagina.php?basepath=
 pagina.php?category=
@@ -7882,6 +7822,7 @@ pagina.php?n=
 pagina.php?nivel=
 pagina.php?numero=
 pagina.php?oldal=
+pagina.php?OpenPage=
 pagina.php?pagina=
 pagina.php?panel=
 pagina.php?path=
@@ -7974,18 +7915,24 @@ payment.php?CartID=
 pdetail.php?item_id=
 pdf_post.php?ID=
 people.lst
+Peoples MSN contact lists
 person.php?id=
 pharmaxim/category.php?cid=
 photogallery.php?id=
+PhotoPost PHP Upload
+PHP application warnings failing "include_path"
 php-addressbook "This is the addressbook for *" -warning
 php/event.php?id=
 php/index.php?id=
+PHPhotoalbum Statistics
+PHPhotoalbum Upload
 phpOpenTracker" Statistics
 phpwcms/include/inc_ext/spaw/dialogs/table.php?spaw_root=
 phpx?PageID
 picgallery/category.php?cid=
 pivot/modules/module_db.php?pivot_path=
 play_old.php?id=
+Please enter a valid password! inurl:polladmin
 podcast/item.php?pid=
 poem_list.php?bookID=
 ponuky/item_show.php?ID=
@@ -7993,10 +7940,10 @@ pop.php?id=
 port.php?content=
 portafolio/portafolio.php?id=
 post.php?id=
+Powered.by.RaidenHTTPD intitle:index.of
 powersearch.php?CartId=
 press.php?*[*]*=
 press.php?*root*=
-press.php?OpenPage=
 press.php?abre=
 press.php?addr=
 press.php?base_dir=
@@ -8026,6 +7973,7 @@ press.php?module=
 press.php?my=
 press.php?nivel=
 press.php?opcion=
+press.php?OpenPage=
 press.php?option=
 press.php?pa=
 press.php?page=
@@ -8122,8 +8070,6 @@ principal.php?w=
 principal.php?z=
 print-story.php?id=
 print.php?*root*=
-print.php?ID=
-print.php?OpenPage=
 print.php?addr=
 print.php?base_dir=
 print.php?basepath=
@@ -8138,6 +8084,7 @@ print.php?g=
 print.php?goFile=
 print.php?goto=
 print.php?header=
+print.php?ID=
 print.php?id=
 print.php?in=
 print.php?inc=
@@ -8157,6 +8104,7 @@ print.php?name=
 print.php?numero=
 print.php?opcion=
 print.php?open=
+print.php?OpenPage=
 print.php?option=
 print.php?pag=
 print.php?page=
@@ -8186,7 +8134,6 @@ privacy.php?cartID=
 private key files (.csr)
 private key files (.key)
 prod.php?cat=
-prodView.php?idProduct=
 prod_detail.php?id=
 prod_info.php?id=
 prodbycat.php?intCatalogID=
@@ -8200,9 +8147,6 @@ product-list.php?cid=
 product-list.php?id=
 product-range.php?rangeID=
 product.php?****=
-product.php?ItemID=
-product.php?ItemId=
-product.php?ProductID=
 product.php?bid=
 product.php?bookID=
 product.php?cat=
@@ -8210,11 +8154,14 @@ product.php?id=
 product.php?id_h=
 product.php?intProdID=
 product.php?intProductID=
+product.php?ItemID=
+product.php?ItemId=
 product.php?pid=
 product.php?prd=
 product.php?prodid=
 product.php?product=
 product.php?product_id=
+product.php?ProductID=
 product.php?productid=
 product.php?shopprodid=
 product.php?sku=
@@ -8222,10 +8169,6 @@ product/detail.php?id=
 product/list.php?pid=
 product/product.php?cate=
 product/product.php?product_no=
-productDetails.php?idProduct=
-productDisplay.php
-productList.php?cat=
-productList.php?id=
 product_detail.php?product_id=
 product_details.php?id=
 product_details.php?prodid=
@@ -8235,23 +8178,28 @@ product_info.php?item_id=
 product_info.php?products_id=
 product_ranges_view.php?ID=
 productdetail.php?id=
+productDetails.php?idProduct=
+productDisplay.php
 productinfo.php?id=
 productinfo.php?item=
-productlist.php?ViewType=Category&CategoryID=
+productList.php?cat=
 productlist.php?fid=
 productlist.php?grpid=
+ProductList.php?id=
+productList.php?id=
 productlist.php?id=
 productlist.php?tid=
+productlist.php?ViewType=Category&CategoryID=
 productpage.php
 products-display-details.php?prodid=
-products.php?DepartmentID=
-products.php?ID=
 products.php?act=
 products.php?cat=
 products.php?cat_id=
 products.php?categoryID=
 products.php?catid=
+products.php?DepartmentID=
 products.php?groupid=
+products.php?ID=
 products.php?keyword=
 products.php?openparent=
 products.php?p=
@@ -8266,11 +8214,12 @@ products/product-list.php?id=
 products/product.php?id=
 products/product.php?pid=
 products/products.php?p=
-productsByCategory.php?intCatalogID=
 products_category.php?CategoryID=
 products_detail.php?CategoryID=
+productsByCategory.php?intCatalogID=
 productsview.php?proid=
 produit.php?id=
+prodView.php?idProduct=
 profile.php?id=
 profile_print.php?id=
 profile_view.php?id=
@@ -8295,6 +8244,7 @@ pview.php?Item=
 pwd.db
 pylones/item.php?item=
 questions.php?questionid=
+Quicken data files
 rating.php?id=
 rating/stat.php?id=
 ray.php?id=
@@ -8304,6 +8254,7 @@ readnews.php?id=
 reagir.php?num=
 recipe/category.php?cid=
 redaktion/whiteteeth/detail.php?nr=
+RedKernel"
 referral/detail.php?siteid=
 releases.php?id=
 releases_headlines_details.php?id=
@@ -8324,6 +8275,10 @@ rss/event.php?id=
 rtfe.php?siteid=
 rub.php?idr=
 s.php?w=
+s3 site:amazonaws.com filetype:sql
+s3 site:amazonaws.com filetype:xls login
+s3 site:amazonaws.com filetype:xls password
+Sales/view_item.php?id=
 savecart.php?CartId=
 schule/termine.php?view=
 search.php?CartID=
@@ -8333,9 +8288,11 @@ searchcat.php?search_id=
 section.php?id=
 section.php?section=
 select_biblio.php?id=
+Select_Item.php?id=
 sem.php3?id=
 send_reminders.php?includedir=
 server-dbs "intitle:index of"
+Services.php?ID=
 services.php?page=
 shippinginfo.php?CartId=
 shop.php?a=
@@ -8346,6 +8303,7 @@ shop.php?do=part&id=
 shop/books_detail.php?bookID=
 shop/category.php?cat_id=
 shop/eventshop/product_detail.php?itemid=
+Shop/home.php?cat=
 shop/home.php?cat=
 shop/index.php?cPath=
 shop_category.php?id=
@@ -8372,6 +8330,7 @@ shopquery.php?catalogid=
 shopremoveitem.php?cartid=
 shopreviewadd.php?id=
 shopreviewlist.php?id=
+ShopSearch.php?CategoryID=
 shoptellafriend.php?id=
 shopthanks.php
 shopwelcome.php?title=
@@ -8434,7 +8393,6 @@ show.php?type=
 show.php?x=
 show.php?xlink=
 show.php?z=
-showStore.php?catID=
 show_an.php?id=
 show_bug.cgi?id=
 show_item.php?id=
@@ -8446,6 +8404,7 @@ showimg.php?id=
 showproduct.php?cat=
 showproduct.php?prodid=
 showproduct.php?productId=
+showStore.php?catID=
 showsub.php?id=
 shprodde.php?SKU=
 shredder-categories.php?id=
@@ -8456,11 +8415,25 @@ site.php?id=
 site/?details&prodid=
 site/en/list_service.php?cat=
 site/products.php?prodid=
+site:*/server-status intext:"Apache server status for"
 site:.pk intext:Warning: mysql_fetch_array(): supplied argument is not a valid MySQL result resource in & “id”
 site:.pk intext:Warning: mysql_free_result(): supplied argument is not a valid MySQL result resource in & “id”
+site:azurewebsites.net inurl:.gov | .mil | .edu
+site:com inurl:b2blogin ext:cfm | jsp | php | aspx
+site:com inurl:jboss filetype:log -github.com
+site:connect.garmin.com inurl:"/modern/activity/"
+site:connect.garmin.com inurl:"/modern/profile/"
+site:drive.google.com /preview intext:movie inurl:flv | wmv | mp4 -pdf -edit -view
 site:edu admin grades
+site:ftp.*.com "Web File Manager"
+site:global.gotomeeting.com inurl:recording
+site:mil ext:cfm inurl:login.cfm
 site:netcraft.com intitle:That.Site.Running Apache
+site:pastebin.com "rcon_password"
+site:showmyhomework.co.uk/school/homeworks/ "password"
+site:trello.com intext:mysql AND intext:password -site:developers.trello.com -site:help.trello.com
 site:www.mailinator.com inurl:ShowMail.do
+site:www.openbugbounty.org + intext:"Open Redirect" + intext:"Unpatched"
 sitebuildercontent
 sitebuilderfiles
 sitebuilderpictures
@@ -8519,6 +8492,7 @@ sitio/item.php?idcd=
 skins/advanced/advanced1.php?pluginpath[0]=
 skunkworks/content.php?id=
 smarty_config.php?root_dir=
+Snitz! forums db path error
 socsci/events/full_details.php?id=
 socsci/news_items/full_story.php?id=
 software_categories.php?cat_id=
@@ -8529,7 +8503,11 @@ specials.php?osCsid=
 sport.php?revista=
 spr.php?id=
 spwd.db / passwd
+SQL data dumps
+SQL syntax error
 sql.php?id=
+SQuery/lib/gore.php?libpath=
+Squid cache server reports
 staff/publications.php?sn=
 staff_id=
 standard.php?*[*]*=
@@ -8657,14 +8635,16 @@ store/product.php?productid=
 store/view_items.php?id=
 store_bycat.php?id=
 store_listing.php?id=
+Store_ViewProducts.php?Cat=
 storefront.php?id=
 storefronts.php?title=
 storeitem.php?item=
 storemanager/contents/item.php?page_code=
+StoreRedirect.php?ID=
 story.php?id=
+Stray-Questions-View.php?num=
 sub*.php?*[*]*=
 sub*.php?*root*=
-sub*.php?OpenPage=
 sub*.php?abre=
 sub*.php?action=
 sub*.php?adresa=
@@ -8704,6 +8684,7 @@ sub*.php?name=
 sub*.php?oldal=
 sub*.php?op=
 sub*.php?open=
+sub*.php?OpenPage=
 sub*.php?option=
 sub*.php?pa=
 sub*.php?pag=
@@ -8730,14 +8711,16 @@ sub*.php?where=
 sub*.php?z=
 subcategories.php?id=
 summary.php?PID=
+Supplied argument is not a valid PostgreSQL result
 support/mailling/maillist/inc/initdb.php?absolute_path=
 sw_comment.php?id=
+swiftmailer intitle:"index of" "smtp.yml" | "smtp.xml"
 tas/event.php?id=
 tecdaten/showdetail.php?prodid=
 tek9.php?
 template.php?*[*]*=
-template.php?Action=Item&pid=
 template.php?a=
+template.php?Action=Item&pid=
 template.php?addr=
 template.php?base_dir=
 template.php?basepath=
@@ -8808,9 +8791,15 @@ transcript.php?id=
 trillian.ini
 tuangou.php?bookid=
 type.php?iType=
+type:mil inurl:ftp ext:pdf | ps
+UBB.threads")|(inurl:login.php "ubb")
+UebiMiau" -site:sourceforge.net
+Ultima Online loginservers
+Unreal IRCd
 updatebasket.php?bookid=
 updates.php?ID=
 usb/devices/showdev.php?id=
+username | password inurl:resources/application.properties -github.com -gitlab
 veranstaltungen/detail.php?id=
 video.php?content=
 video.php?id=
@@ -8868,9 +8857,6 @@ view.php?u=
 view.php?var=
 view.php?where=
 view/7/9628/1.html?reply=
-viewCart.php?userID=
-viewCat_h.php?idCategory=
-viewPrd.php?idcategory=
 view_author.php?id=
 view_cart.php?title=
 view_detail.php?ID=
@@ -8882,18 +8868,32 @@ view_newsletter.php?id=
 view_product.php?id=
 viewapp.php?id=
 viewcart.php?CartId=
+viewCart.php?userID=
+viewCat_h.php?idCategory=
 viewevent.php?EventID=
 viewitem.php?recor=
 viewphoto.php?id=
+viewPrd.php?idcategory=
+ViewProduct.php?misc=
 viewshowdetail.php?id=
 viewthread.php?tid=
 voteList.php?item_ID=
 wamp_dir/setup/yesno.phtml?no_url=
 warning "error on line" php sablotron
+WebLog Referrers
 website.php?id=
+Welcome to ntop!
 whatsnew.php?idCategory=
 wiki/pmwiki.php?page****=
+Windows 2000 web server error messages
+WsAncillary.php?ID=
+WsPages.php?ID=noticiasDetalle.php?xid=
 www/index.php?page=
 wwwboard WebAdmin inurl:passwd.txt wwwboard|webadmin
+WWWThreads")|(inurl:"wwwthreads/login.php")|(inurl:"wwwthreads/login.pl?Cat=")
+XAMPP "inurl:xampp/index"
+XOOPS Custom Installation
 yacht_search/yacht_view.php?pid=
+yaws.*.server.at
+YZboard/view.php?id=
 zb/view.php?uid=
