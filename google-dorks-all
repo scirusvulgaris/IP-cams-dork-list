@@ -1068,24 +1068,21 @@ ext:(doc | pdf | xls | txt | ps | rtf | odt | sxw | psw | ppt | pps | xml) (inte
 ext:adr adr filetype:adr "bookmarks.adr"
 ext:asa | ext:bak intext:uid intext:pwd -"uid..pwd" database | server | dsn
 ext:asa | ext:bak intext:uid intext:pwd -”uid..pwd” database | server | dsn
-ext:asp   inurlathto.asp
+ext:asp inurlathto.asp
 ext:asp \"powered by DUForum\" inurlmessages|details|login|default|register) -site:duware.com
 ext:asp inurl:pathto.asp
-ext:asp inurlathto.asp
 ext:asp inurlUgallery intitle:\".\" -site:dugallery.com -site:duware.com
 ext:ccm ccm -catacomb
 ext:CDX CDX
 ext:cfg radius.cfg
-ext:cgi   inurl:editcgi.cgi inurl:file=
+ext:cgi inurl:editcgi.cgi inurl:file=
 ext:cgi intext:"nrg-" " This web page was created on "
 ext:cgi intext:”nrg-” ” This web page was created on ”
 ext:cgi intitle:"control panel" "enter your owner password to continue!"
 ext:cgi intitle:”control panel” “enter your owner password to continue!”
-ext:cgi inurl:editcgi.cgi inurl:file=
 ext:cgi inurl:ubb_test
-ext:conf   inurl:rsyncd.conf -cvs -man
-ext:conf inurl:rsyncd.conf -cvs   -manext:conf NoCatAuth -cvs
 ext:conf inurl:rsyncd.conf -cvs -man
+ext:conf inurl:rsyncd.conf -cvs -manext:conf NoCatAuth -cvs
 ext:conf NoCatAuth -cvs
 ext:config + " password=" + "
 ext:dat bpk.dat
@@ -1094,25 +1091,20 @@ ext:gho gho
 ext:ics ics
 ext:inc "pwd=" "UID="
 ext:inc “pwd=” “UID=”
-ext:ini   intext:env.ini
-ext:ini eudora.ini
 ext:ini intext:env.ini
+ext:ini eudora.ini
 ext:ini Robust.ini filetype:ini "password"
 ext:ini Version=... password
 ext:ini Version=4.0.0.4 password
 ext:jbf jbf
 ext:jsp intext:"jspspy" intitle:"Jspspy web~shell V1.0"
 ext:ldif ldif
-ext:log   "Software: Microsoft Internet Information Services *.*"
-ext:log "Software: Microsoft   Internet Information
-ext:log "Software: Microsoft Internet Information
 ext:log "Software: Microsoft Internet Information Services *.*"
+ext:log "Software: Microsoft Internet Information
 ext:log \"Software: Microsoft Internet Information Services *.*\"
 ext:log intext:"connection" intitle:"index of" -stackoverflow
 ext:log “Software: Microsoft Internet Information Services *.*”
-ext:mdb   inurl:*.mdb inurl:fpdb shop.mdb
 ext:mdb inurl:*.mdb inurl:fpdb shop.mdb
-ext:nsf   nsf -gov -mil
 ext:nsf nsf -gov -mil
 ext:passwd -intext:the -sample -example
 ext:pem "PRIVATE KEY" -site:facebook.com -example -test*
@@ -1126,8 +1118,6 @@ ext:reg "username=*" putty
 ext:reg \"username=*\" putty
 ext:reg “username=*” putty
 ext:svc inurl:wsdl
-ext:txt   "Final encryption key"
-ext:txt "Final encryption   key"
 ext:txt "Final encryption key"
 ext:txt \"Final encryption key\"
 ext:txt inurl:dxdiag
@@ -1136,10 +1126,8 @@ ext:txt {"wallet_address" :", "pool_address" : " ", "pool_password" -git
 ext:txt | ext:sql | ext:cnf | ext:config | ext:log & intext:"admin" | intext:"root" | intext:"administrator" & intext:"password" | intext:"root" | intext:"admin" | intext:"administrator"
 ext:txt “Final encryption key”
 ext:vmdk vmdk
-ext:vmx   vmx
 ext:vmx vmx
 ext:yml database inurl:config
-extqi pqi   -database
 extqi pqi -database
 ez Publish administration
 ezBOO \"Administrator Panel\" -cvs
@@ -1211,12 +1199,11 @@ file.php?where=
 file.php?y=
 filemanager.php?delete=
 filetype:asmx inurl:(_vti_bin|api|webservice)
-filetype:asp   DBQ=" * Server.MapPath("*.mdb")
+filetype:asp DBQ=" * Server.MapPath("*.mdb")
 filetype:asp "Custom Error Message" Category Source
 filetype:asp + "[ODBC SQL"
 filetype:asp + “[ODBC SQL”
 filetype:ASP ASP
-filetype:asp DBQ=" * Server.MapPath("*.mdb")
 filetype:asp DBQ=" Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive Server.MapPath("*.mdb")
 filetype:asp DBQ=\" * Server.MapPath(\"*.mdb\") 
 filetype:asp DBQ=” * Server.MapPath(“*.mdb”)
@@ -1228,14 +1215,12 @@ filetype:bak inurl:\"htaccess|passwd|shadow|htusers\"
 filetype:bak inurl:”htaccess|passwd|shadow|htusers”
 filetype:bkf bkf
 filetype:bkf bkf 
-filetype:blt   "buddylist"
 filetype:blt "buddylist"
 filetype:blt \"buddylist\" 
 filetype:blt blt +intext:screenname
 filetype:blt blt +intext:screenname 
 filetype:blt “buddylist”
 filetype:BML BML
-filetype:cfg   auto_inst.cfg
 filetype:cfg auto_inst.cfg
 filetype:cfg auto_inst.cfg 
 filetype:cfg ks intext:rootpw -sample -test -howto
@@ -1256,7 +1241,6 @@ filetype:cgi inurl:”Web_Store.cgi”
 filetype:cnf inurl:_vti_pvt access.cnf
 filetype:cnf inurl:_vti_pvt access.cnf 
 filetype:cnf my.cnf -cvs -example 
-filetype:conf   inurl:firewall -intitle:cvs
 filetype:conf inurl:firewall -intitle:cvs
 filetype:conf inurl:firewall -intitle:cvs 
 filetype:conf inurl:proftpd. PROFTP FTP server configuration file reveals
@@ -1273,7 +1257,6 @@ filetype:config config intext:appSettings “User ID”
 filetype:config web.config -CVS
 filetype:config web.config -CVS 
 filetype:ctl inurl:haccess. Microsoft FrontPage equivalent of htaccess
-filetype:ctt   Contact
 filetype:ctt Contact
 filetype:ctt Contact 
 filetype:ctt ctt messenger
@@ -1291,7 +1274,6 @@ filetype:DLL DLL
 filetype:doc "Answer Key"
 filetype:DOC DOC
 filetype:doc inurl:"gov" intext:"default password is"
-filetype:eml eml   +intext:"Subject" +intext:"From" +intext:"To"
 filetype:eml eml +intext:"Subject" +intext:"From" +intext:"To"
 filetype:eml eml +intext:\"Subject\" +intext:\"From\" +intext:\"To\" 
 filetype:eml eml +intext:”Subject” +intext:”From” +intext:”To”
@@ -1303,7 +1285,6 @@ filetype:FCGI FCGI
 filetype:fp fp 
 filetype:fp fp -site:gov -site:mil -\"cvs log\" 
 filetype:fp3 fp3
-filetype:fp5   fp5 -site:gov -site:mil -"cvs log"
 filetype:fp5 fp5 -site:gov -site:mil -"cvs log"
 filetype:fp5 fp5 -site:gov -site:mil -”cvs log”
 filetype:fp7 fp7
@@ -1319,7 +1300,6 @@ filetype:inc intext:mysql_connect
 filetype:inc mysql_connect OR mysql_pconnect
 filetype:inc mysql_connect OR mysql_pconnect 
 filetype:inc php -site:github.com -site:sourceforge.net
-filetype:inf   inurl:capolicy.inf
 filetype:inf inurl:capolicy.inf
 filetype:inf inurl:capolicy.inf 
 filetype:inf sysprep
@@ -1343,11 +1323,10 @@ filetype:ldb admin
 filetype:lic lic intext:key
 filetype:lic lic intext:key 
 filetype:lit lit (books|ebooks) 
-filetype:log   access.log -CVS
+filetype:log access.log -CVS
 filetype:log "PHP Parse error" | "PHP Warning" | "PHP Error"
 filetype:log "See `ipsec --copyright"
 filetype:log \"See `ipsec copyright\" 
-filetype:log access.log -CVS
 filetype:log access.log -CVS 
 filetype:log cron.log
 filetype:log intext:"ConnectionManager2"
@@ -1369,7 +1348,6 @@ filetype:mdb inurl:users.mdb
 filetype:mdb wwforum
 filetype:mdb wwforum 
 filetype:MV MV
-filetype:myd myd   -CVS
 filetype:myd myd -CVS
 filetype:myd myd -CVS 
 filetype:netrc password
@@ -1416,7 +1394,6 @@ filetype:pst pst -from -to -date
 filetype:pub "ssh-rsa"
 filetype:pwd service
 filetype:pwl pwl
-filetype:qbb   qbb
 filetype:qbb qbb
 filetype:QBW qbw
 filetype:r2w r2w
@@ -1464,7 +1441,6 @@ filetype:TXT TXT
 filetype:url +inurl:"ftp://" +inurl:";@"
 filetype:url +inurl:\"ftp://\" +inurl:\";@\" 
 filetype:url +inurl:”ftp://” +inurl:”;@”
-filetype:vcs   vcs
 filetype:vcs vcs
 filetype:vcs vcs 
 filetype:vsd vsd network -samples -examples
@@ -1472,10 +1448,9 @@ filetype:wab wab
 filetype:wab wab 
 filetype:wab wab Microsoft Outlook Express Mail address
 filetype:wsdl wsdl 
-filetype:xls   inurl:"email.xls"
+filetype:xls inurl:"email.xls"
 filetype:xls -site:gov inurl:contact
 filetype:xls -site:gov inurl:contact 
-filetype:xls inurl:"email.xls"
 filetype:xls inurl:\"email.xls\" 
 filetype:xls inurl:”email.xls”
 filetype:xls username password email
@@ -1491,7 +1466,6 @@ filetypedb pdb backup (Pilot | Pluckerdb)
 filetypeem intextrivate 
 filetypehp HAXPLORER \"Server Files Browser\" 
 filetypehp inurl:\"viewfile\" -\"index.php\" -\"idfil 
-filetypehp inurl:index inurlhpicalendar   -site:sourceforge.net
 filetypehp inurl:index inurlhpicalendar -site:sourceforge.net
 filetypehp inurl:index inurlhpicalendar -site:sourceforge.net 
 filetypel -intext:\"/usr/bin/perl\" inurl:webcal (inurl:webcal | inurl:add | inurl:delete | inurl:config) 
@@ -1499,10 +1473,9 @@ filetypeot inurl:john.pot
 filetypeot inurl:john.pot 
 filetypera ora
 filetypera ora 
-filetypera orafiletypedb pdb backup (Pilot |   Pluckerdb)
+filetypera orafiletypedb pdb backup (Pilot | Pluckerdb)
 filetypera tnsnames 
 filetyperoperties inurl:db intextassword 
-filetypest   inurl:"outlook.pst"
 filetypest inurl:"outlook.pst"
 filetypest inurl:\"outlook.pst\" 
 filetypest pst -from -to -date
@@ -1674,7 +1647,6 @@ global_projects.php?cid=
 gnu/?doc=
 goboard/front/board_view.php?code=
 goods_detail.php?data=
-haccess.ctl   (one way)
 haccess.ctl (one way)
 haccess.ctl (one way) 
 haccess.ctl (VERY reliable)
@@ -1832,7 +1804,6 @@ idlechat/message.php?id=
 ihm.php?p=
 IIS 4.0 error messages
 IIS web server error messages
-iletype:log   cron.log
 iletype:log cron.log
 iletype:log cron.log 
 IlohaMail"
@@ -2327,7 +2298,6 @@ intext:"[***] Results from" + ext:txt + "snort-"
 intext:"A syntax error has occurred" filetype:ihtml
 intext:"About Mac OS Personal Web Sharing"
 intext:"access denied for user" "using password"
-intext:"allow_call_time_pass_reference"   "PATH_INFO"
 intext:"allow_call_time_pass_reference" "PATH_INFO"
 intext:"An illegal character has been found in the statement" -"previous message"
 intext:"Any time & Any where" AND "Customer Login"
@@ -2366,23 +2336,19 @@ intext:"EZGuestbook"
 intext:"Fatal error: Call to undefined function" -reply -the -next
 intext:"Fill out the form below completely to change your password and user name. If new username is left blank, your old one will be assumed." -edu
 intext:"ftp://" "www.eastgame.net"
-intext:"Generated   by phpSystem"
 intext:"Generated by phpSystem"
 intext:"generated by wwwstat"
 intext:"Healthy" + "Product model" + " Client IP" + "Ethernet"
-intext:"Host   Vulnerability Summary Report"
-intext:"Host Vulnerability Summary   Report"
 intext:"Host Vulnerability Summary Report"
 intext:"HostingAccelerator" intitle:"login" +"Username" -"news" -demo
 intext:"html allowed" guestbook
 intext:"http://*:*@www" domainname
-intext:"HTTP_FROM=googlebot" googlebot.com   "Server_Software="
 intext:"HTTP_FROM=googlebot" googlebot.com "Server_Software="
 intext:"https://chat.whatsapp.com/invite/" intitle:"Your Search For Company/Subject/Whatever"
 intext:"iCONECT 4.1 :: Login"
 intext:"IMail Server Web Messaging" intitle:login
 intext:"Incorrect syntax near"
-intext:"Index   of" / "chat/logs"
+intext:"Index of" / "chat/logs"
 intext:"index of /" "Index of" access_log
 intext:"Index of /" +.htaccess
 intext:"Index of /" +passwd
@@ -2394,10 +2360,8 @@ intext:"Index Of /network" "last modified"
 intext:"Index of /password"
 intext:"index of /private" -site:net -site:com -site:org
 intext:"index of /private" site:mil
-intext:"Index of" / "chat/logs"
 intext:"index of/" "ws_ftp.ini" "parent directory"
 intext:"inspanel" intitle:"login" -"cannot" "Login ID" -site:inspediumsoft.com
-intext:"Installed   Objects Scanner" inurl:default.asp
 intext:"Installed Objects Scanner" inurl:default.asp
 intext:"Internal Server Error" "server at"
 intext:"intitle:3300 Integrated Communications Platform" inurl:main.htm
@@ -2414,26 +2378,18 @@ intext:"M3R1C4 SHELL BACKDOOR"
 intext:"MacHTTP" filetype:log inurl:machttp.log
 intext:"Mail admins login here to administrate your domain."
 intext:"Master Account" "Domain Name" "Password" inurl:/cgi-bin/qmailadmin
-intext:"Mecury   Version" "Infastructure Group"
-intext:"Mecury Version" "Infastructure   Group"
 intext:"Mecury Version" "Infastructure Group"
-intext:"Microsoft (R) Windows * (TM) Version   * DrWtsn32 Copyright (C)" ext:log
 intext:"Microsoft (R) Windows * (TM) Version * DrWtsn32 Copyright (C)" ext:log
 intext:"Microsoft CRM : Unsupported Browser Version"
 intext:"Microsoft ® Windows * ™ Version * DrWtsn32 Copyright ©" ext:log
 intext:"More Info about MetaCart Free"
-intext:"Most   Submitted Forms and Scripts" "this section"
-intext:"Most Submitted Forms and s?ri?ts" "this section"
-intext:"Most Submitted Forms and Scripts"   "this section"
 intext:"Most Submitted Forms and Scripts" "this section"
+intext:"Most Submitted Forms and s?ri?ts" "this section"
 intext:"mysql dump" filetype:sql
 intext:"mySQL error with query"
 intext:"Network Host Assessment Report" "Internet Scanner"
-intext:"Network Vulnerability   Assessment Report"
 intext:"Network Vulnerability Assessment Report"
 intext:"Network Vulnerability Assessment Report" 本文来自 pc007.com
-intext:"not for   distribution" confidential
-intext:"not for distribution"   confidential
 intext:"not for distribution" confidential
 intext:"not for public release" -.edu -.gov -.mil
 intext:"OPENSRS Domain Management" inurl:manage.cgi
@@ -2454,8 +2410,6 @@ intext:"Parse error: parse error, unexpected T_VARIABLE" "on line" filetype:php
 intext:"password"
 intext:"paytm" intitle:"index of"
 intext:"pcANYWHERE EXPRESS Java Client"
-intext:"phone * * *" "address *" "e-mail"   intitle:"curriculum vitae"
-intext:"phone * * *" "address *" "e-mail" intitle:"curriculum   vitae"
 intext:"phone * * *" "address *" "e-mail" intitle:"curriculum vitae"
 intext:"Phorum Admin" "Database Connection" inurl:forum inurl:admin
 intext:"PHP Version " ext:php intext:"disabled" intext:"Build Date" intext:"System" intext:"allow_url_fopen"
@@ -2487,26 +2441,21 @@ intext:"Powered by ViewVC" | intitle:"ViewVC Repository Listing"
 intext:"powered by Web Wiz Journal"
 intext:"Powered by www.yawcam.com"
 intext:"powered | performed by Beyond Security's Automated Scanning" -kazaa -example
-intext:"produced   by getstats"
 intext:"produced by getstats"
 intext:"PuTTY log" ext:log "password" -supportforums -github
 intext:"rabbit_password" | "service_password" filetype:conf
-intext:"Request Details" "Control   Tree" "Server Variables"
 intext:"Request Details" "Control Tree" "Server Variables"
 intext:"Resource dumped by" intext:jcr -site:adobe.com
-intext:"robots.txt"   "Disallow:" filetype:txt
 intext:"robots.txt" "Disallow:" filetype:txt
-intext:"Running   in Child mode"
 intext:"Running in Child mode"
 intext:"Select a database to view" intitle:"filemaker pro"
 intext:"series Network Configuration" AND intext:"canon"
 intext:"Session Start * * * *:*:* *" filetype:log
 intext:"Session Start Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive *:*:* *" filetype:log
 intext:"set up the administrator user" inurl:pivot
-intext:"sets   mode: +s"
+intext:"sets mode: +s"
 intext:"sets mode: +k"
 intext:"sets mode: +p"
-intext:"sets mode: +s"
 intext:"Shadow Security Scanner performed a vulnerability assessment"
 intext:"Sign in with your organizational account" login -github.com
 intext:"site info for" "Enter Admin Password"
@@ -2523,7 +2472,6 @@ intext:"Syntax error in query expression " -the
 intext:"SysCP - login"
 intext:"Target Multicast Group" "beacon"
 intext:"Thank you for using BIG-IP."
-intext:"Thank you for your order"   +receipt
 intext:"Thank you for your order" +receipt
 intext:"Thank you for your purchase" +download
 intext:"The following report contains confidential information" vulnerability -search
@@ -2532,20 +2480,17 @@ intext:"The statistics were last upd?t?d" "Daily"-microsoft.com
 intext:"the WordPress" inurl:wp-config ext:txt
 intext:"There are no Administrators Accounts" inurl:admin.php -mysql_fetch_row
 intext:"There seems to have been a problem with the" " Please try again by clicking the Refresh button in your web browser."
-intext:"These   statistics were produced by getstats"
 intext:"These statistics were produced by getstats"
 intext:"This is a restricted Access Server" "Javas?ri?t Not Enabled!"|"Messenger Express" -edu -ac
-intext:"This is a Shareaza   Node""This report was generated by WebLog"
+intext:"This is a Shareaza Node""This report was generated by WebLog"
 intext:"This is a Shareaza Node"
 intext:"This is the default welcome page used to test the correct operation of the Apache2 server"
 intext:"this login can be used only once" inurl:user intitle:"reset password"
 intext:"this proxy is working fine!" "enter *" "URL***" * visit
 intext:"This report lists" "identified by Internet Scanner"
-intext:"This report was generated by   WebLog"
 intext:"This report was generated by WebLog"
 intext:"This section is for Administrators only. If you are an administrator then please"
 intext:"This summary was generated by wwwstat"
-intext:"Tobias   Oetiker" "traffic analysis"
 intext:"Tobias Oetiker" "traffic analysis"
 intext:"Traffic Analysis for" "RMON Port * on unit *"
 intext:"ttawlogin.cgi/?action="
@@ -2606,9 +2551,8 @@ intext:Connect.with.Finalsite intitle:admin -facebook
 intext:cv OR intext:curriculum vitae "passport details" ext:doc -template
 intext:database inurl:"laravel.log" ext:log
 intext:define('AUTH_KEY', ' wp-config.php filetype:txt
-intext:gmail invite   intext:http://gmail.google.com/gmail/a
-intext:gmail invite intext:[Only Registered Users Can See Links] 
 intext:gmail invite intext:http://gmail.google.com/gmail/a
+intext:gmail invite intext:[Only Registered Users Can See Links] 
 intext:jdbc:oracle filetype:java
 intext:Modified files in JOE when it aborted on JOE was aborted because the terminal closed
 intext:my.cnf intitle:index of
@@ -2619,7 +2563,6 @@ intext:password | passcode) intextusername | userid | user) filetype:csv
 intext:pin | userid & password intitle:supplier | supply & login | portal
 intext:pure-ftpd.conf intitle:index of
 intext:reports filetype:cache
-intext:SQLiteManager   inurl:main.php
 intext:SQLiteManager inurl:main.php
 intext:SQLiteManager inurl:main.php 
 intext:user.sql intitle:index.of
@@ -2644,7 +2587,7 @@ intext:”Web Wiz Journal”
 intext:”Welcome to the Web V.Networks” intitle:”V.Networks [Top]” -filetype:htm
 intext:”Welcome to” inurl:”cp” intitle:”H-SPHERE” inurl:”begin.html” -Fee
 intext:””BiTBOARD v2.0″ BiTSHiFTERS Bulletin Board”
-intextpassword | passcode)   intextusername | userid | user) filetype:csv
+intextpassword | passcode) intextusername | userid | user) filetype:csv
 intextpassword | passcode) intextusername | userid | user) filetype:csv 
 intitle: "Generated by Acunetix WVS Reporter"
 intitle: "index of" "./" "./bitcoin"
@@ -2673,10 +2616,8 @@ intitle:"apache tomcat/" "Apache Tomcat examples"
 intitle:"apache tomcat/" + "Find additional important configuration information in:"
 intitle:"Apache2 Debian Default Page: It works"
 intitle:"Apache2 Ubuntu Default Page: It works"
-intitle:"Apache::Status" (inurl:server-status |   inurl:status.html | inurl:apache.html)
 intitle:"Apache::Status" (inurl:server-status | inurl:status.html | inurl:apache.html)
 intitle:"AppServ Open Project" -site:www.appservnetwork.com
-intitle:"ASP   Stats Generator *.*" "ASP Stats Generator" "2003-2004 weppos"
 intitle:"ASP Stats Generator *.*" "ASP Stats Generator" "2003-2004 weppos"
 intitle:"Athens Authentication Point"
 intitle:"Axis Happiness Page" "Examining webapp configuration"
@@ -2684,7 +2625,6 @@ intitle:"Azureus : Java BitTorrent Client Tracker"
 intitle:"b2evo > Login form" "Login form. You must log in! You will have to accept cookies in order to log in" -demo -site:b2evolution.net
 intitle:"BadBlue: the file-sharing web server anyone can use"
 intitle:"Belarc Advisor Current Profile" intext:"Click here for Belarc's PC Management products, for large and small companies."
-intitle:"Big   Sister" +"OK Attention Trouble"
 intitle:"Big Sister" +"OK Attention Trouble"
 intitle:"BMC Remedy Mid Tier" "login"
 intitle:"BNBT Tracker Info"
@@ -2708,11 +2648,9 @@ intitle:"Directory Listing For" "Filename" intext:Tomcat/5.0.28
 intitle:"docker" intitle:"index of" config
 intitle:"Document title goes here" intitle:"used by web search tools" " example of a simple Home Page"
 intitle:"DocuShare"
-intitle:"DocuShare"   inurl:"docushare/dsweb/" -faq
 intitle:"DocuShare" inurl:"docushare/dsweb/" -faq
 intitle:"DocuShare" inurl:"docushare/dsweb/" -faq -gov -edu
 intitle:"Docutek ERes - Admin Login" -edu
-intitle:"edna:streaming mp3 server"   -forums
 intitle:"edna:streaming mp3 server" -forums
 intitle:"Employee Intranet Login"
 intitle:"eMule *" intitle:"- Web Control Panel" intext:"Web Control Panel" "Enter your password here."
@@ -2745,8 +2683,8 @@ intitle:"IIS Windows Server" -inurl:"IIS Windows Server"
 intitle:"iLO Login" intext:"Integrated Lights-Out 3"
 intitle:"inc. vpn 3000 concentrator"
 intitle:"inc. vpn 3000 concentrator" intitle:asterisk.management.portal web-access
-intitle:"Index   Of" -inurl:maillog maillog size
-intitle:"index   of" mysql.conf OR mysql_config
+intitle:"Index Of" -inurl:maillog maillog size
+intitle:"index of" mysql.conf OR mysql_config
 intitle:"Index of *" mode links bytes last-changed name
 intitle:"Index of /" "Proudly Served by Surftown at"
 intitle:"index of /" authorized_keys
@@ -2784,7 +2722,6 @@ intitle:"index of" "W3SVC1"
 intitle:"index of" "WindowsCookies"
 intitle:"index of" $Recycle.bin
 intitle:"index of" +myd size
-intitle:"Index Of" -inurl:maillog maillog size
 intitle:"Index of" .bash_history
 intitle:"index of" .env
 intitle:"Index of" .mysql_history
@@ -2811,7 +2748,6 @@ intitle:"index of" inurl:documents backup
 intitle:"index of" master.passwd
 intitle:"index of" master.passwd 007电脑资讯
 intitle:"index of" members OR accounts
-intitle:"index of" mysql.conf OR mysql_config
 intitle:"index of" pagefile.sys
 intitle:"index of" passwd
 intitle:"Index of" passwords modified
@@ -2822,16 +2758,14 @@ intitle:"Index of" sc_serv.conf sc_serv content
 intitle:"index of" scada
 intitle:"index of" spwd
 intitle:"Index of" spwd.db passwd -pam.conf
-intitle:"Index of" upload size parent   directory
 intitle:"Index of" upload size parent directory
 intitle:"index of" user_carts OR user_cart
 intitle:"index of" users.csv | credentials.csv | accounts.csv
 intitle:"Index of..etc" passwd
 intitle:"index.of *" admin news.asp configview.asp
-intitle:"index.of"   .diz .nfo last modified
+intitle:"index.of" .diz .nfo last modified
 intitle:"index.of" "places.sqlite" "key3.db" -mozilla.org
 intitle:"index.of" "places.sqlite" "Mail" thunderbird -mozilla.org -scan
-intitle:"index.of" .diz .nfo last modified
 intitle:"index.of" inurl:"cvs" login | passwd | password | access | pass -github -pub
 intitle:"index.of" | inurl:/filemanager/connectors/ intext:uploadtest.html
 intitle:"Index.Of.Applications (Parallels)" -stackoverflow -quora
@@ -2897,14 +2831,12 @@ intitle:"Outlook Web Access" | "Outlook Web app" -office.com -youtube.com -micro
 intitle:"partners login"
 intitle:"Philex 0.2*" -s?ri?t -site:freelists.org
 intitle:"Philex 0.2*" -script -site:freelists.org
-intitle:"PHP   Advanced Transfer" (inurl:index.php | inurl:showrecent.php )
 intitle:"PHP Advanced Transfer" (inurl:index.php | inurl:showrecent.php )
 intitle:"PHP Advanced Transfer" inurl:"login.php"
 intitle:"php icalendar administration" -site:sourceforge.net
 intitle:"PHP Web Stat - Sysinfo" intext:php inurl:stat/sysinfo.php
 intitle:"PHPBTTracker Statistics" | intitle:"PHPBT Tracker Statistics"
 intitle:"phpinfo()" +"mysql.default_password" +"Zend s?ri?ting Language Engine"
-intitle:"PhpMyExplorer"   inurl:"index.php" -cvs
 intitle:"PhpMyExplorer" inurl:"index.php" -cvs
 intitle:"phpPgAdmin - Login" Language
 intitle:"PHProjekt - login" login password
@@ -2932,7 +2864,6 @@ intitle:"Solr Admin" "Solr Query Syntax"
 intitle:"SQLiteManager" + intext:"Welcome to SQLiteManager version "
 intitle:"SSL VPN Service" + intext:"Your system administrator provided the following information to help understand and remedy the security conditions:"
 intitle:"start.managing.the.device" remote pbx acc
-intitle:"statistics of" "advanced web   statistics"
 intitle:"statistics of" "advanced web statistics"
 intitle:"Statistics Report for HAProxy" + "statistics report for pid"
 intitle:"Sucuri WebSite Firewall - Access Denied"
@@ -2945,7 +2876,6 @@ intitle:"switch login" "IBM Fast Ethernet Desktop"
 intitle:"SWW link" "Please wait....."
 intitle:"sysinfo * " intext:"Generated by Sysinfo * written by The Gamblers."
 intitle:"sysinfo Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive " intext:"Generated by Sysinfo Bluto Desktop Documents Downloads Library Movies Music Pictures Public go node_modules nuclei-templates pCloud Drive written by The Gamblers."
-intitle:"System Statistics" +"System and Network   Information Center"
 intitle:"System Statistics" +"System and Network Information Center"
 intitle:"teamspeak server-administration
 intitle:"Terminal Services Web Connection"
@@ -2960,7 +2890,6 @@ intitle:"UltraDNS Client Redirection Service"
 intitle:"Under construction" "does not currently have"
 intitle:"Uploader - Uploader v6" -pixloads.com
 intitle:"urchin (5|3|admin)" ext:cgi
-intitle:"Usage Statistics for" "Generated by   Webalizer"
 intitle:"Usage Statistics for" "Generated by Webalizer"
 intitle:"VB Viewer"
 intitle:"VertrigoServ" + "Welcome to VertrigoServ"
@@ -2974,7 +2903,6 @@ intitle:"WAGO Ethernet web-based-management"
 intitle:"WAMPSERVER homepage" "Server Configuration" "Apache Version"
 intitle:"wbem" compaq login
 intitle:"wbem" compaq login "Compaq Information Technologies Group"
-intitle:"Web Server   Statistics for ****"
 intitle:"Web Server Statistics for ****"
 intitle:"web server status" SSH Telnet
 intitle:"Web Server's Default Page" intext:"hosting using Plesk" -www
@@ -3059,7 +2987,6 @@ intitle:\"web server status\" SSH Telnet
 intitle:\"webadmin - /*\" filetypehp directory filename permission 
 intitle:\"welcome.to.squeezebox\" 
 intitle:access your account" login
-intitle:admin   intitle:login
 intitle:admin intitle:login
 intitle:admin intitle:login 
 intitle:Armstrong Hot Water System Monitoring
@@ -3085,9 +3012,9 @@ intitle:ilohamail intext:”Version 0.8.10″ ”
 intitle:ilohamail ”
 intitle:IMP inurl:imp/index.php3
 intitle:index of /.sql.gz intext:/backup/
-intitle:index.of   cgiirc.config
-intitle:index.of   cleanup.log
-intitle:index.of   inbox dbx
+intitle:index.of cgiirc.config
+intitle:index.of cleanup.log
+intitle:index.of inbox dbx
 intitle:index.of "Apache" "server at"
 intitle:index.of (inurl:fileadmin | intitle:fileadmin) 
 intitle:index.of .bash_history UNIX bash shell history reveals commands
@@ -3098,8 +3025,6 @@ intitle:index.of \"Apache\" \"server at\"
 intitle:index.of abyss.conf 
 intitle:index.of administrators.pwd
 intitle:index.of administrators.pwd 
-intitle:index.of cgiirc.config
-intitle:index.of cleanup.log
 intitle:index.of cleanup.log 
 intitle:index.of dead.letter
 intitle:index.of dead.letter 
@@ -3111,7 +3036,6 @@ intitle:index.of home/000~root~000/
 intitle:index.of id_rsa -id_rsa.pub
 intitle:index.of inbox
 intitle:index.of inbox 
-intitle:index.of inbox dbx
 intitle:index.of inbox dbx 
 intitle:index.of intext:"secring.skr"|"secring.pgp"|"secring.bak"
 intitle:index.of intext:\"secring.skr\"|\"secring.pgp\"|\"secring.bak\" 
@@ -3125,7 +3049,6 @@ intitle:index.of trillian.ini
 intitle:index.of ws_ftp.ini
 intitle:index.of ws_ftp.ini 
 intitle:index.of “Apache” “server at”
-intitle:intranet   inurl:intranet +intext:"phone"
 intitle:intranet inurl:intranet +intext:"phone"
 intitle:intranet inurl:intranet +intext:\"human resources\" 
 intitle:intranet inurl:intranet +intext:\"phone\" 
@@ -3281,7 +3204,7 @@ intitle:”site administration: please log in” “site designed by emarketsout
 intitle:”start.managing.the.device” remote pbx acc
 intitle:”statistics of” “advanced web statistics”
 intitle:”Supero Doctor III” -inurl:supermicro
-intitle:”supervisioncam protocol”  
+intitle:”supervisioncam protocol” 
 intitle:”SuSE Linux Openexchange Server” “Please activate Javas?ri?t!”
 intitle:”sysinfo * ” intext:”Generated by Sysinfo * written by The Gamblers.”
 intitle:”System Statistics” +”System and Network Information Center”
@@ -3321,7 +3244,7 @@ intitle:”Zope Help System” inurl:HelpSys
 intitle:”ZyXEL Prestige Router” “Enter password”
 intitlehpinfo "PHP Version"
 inur:"arsys/forms" | "arsys/shared" | "/arsys/home"
-inurl:  /modules/PNphpBB2/includes/functions_admin.php?phpbb_root_path=
+inurl: /modules/PNphpBB2/includes/functions_admin.php?phpbb_root_path=
 inurl: "Mister Spy" | intext:"Mister Spy & Souheyl Bypass Shell"
 inurl:"/.Trash" intitle:"index of" ~
 inurl:"/admin/configuration. php?" Mystore
@@ -3409,7 +3332,6 @@ inurl:"build.xml" intext:"tomcat.manager.password"
 inurl:"buy.asp?"
 inurl:"buy.asp?bookid="
 inurl:"bycategory.asp?id="
-inurl:"cacti"   +inurl:"graph_view.php" +"Settings Tree View" -cvs -RPM
 inurl:"cacti" +inurl:"graph_view.php" +"Settings Tree View" -cvs -RPM
 inurl:"calendar.asp?action=login"
 inurl:"calendars?ri?t/users.txt"
@@ -3527,7 +3449,6 @@ inurl:"modline.asp?id="
 inurl:"myaccount.asp?catid="
 inurl:"news.asp?id="
 inurl:"newsletter/admin/"
-inurl:"newsletter/admin/"   intitle:"newsletter admin"
 inurl:"newsletter/admin/" intitle:"newsletter admin"
 inurl:"NmConsole/Login.asp" | intitle:"Login - Ipswitch WhatsUp Professional 2005" | intext:"Ipswitch WhatsUp Professional 2005 (SP1)" "Ipswitch, Inc"
 inurl:"order.asp?BookID="
@@ -3615,7 +3536,6 @@ inurl:"Sites.dat"+"PASS="
 inurl:"sitescope.html" intitle:"sitescope" intext:"refresh" -demo
 inurl:"slapd.conf" intext:"credentials" -manpage -"Manual Page" -man: -sample
 inurl:"slapd.conf" intext:"rootpw" -manpage -"Manual Page" -man: -sample
-inurl:"smb.conf"   intext:"workgroup" filetype:conf conf
 inurl:"smb.conf" intext:"workgroup" filetype:conf conf
 inurl:"specials.asp?id="
 inurl:"ssologin/" -github.com
@@ -3903,7 +3823,7 @@ inurl:/cgi-shl/win-c-sample.exe
 inurl:/cgi-win/uploader.exe
 inurl:/Citrix/Nfuse17/
 inurl:/class.mysql.php?path_to_bt_dir=
-inurl:/class.mysql.php?path_to_bt_dir=    
+inurl:/class.mysql.php?path_to_bt_dir= 
 inurl:/classes.php?LOCAL_PATH=
 inurl:/classes/adodbt/sql.php?classes_dir=
 inurl:/classified_right.php?language_dir=
@@ -4012,7 +3932,7 @@ inurl:/includes/include_once.php?include_file=
 inurl:/includes/include_onde.php?include_file=
 inurl:/includes/kb_constants.php?module_root_path=
 inurl:/includes/orderSuccess.inc.php?glob=1&cart_order_id=1&glob[rootDir]=
-inurl:/includes/orderSuccess.inc.php?glob=1&cart_order_id=1&glob[rootDir]=  
+inurl:/includes/orderSuccess.inc.php?glob=1&cart_order_id=1&glob[rootDir]= 
 inurl:/includes/setup.php?phpc_root_path=
 inurl:/index.inc.php?PATH_Includes=
 inurl:/index.php/login intext:Concrete.CMS
@@ -4270,10 +4190,9 @@ inurl:ad.cgi
 inurl:adcycle
 inurl:add.exe
 inurl:admin
-inurl:admin   filetype:xls
+inurl:admin filetype:xls
 inurl:admin filetype:asp Generic userlist files
 inurl:admin filetype:db
-inurl:admin filetype:xls
 inurl:admin filetype:xls 
 inurl:admin intitle:login
 inurl:admin intitle:login 
@@ -4291,7 +4210,7 @@ inurl:administrator/components/com_cropimage/admin.cropcanvas.php?cropimagedir=
 inurl:administrator/components/com_cropimage/admin.cropcanvas.php?cropimagedir=modules/My_eGallery/index.php?basepath=
 inurl:administrator/components/com_linkdirectory/toolbar.linkdirectory.html.php?mosConfig_absolute_path=
 inurl:administrator/components/com_mgm/help.mgm.php?mosConfig_absolute_path=
-inurl:administrator/components/com_mgm/help.mgm.php?mosConfig_absolute_path=  
+inurl:administrator/components/com_mgm/help.mgm.php?mosConfig_absolute_path= 
 inurl:administrator/components/com_peoplebook/param.peoplebook.php?mosConfig_absolute_path=
 inurl:administrator/components/com_remository/admin.remository.php?mosConfig_absolute_path=
 inurl:administrator/components/com_remository/admin.remository.php?mosConfig_absolute_path= /tags.php?BBCodeFile=
@@ -4468,7 +4387,6 @@ inurl:cgi
 inurl:cgi-bin inurl:calendar.cfg
 inurl:cgi-bin/printenv
 inurl:cgi-bin/printenv 
-inurl:cgi-bin/testcgi.exe   "Please distribute TestCGI"
 inurl:cgi-bin/testcgi.exe "Please distribute TestCGI"
 inurl:cgi-bin/testcgi.exe \"Please distribute TestCGI\" 
 inurl:cgi-bin/testcgi.exe “Please distribute TestCGI”
@@ -4520,7 +4438,7 @@ inurl:content.php?page=
 inurl:control/camerainfo
 inurl:coppercop/theme.php?THEME_DIR=
 inurl:coranto.cgi intitle:Login (Authorized Users Only)
-inurl:Count.cgi   
+inurl:Count.cgi 
 inurl:counter.exe
 inurl:cp.php?cl=cp nowmenuid=
 inurl:CrazyWWWBoard.cgi
@@ -4684,7 +4602,6 @@ inurl:dumpenv.pl
 inurl:dvwssr.dll
 inurl:edit.pl
 inurl:elmah.axd intext:"Powered by ELMAH" -inurl:detail
-inurl:email   filetype:mdb
 inurl:email filetype:mdb
 inurl:email filetype:mdb 
 inurl:embed.html inurl:dvr
@@ -4838,7 +4755,6 @@ inurl:forum filetype:mdb
 inurl:forum filetype:mdb 
 inurl:forum.php?act=
 inurl:forum_bds.php?num=
-inurl:forward   filetype:forward -cvs
 inurl:forward filetype:forward -cvs
 inurl:forward filetype:forward -cvs 
 inurl:fpcount.exe
@@ -5310,7 +5226,7 @@ inurl:index.php?sec=
 inurl:index.php?secao=
 inurl:index.php?sekce=
 inurl:index.php?sel=
-inurl:index.php?sel=  
+inurl:index.php?sel= 
 inurl:index.php?show=
 inurl:index.php?side=
 inurl:index.php?site=
@@ -5358,7 +5274,7 @@ inurl:index1.php?dir=
 inurl:index1.php?filepath=
 inurl:index1.php?get=
 inurl:index1.php?go=
-inurl:index1.php?go=  
+inurl:index1.php?go= 
 inurl:index1.php?goFile=
 inurl:index1.php?home=
 inurl:index1.php?incl=
@@ -5675,7 +5591,6 @@ inurl:load=
 inurl:loadpsb.php?id=
 inurl:log.htm
 inurl:log.html
-inurl:log.nsf   -gov
 inurl:log.nsf -gov
 inurl:log.nsf -gov 
 inurl:log.txt
@@ -5711,7 +5626,6 @@ inurl:maillist.pl
 inurl:mailto.cgi
 inurl:main.php phpMyAdmin
 inurl:main.php phpMyAdmin 
-inurl:main.php Welcome to   phpMyAdmin
 inurl:main.php Welcome to phpMyAdmin
 inurl:main.php Welcome to phpMyAdmin 
 inurl:main.php?action=
@@ -6144,7 +6058,6 @@ inurl:pap-secrets -cvs
 inurl:participant.php?id=
 inurl:pass.dat
 inurl:passlist.txt
-inurl:passwd   filetype:txt
 inurl:passwd filetype:txt
 inurl:path.php?*[*]*=
 inurl:path.php?action=
@@ -6457,7 +6370,6 @@ inurl:recruit_details.php?id=
 inurl:redirect.cgi
 inurl:register.cgi
 inurl:releases.php?id=
-inurl:report "EVEREST Home   Edition "
 inurl:report "EVEREST Home Edition "
 inurl:report \"EVEREST Home Edition \" 
 inurl:report “EVEREST Home Edition ”
@@ -6496,7 +6408,6 @@ inurl:sendmail.inc
 inurl:server-info "Apache Server Information"
 inurl:server-info \"Apache Server Information\" 
 inurl:server-info “Apache Server Information”
-inurl:server-status   "apache"
 inurl:server-status "apache"
 inurl:server-status \"apache\" 
 inurl:server-status “apache”
@@ -6643,7 +6554,7 @@ inurl:snitz_forums_2000.mdb
 inurl:snitz_forums_2000.mdbinurl:ssl.conf filetype:conf
 inurl:software
 inurl:solpot.html?body=
-inurl:solpot.html?body=  
+inurl:solpot.html?body= 
 inurl:source.asp
 inurl:sources/join.php?FORM[url]=owned&CONFIG[captcha]=1&CONFIG[path]=
 inurl:spr.php?id=
@@ -6935,7 +6846,6 @@ inurl:user_guide intext:"CodeIgniter User Guide"
 inurl:userlist
 inurl:users.json + "username"
 inurl:users.pwd
-inurl:vbstats.php   "page generated"
 inurl:vbstats.php "page generated"
 inurl:vbstats.php \"page generated\" 
 inurl:vbstats.php “page generated”
